@@ -1,0 +1,87 @@
+{
+    "index_patterns": ["appaltipop-*"],
+    "mappings": {
+        "properties": {
+            "cig": {
+                "type": "keyword"
+            },
+            "appalto": {
+                "type": "text",
+                "analyzer": "italian"
+            },
+            "tipo": {
+                "type": "keyword"
+            },
+            "data inizio": {
+                "type": "date"
+            },
+            "data fine": {
+                "type": "date"
+            },
+            "importo aggiudicazione": {
+                "type": "scaled_float",
+                "scaling_factor": 100
+            },
+            "importo somme liquidate": {
+                "type": "scaled_float",
+                "scaling_factor": 100
+            },
+            "partecipanti": {
+                "type": "integer"
+            },
+            "totale partecipanti": {
+                "type": "integer"
+            },
+            "media partecipanti": {
+                "type": "scaled_float",
+                "scaling_factor": 100
+            },
+            "aggiudicatari": {
+                "properties": {
+                    "CF": {
+                        "type": "keyword"
+                    },
+                    "ragione sociale": {
+                        "type": "text",
+                        "analyzer": "italian",
+                        "fields": {
+                            "raw": {
+                                "type": "keyword"
+                            }
+                        }
+                    },
+                    "importo totale appalti con lo stesso ente": {
+                        "type": "scaled_float",
+                        "scaling_factor": 100
+                    },
+                    "totale contratti con ente appaltante": {
+                        "type": "integer"
+                    }
+                }
+            },
+            "redflags": {
+                "properties": {
+                    "codice redflag": {
+                        "type": "keyword"
+                    },
+                    "descrizione redflag": {
+                        "type": "keyword"
+                    }
+                }
+            },
+            "pubblica amministrazione proponente": {
+                "properties": {
+                    "denominazione": {
+                        "type": "text",
+                        "analyzer": "italian",
+                        "fields": {
+                            "raw": {
+                                "type": "keyword"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
