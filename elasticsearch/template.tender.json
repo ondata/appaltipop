@@ -1,5 +1,5 @@
 {
-    "index_patterns": ["appaltipop-*"],
+    "index_patterns": ["appaltipop-tenders-*"],
     "mappings": {
         "properties": {
             "cig": {
@@ -81,8 +81,11 @@
                 "properties": {
                     "denominazione": {
                         "type": "text",
-                        "analyzer": "italian",
                         "fields": {
+                            "it": {
+                                "type": "text",
+                                "analyzer": "italian"
+                            },
                             "raw": {
                                 "type": "keyword"
                             }

@@ -10,25 +10,62 @@ from datetime import datetime
 
 logging.basicConfig(level=logging.INFO)
 
-def docs(es_index_prefix, es_date_field, es_id_field):
+def docs(
+    es_index_prefix,
+    es_date_field,
+
+    es_tender_buyer_field,
+    es_tender_supplier_field,
+
+    es_tender_id_field,
+    es_buyer_id_field,
+    es_supplier_id_field,
+
+    es_buyer_fields,
+    es_supplier_fields
+):
 
     jsonl_path = Path(sys.argv[1])
 
     with jsonlines.open(jsonl_path) as reader:
-        for doc in reader:
-            if doc.get(es_id_field):
-                logging.info("Indexing {} document...".format(doc[es_id_field]))
+        for tender in reader:
+            if tender.get(es_tender_id_field):
+
+                logging.info("Indexing {} document...".format(tender[es_tender_id_field]))
+
                 yield {
                     "_op_type": "index",
-                    "_index": "{}-{}".format(
+                    "_index": "{}-tenders-{}".format(
                         es_index_prefix,
-                        datetime.fromisoformat(doc[es_date_field].replace("Z", "+00:00")).year
+                        datetime.fromisoformat(tender[es_date_field].replace("Z", "+00:00")).year
                     ),
-                    "_id": doc[es_id_field],
-                    "_source": doc
+                    "_id": tender[es_tender_id_field],
+                    "_source": tender
                 }
+
+                for buyer in tender.get(es_tender_buyer_field, []):
+
+                    yield {
+                        "_op_type": "create",
+                        "_index": "{}-buyers".format(
+                            es_index_prefix
+                        ),
+                        "_id": buyer[es_buyer_id_field],
+                        "_source": { k: buyer[k] for k in es_buyer_fields.split(',') } if es_buyer_fields else buyer
+                    }
+
+                for supplier in tender.get(es_tender_supplier_field, []):
+                    yield {
+                        "_op_type": "create",
+                        "_index": "{}-suppliers".format(
+                            es_index_prefix
+                        ),
+                        "_id": supplier[es_supplier_id_field],
+                        "_source": { k: supplier[k] for k in es_supplier_fields.split(',') } if es_supplier_fields else supplier
+                    }
+
             else:
-                logging.warning("Missing \"{}\" property, skip...".format(es_id_field))
+                logging.warning("Missing \"{}\" property, skip...".format(es_tender_id_field))
 
 
 if __name__ == "__main__":
@@ -47,10 +84,19 @@ if __name__ == "__main__":
 
     es_index_prefix = os.environ.get("ES_INDEX_PREFIX")
     es_date_field = os.environ.get("ES_DATE_FIELD")
-    es_id_field = os.environ.get("ES_ID_FIELD")
+
+    es_tender_buyer_field = os.environ.get("ES_TENDER_BUYER_FIELD")
+    es_tender_supplier_field = os.environ.get("ES_TENDER_SUPPLIER_FIELD")
+
+    es_tender_id_field = os.environ.get("ES_TENDER_ID_FIELD")
+    es_buyer_id_field = os.environ.get("ES_BUYER_ID_FIELD")
+    es_buyer_fields = os.environ.get("ES_BUYER_FIELDS")
+
+    es_supplier_id_field = os.environ.get("ES_SUPPLIER_ID_FIELD")
+    es_supplier_fields = os.environ.get("ES_SUPPLIER_FIELDS")
 
     if not es_index_prefix or not es_date_field:
-        logging.error("No ES_INDEX_PREFIX, ES_DATE_FIELD or ES_ID_FIELD envars found")
+        logging.error("No ES_INDEX_PREFIX, ES_DATE_FIELD envars found")
         exit(1)
 
     es = Elasticsearch(
@@ -65,6 +111,18 @@ if __name__ == "__main__":
         docs(
             es_index_prefix,
             es_date_field,
-            es_id_field
-        )
+
+            es_tender_buyer_field,
+            es_tender_supplier_field,
+
+            es_tender_id_field,
+            es_buyer_id_field,
+            es_supplier_id_field,
+
+            es_buyer_fields,
+            es_supplier_fields
+        ),
+        stats_only = True,
+        raise_on_exception = False,
+        raise_on_error = False
     )

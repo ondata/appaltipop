@@ -1,0 +1,22 @@
+{
+    "index_patterns": ["appaltipop-suppliers-*"],
+    "mappings": {
+        "properties": {
+            "CF": {
+                "type": "keyword"
+            },
+            "ragione sociale": {
+                "type": "text",
+                "fields": {
+                    "it": {
+                        "type": "text",
+                        "analyzer": "italian"
+                    },
+                    "raw": {
+                        "type": "keyword"
+                    }
+                }
+            }
+        }
+    }
+}

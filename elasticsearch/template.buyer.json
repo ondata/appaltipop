@@ -1,0 +1,19 @@
+{
+    "index_patterns": ["appaltipop-buyers-*"],
+    "mappings": {
+        "properties": {
+            "denominazione": {
+                "type": "text",
+                "fields": {
+                    "it": {
+                        "type": "text",
+                        "analyzer": "italian"
+                    },
+                    "raw": {
+                        "type": "keyword"
+                    }
+                }
+            }
+        }
+    }
+}
