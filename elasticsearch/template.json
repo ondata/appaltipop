@@ -7,7 +7,12 @@
             },
             "appalto": {
                 "type": "text",
-                "analyzer": "italian"
+                "fields": {
+                    "it": {
+                        "type": "text",
+                        "analyzer": "italian"
+                    }
+                }
             },
             "tipo": {
                 "type": "keyword"
@@ -43,8 +48,11 @@
                     },
                     "ragione sociale": {
                         "type": "text",
-                        "analyzer": "italian",
                         "fields": {
+                            "it": {
+                                "type": "text",
+                                "analyzer": "italian"
+                            },
                             "raw": {
                                 "type": "keyword"
                             }
