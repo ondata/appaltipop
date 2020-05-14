@@ -14,7 +14,7 @@ All parameters are in the `.env` file provided and are available inside the virt
 
 All documents are indexed in ES indices with a year-based name: `appaltipop-2014`, `appaltipop-2015`, and so on.
 
-Indices with `appaltipop-` prefix will be indexed following the template in `template.json` file. To apply or update it: `curl -XPUT $ES_SCHEME://$ES_HOST/_template/$ES_INDEX_PREFIX -H 'Content-Type: application/json' -d '@template.json'`.
+Indices with `appaltipop-` prefix will be indexed following the template in `template.*.json` files. To apply or update them: `curl -XPUT $ES_SCHEME://$ES_HOST/_template/$ES_INDEX_PREFIX-* -H 'Content-Type: application/json' -d '@template.*.json'` (replace `*` with `buyer`, `supplier` or `tender`).
 
 ## Delete all indices
 

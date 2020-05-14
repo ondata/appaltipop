@@ -79,6 +79,9 @@
             },
             "pubblica amministrazione proponente": {
                 "properties": {
+                    "ID": {
+                        "type": "keyword"
+                    },
                     "denominazione": {
                         "type": "text",
                         "fields": {

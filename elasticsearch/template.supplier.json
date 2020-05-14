@@ -1,5 +1,5 @@
 {
-    "index_patterns": ["appaltipop-suppliers-*"],
+    "index_patterns": ["appaltipop-suppliers"],
     "mappings": {
         "properties": {
             "CF": {

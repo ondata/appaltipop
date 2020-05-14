@@ -1,7 +1,10 @@
 {
-    "index_patterns": ["appaltipop-buyers-*"],
+    "index_patterns": ["appaltipop-buyers"],
     "mappings": {
         "properties": {
+            "ID": {
+                "type": "keyword"
+            },
             "denominazione": {
                 "type": "text",
                 "fields": {
