@@ -26,46 +26,51 @@ def docs(
 ):
 
     jsonl_path = Path(sys.argv[1])
+    jsonl_files = jsonl_path.glob("*.jsonl") if jsonl_path.is_dir() else [jsonl_path]
 
-    with jsonlines.open(jsonl_path) as reader:
-        for tender in reader:
-            if tender.get(es_tender_id_field):
+    for jsonl_file in jsonl_files:
+        if jsonl_file.is_file():
+            with jsonlines.open(jsonl_file) as reader:
+                for tender in reader:
+                    if tender.get(es_tender_id_field):
 
-                logging.info("Indexing {} document...".format(tender[es_tender_id_field]))
+                        logging.info("Indexing {} document...".format(tender[es_tender_id_field]))
 
-                yield {
-                    "_op_type": "index",
-                    "_index": "{}-tenders-{}".format(
-                        es_index_prefix,
-                        datetime.fromisoformat(tender[es_date_field].replace("Z", "+00:00")).year
-                    ),
-                    "_id": tender[es_tender_id_field],
-                    "_source": tender
-                }
+                        yield {
+                            "_op_type": "index",
+                            "_index": "{}-tenders-{}".format(
+                                es_index_prefix,
+                                datetime.fromisoformat(tender[es_date_field].replace("Z", "+00:00")).year
+                            ),
+                            "_id": tender[es_tender_id_field],
+                            "_source": tender
+                        }
 
-                for buyer in tender.get(es_tender_buyer_field, []):
+                        for buyer in tender.get(es_tender_buyer_field, []):
 
-                    yield {
-                        "_op_type": "create",
-                        "_index": "{}-buyers".format(
-                            es_index_prefix
-                        ),
-                        "_id": buyer[es_buyer_id_field],
-                        "_source": { k: buyer[k] for k in es_buyer_fields.split(',') } if es_buyer_fields else buyer
-                    }
+                            yield {
+                                "_op_type": "create",
+                                "_index": "{}-buyers".format(
+                                    es_index_prefix
+                                ),
+                                "_id": buyer[es_buyer_id_field],
+                                "_source": { k: buyer[k] for k in es_buyer_fields.split(',') } if es_buyer_fields else buyer
+                            }
 
-                for supplier in tender.get(es_tender_supplier_field, []):
-                    yield {
-                        "_op_type": "create",
-                        "_index": "{}-suppliers".format(
-                            es_index_prefix
-                        ),
-                        "_id": supplier[es_supplier_id_field],
-                        "_source": { k: supplier[k] for k in es_supplier_fields.split(',') } if es_supplier_fields else supplier
-                    }
+                        for supplier in tender.get(es_tender_supplier_field, []):
+                            yield {
+                                "_op_type": "create",
+                                "_index": "{}-suppliers".format(
+                                    es_index_prefix
+                                ),
+                                "_id": supplier[es_supplier_id_field],
+                                "_source": { k: supplier[k] for k in es_supplier_fields.split(',') } if es_supplier_fields else supplier
+                            }
 
-            else:
-                logging.warning("Missing \"{}\" property, skip...".format(es_tender_id_field))
+                    else:
+                        logging.warning("Missing \"{}\" property, skip...".format(es_tender_id_field))
+        else:
+            logging.warning("Failed to open {}, skip...".format(jsonl_file))
 
 
 if __name__ == "__main__":
