@@ -9,6 +9,7 @@ verify_ssl = true
 elasticsearch = "*"
 jsonlines = "*"
 certifi = "*"
+jsonschema = "*"
 
 [requires]
 python_version = "3.7"

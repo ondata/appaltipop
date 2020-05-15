@@ -10,6 +10,19 @@ from datetime import datetime
 
 logging.basicConfig(level=logging.INFO)
 
+schema_dir = "../schema"
+schema_filename = "tender.schema.json"
+schema = json.loads(f.read().replace('"#/', '"file:{}#/'.format(schema_filename)))
+resolver = jsonschema.RefResolver(
+    "file://{}/".format(
+        Path(
+            __file__,
+            "../{}/".format(schema_dir)
+        ).resolve()
+    ),
+    None
+)
+
 def docs(
     es_index_prefix,
     es_date_field,
@@ -32,43 +45,45 @@ def docs(
         if jsonl_file.is_file():
             with jsonlines.open(jsonl_file) as reader:
                 for tender in reader:
-                    if tender.get(es_tender_id_field):
 
-                        logging.info("Indexing {} document...".format(tender[es_tender_id_field]))
+                    try:
+                        jsonschema.validate(tender, schema, resolver=resolver)
+                    except Exception as ex:
+                        logging.warning("Failed schema at {}, skip...".format(tender.get(es_tender_id_field)))
+                        continue
+
+                    logging.info("Indexing {} document...".format(tender[es_tender_id_field]))
+
+                    yield {
+                        "_op_type": "index",
+                        "_index": "{}-tenders-{}".format(
+                            es_index_prefix,
+                            datetime.fromisoformat(tender[es_date_field].replace("Z", "+00:00")).year
+                        ),
+                        "_id": tender[es_tender_id_field],
+                        "_source": tender
+                    }
+
+                    for buyer in tender.get(es_tender_buyer_field, []):
 
                         yield {
-                            "_op_type": "index",
-                            "_index": "{}-tenders-{}".format(
-                                es_index_prefix,
-                                datetime.fromisoformat(tender[es_date_field].replace("Z", "+00:00")).year
+                            "_op_type": "create",
+                            "_index": "{}-buyers".format(
+                                es_index_prefix
                             ),
-                            "_id": tender[es_tender_id_field],
-                            "_source": tender
+                            "_id": buyer[es_buyer_id_field],
+                            "_source": { k: buyer[k] for k in es_buyer_fields.split(',') } if es_buyer_fields else buyer
                         }
 
-                        for buyer in tender.get(es_tender_buyer_field, []):
-
-                            yield {
-                                "_op_type": "create",
-                                "_index": "{}-buyers".format(
-                                    es_index_prefix
-                                ),
-                                "_id": buyer[es_buyer_id_field],
-                                "_source": { k: buyer[k] for k in es_buyer_fields.split(',') } if es_buyer_fields else buyer
-                            }
-
-                        for supplier in tender.get(es_tender_supplier_field, []):
-                            yield {
-                                "_op_type": "create",
-                                "_index": "{}-suppliers".format(
-                                    es_index_prefix
-                                ),
-                                "_id": supplier[es_supplier_id_field],
-                                "_source": { k: supplier[k] for k in es_supplier_fields.split(',') } if es_supplier_fields else supplier
-                            }
-
-                    else:
-                        logging.warning("Missing \"{}\" property, skip...".format(es_tender_id_field))
+                    for supplier in tender.get(es_tender_supplier_field, []):
+                        yield {
+                            "_op_type": "create",
+                            "_index": "{}-suppliers".format(
+                                es_index_prefix
+                            ),
+                            "_id": supplier[es_supplier_id_field],
+                            "_source": { k: supplier[k] for k in es_supplier_fields.split(',') } if es_supplier_fields else supplier
+                        }
         else:
             logging.warning("Failed to open {}, skip...".format(jsonl_file))
 
