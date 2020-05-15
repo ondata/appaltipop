@@ -1,0 +1,8 @@
+{
+    "type": "array",
+    "title": "AppaltiPOP - Collection of buyers",
+    "description": "",
+    "items": {
+        "$ref": "file:buyer.schema.json"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "title": "AppaltiPOP - Buyer",
+    "description": "",
+    "properties": {
+        "ID": {
+            "type": "string",
+            "title": "",
+            "description": "",
+            "pattern": "^[A-Z]{2}-[A-Z]{2}-[0-9]+$"
+        },
+        "denominazione": {
+            "type": "string",
+            "title": "",
+            "description": ""
+        }
+    }
+}

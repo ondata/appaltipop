@@ -1,0 +1,126 @@
+{
+    "type": "object",
+    "title": "AppaltiPOP - Tender",
+    "description": "",
+    "properties": {
+        "cig": {
+            "type": "string",
+            "title": "",
+            "description": "",
+            "pattern": "^[A-Z0-9]+$"
+        },
+        "appalto": {
+            "type": "string",
+            "title": "",
+            "description": ""
+        },
+        "tipo": {
+            "type": "string",
+            "title": "",
+            "description": ""
+        },
+        "data inizio": {
+            "type": "string",
+            "title": "",
+            "description": "",
+            "format": "date-time"
+        },
+        "data fine": {
+            "type": "string",
+            "title": "",
+            "description": "",
+            "format": "date-time"
+        },
+        "importo aggiudicazione": {
+            "type": "number",
+            "title": "",
+            "description": "",
+            "minimum": 0
+        },
+        "importo somme liquidate": {
+            "type": "number",
+            "title": "",
+            "description": "",
+            "minimum": 0
+        },
+        "partecipanti": {
+            "type": "integer",
+            "title": "",
+            "description": "",
+            "minimum": 0
+        },
+        "totale partecipanti": {
+            "type": "integer",
+            "title": "",
+            "description": "",
+            "minimum": 0
+        },
+        "media partecipanti": {
+            "type": "number",
+            "title": "",
+            "description": "",
+            "minimum": 0
+        },
+        "aggiudicatari": {
+            "type": "array",
+            "title": "",
+            "description": "",
+            "items": {
+                "$ref": "#/$defs/supplier"
+            }
+        },
+        "redflags": {
+            "type": "array",
+            "title": "",
+            "description": "",
+            "items": {
+                "$ref": "#/$defs/redflag"
+            }
+        },
+        "pubblica amministrazione proponente": {
+            "type": "array",
+            "title": "",
+            "description": "",
+            "items": {
+                "$ref": "#/$defs/buyer"
+            }
+        }
+    },
+    "$defs": {
+        "supplier": {
+            "$ref": "file:supplier.schema.json",
+            "importo totale appalti con lo stesso ente": {
+                "type": "number",
+                "title": "",
+                "description": "",
+                "minimum": 0
+            },
+            "totale contratti con ente appaltante": {
+                "type": "number",
+                "title": "",
+                "description": "",
+                "minimum": 0
+            }
+        },
+        "redflag": {
+            "type": "object",
+            "title": "",
+            "description": "",
+            "properties": {
+                "codice redflag": {
+                    "type": "string",
+                    "title": "",
+                    "description": ""
+                },
+                "descrizione redflag": {
+                    "type": "string",
+                    "title": "",
+                    "description": ""
+                }
+            }
+        },
+        "buyer": {
+            "$ref": "file:buyer.schema.json"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "cig": "612b15162E",
+    "appalto": "Fornitura di materiale e attrezzature per le pulizie di servizi e scuole comunali. Proroga tecnica per il periodo 01/01/2019 - 31/03/2019. Impegni di spesa.",
+    "tipo": "01-PROCEDURA APERTA",
+    "data inizio": "2019-01-01",
+    "data fine": "mai",
+    "importo aggiudicazione": 5555.5,
+    "importo somme liquidate": 736.1,
+    "partecipanti": 1.0,
+    "totale partecipanti": 3290.0,
+    "media partecipanti": 1.93,
+    "aggiudicatari": [
+        {
+            "CF": "S-it-CF-03960230377",
+            "ragione sociale": "Italchim s.r.l.",
+            "importo totale appalti con lo stesso ente": 5635.46,
+            "totale contratti con ente appaltante": 2.0
+        }
+    ],
+    "redflags": [
+        {
+            "codice redflag": 1,
+            "descrizione redflag": "Low number of mean bidders per tender for competitive processes"
+        }
+    ],
+    "pubblica amministrazione proponente": [
+        {
+            "ID": "CF-84006890481",
+            "denominazione": "COMUNE DI PRATO"
+        }
+    ]
+}
