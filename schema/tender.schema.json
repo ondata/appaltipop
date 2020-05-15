@@ -2,6 +2,11 @@
     "type": "object",
     "title": "AppaltiPOP - Tender",
     "description": "",
+    "required": [
+        "cig",
+        "data inizio",
+        "pubblica amministrazione proponente"
+    ],
     "properties": {
         "cig": {
             "type": "string",
@@ -96,7 +101,7 @@
                 "minimum": 0
             },
             "totale contratti con ente appaltante": {
-                "type": "number",
+                "type": "integer",
                 "title": "",
                 "description": "",
                 "minimum": 0

@@ -6,15 +6,15 @@
     "data fine": "2019-03-31T09:30:00.000Z",
     "importo aggiudicazione": 5555.5,
     "importo somme liquidate": 736.1,
-    "partecipanti": 1.0,
-    "totale partecipanti": 3290.0,
+    "partecipanti": 1,
+    "totale partecipanti": 3290,
     "media partecipanti": 1.93,
     "aggiudicatari": [
         {
             "CF": "S-IT-CF-03960230377",
             "ragione sociale": "Italchim s.r.l.",
             "importo totale appalti con lo stesso ente": 5635.46,
-            "totale contratti con ente appaltante": 2.0
+            "totale contratti con ente appaltante": 2
         }
     ],
     "redflags": [

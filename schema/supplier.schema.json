@@ -2,6 +2,9 @@
     "type": "object",
     "title": "AppaltiPOP - Supplier",
     "description": "",
+    "required": [
+        "CF"
+    ],
     "properties": {
         "CF": {
             "type": "string",

@@ -2,6 +2,9 @@
     "type": "object",
     "title": "AppaltiPOP - Buyer",
     "description": "",
+    "required": [
+        "ID"
+    ],
     "properties": {
         "ID": {
             "type": "string",
