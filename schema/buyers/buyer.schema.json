@@ -1,0 +1,96 @@
+{
+  "type": "object",
+  "title": "AppaltiPOP - Buyer",
+  "description": "",
+  "required": [
+    "ID"
+  ],
+  "properties": {
+    "ID": {
+      "type": "string",
+      "title": "",
+      "description": "",
+      "pattern": "^[A-Z]{2}-[A-Z]{2}-[0-9]+$"
+    },
+    "denominazione": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "CODISTAT": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "cod_amm": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "nomeComune": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "des_amm": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "Cap": {
+      "type": "integer",
+      "title": "",
+      "description": ""
+    },
+    "sito_istituzionale": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "Indirizzo": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "popolazione": {
+      "type": "integer",
+      "title": "",
+      "description": ""
+    },
+    "Codice Regione": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "Codice dell'Unità territoriale sovracomunale (valida a fini statistici)": {
+      "type": "integer",
+      "title": "",
+      "description": ""
+    },
+    "Denominazione in italiano": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "Denominazione regione": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "Denominazione dell'Unità territoriale sovracomunale (valida a fini statistici)": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "Sigla automobilistica": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "Codice Catastale del comune": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    }
+  }
+}
