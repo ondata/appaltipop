@@ -2,10 +2,10 @@
     "index_patterns": ["appaltipop-suppliers"],
     "mappings": {
         "properties": {
-            "CF": {
+            "ocds:releases/0/parties/0/id": {
                 "type": "keyword"
             },
-            "ragione sociale": {
+            "ocds:releases/0/parties/0/name": {
                 "type": "text",
                 "fields": {
                     "it": {

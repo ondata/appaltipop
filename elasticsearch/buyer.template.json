@@ -2,10 +2,10 @@
     "index_patterns": ["appaltipop-buyers"],
     "mappings": {
         "properties": {
-            "ID": {
+            "ocds:releases/0/buyer/id": {
                 "type": "keyword"
             },
-            "denominazione": {
+            "ocds:releases/0/buyer/name": {
                 "type": "text",
                 "fields": {
                     "it": {
