@@ -3,88 +3,88 @@
     "title": "AppaltiPOP - Tender",
     "description": "",
     "required": [
-        "cig",
-        "data inizio",
-        "pubblica amministrazione proponente"
+        "ocds:releases/0/id",
+        "ocds:releases/0/tender/contractPeriod/startDate",
+        "appaltipop:releases/0/buyers"
     ],
     "properties": {
-        "cig": {
+        "ocds:releases/0/id": {
             "type": "string",
-            "title": "",
+            "title": "Tender unique identifier",
             "description": "",
             "pattern": "^[A-Z0-9]+$"
         },
-        "appalto": {
+        "ocds:releases/0/tender/title": {
             "type": "string",
-            "title": "",
+            "title": "Tender title",
+            "description": "ocds:releases/0/tender/procurementMethodDetails"
+        },
+        "ocds:releases/0/tender/procurementMethodDetails": {
+            "type": "string",
+            "title": "Tender type",
             "description": ""
         },
-        "tipo": {
+        "ocds:releases/0/tender/contractPeriod/startDate": {
             "type": "string",
-            "title": "",
-            "description": ""
-        },
-        "data inizio": {
-            "type": "string",
-            "title": "",
+            "title": "Tender start date",
             "description": "",
             "format": "date-time"
         },
-        "data fine": {
+        "ocds:releases/0/tender/contractPeriod/endDate": {
             "type": "string",
-            "title": "",
+            "title": "Tender end date",
             "description": "",
             "format": "date-time"
         },
-        "importo aggiudicazione": {
+        "ocds:releases/0/awards/0/value/amount": {
             "type": "number",
-            "title": "",
+            "title": "Tender total amount",
             "description": "",
             "minimum": 0
         },
-        "importo somme liquidate": {
+        "ocds:releases/0/contracts/0/implementation/transactions/0/value/amount": {
             "type": "number",
-            "title": "",
+            "title": "Tender amount spent",
             "description": "",
             "minimum": 0
         },
-        "partecipanti": {
+        "appaltipop:releases/0/tender/participants/total": {
             "type": "integer",
-            "title": "",
+            "title": "Tender participating suppliers",
             "description": "",
             "minimum": 0
         },
-        "totale partecipanti": {
+        "appaltipop:releases/0/participants/total": {
             "type": "integer",
-            "title": "",
+            "title": "All participating suppliers",
             "description": "",
             "minimum": 0
         },
-        "media partecipanti": {
+        "appaltipop:releases/0/participants/mean": {
             "type": "number",
-            "title": "",
+            "title": "Participating suppliers per tender (average)",
             "description": "",
             "minimum": 0
         },
-        "aggiudicatari": {
+        "appaltipop:releases/0/suppliers": {
             "type": "array",
-            "title": "",
+            "title": "Tender suppliers",
             "description": "",
             "items": {
                 "$ref": "#/$defs/supplier"
             }
         },
-        "redflags": {
+        "appaltipop:releases/0/redflags": {
             "type": "array",
-            "title": "",
+            "title": "Redflags",
             "description": "",
             "items": {
                 "$ref": "#/$defs/redflag"
             }
         },
-        "pubblica amministrazione proponente": {
+        "appaltipop:releases/0/buyers": {
             "type": "array",
-            "title": "",
+            "title": "Tender buyers",
             "description": "",
             "items": {
                 "$ref": "#/$defs/buyer"
@@ -94,15 +94,15 @@
     "$defs": {
         "supplier": {
             "$ref": "file:supplier.schema.json",
-            "importo totale appalti con lo stesso ente": {
+            "appaltipop:releases/0/supplier/amountBySingleBuyer/total": {
                 "type": "number",
-                "title": "",
+                "title": "Total value of tenders per buyer",
                 "description": "",
                 "minimum": 0
             },
-            "totale contratti con ente appaltante": {
+            "appaltipop:releases/0/supplier/contractsBySupplier/total": {
                 "type": "integer",
-                "title": "",
+                "title": "Number of tenders per buyer",
                 "description": "",
                 "minimum": 0
             }
@@ -112,14 +112,14 @@
             "title": "",
             "description": "",
             "properties": {
-                "codice redflag": {
+                "appaltipop:releases/0/redflag/code": {
                     "type": "string",
-                    "title": "",
+                    "title": "Redflag unique identifier",
                     "description": ""
                 },
-                "descrizione redflag": {
+                "appaltipop:releases/0/redflag/description": {
                     "type": "string",
-                    "title": "",
+                    "title": "Redflag description",
                     "description": ""
                 }
             }

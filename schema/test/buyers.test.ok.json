@@ -1,6 +1,6 @@
 [
     {
-        "ID": "IT-CF-84006890481",
-        "denominazione": "COMUNE DI PRATO"
+        "ocds:releases/0/buyer/id": "IT-CF-84006890481",
+        "ocds:releases/0/buyer/name": "COMUNE DI PRATO"
     }
 ]

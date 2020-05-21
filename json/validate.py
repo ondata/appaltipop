@@ -7,7 +7,7 @@ from pathlib import Path
 
 schema_dir = "../schema"
 schema_filename = "tender.schema.json"
-json_dir = "./"
+json_dir = "./tenders/"
 resolver = jsonschema.RefResolver(
     "file://{}/".format(
         Path(
@@ -29,5 +29,5 @@ with open("{}/{}".format(schema_dir, schema_filename)) as f_schema:
                 try:
                     jsonschema.validate(tender, schema, resolver=resolver)
                 except Exception as ex:
-                    logging.error("Failed schema at {} in {}: {}".format(tender.get("cig"), json_file, ex))
+                    logging.error("Failed schema at {} in {}: {}".format(tender.get("ocds:releases/0/id"), json_file, ex))
                     exit(1)

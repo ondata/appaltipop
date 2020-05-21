@@ -1,33 +1,33 @@
 [
     {
-        "cig": "612B15162E",
-        "appalto": "Fornitura di materiale e attrezzature per le pulizie di servizi e scuole comunali. Proroga tecnica per il periodo 01/01/2019 - 31/03/2019. Impegni di spesa.",
-        "tipo": "01-PROCEDURA APERTA",
-        "data inizio": "2019-01-01T09:30:00.000Z",
-        "data fine": "2019-03-31T09:30:00.000Z",
-        "importo aggiudicazione": 5555.5,
-        "importo somme liquidate": 736.1,
-        "partecipanti": 1.0,
-        "totale partecipanti": 3290.0,
-        "media partecipanti": 1.93,
-        "aggiudicatari": [
+        "ocds:releases/0/id": "612B15162E",
+        "ocds:releases/0/tender/title": "Fornitura di materiale e attrezzature per le pulizie di servizi e scuole comunali. Proroga tecnica per il periodo 01/01/2019 - 31/03/2019. Impegni di spesa.",
+        "ocds:releases/0/tender/procurementMethodDetails": "01-PROCEDURA APERTA",
+        "ocds:releases/0/tender/contractPeriod/startDate": "2019-01-01T09:30:00.000Z",
+        "ocds:releases/0/tender/contractPeriod/endDate": "2019-03-31T09:30:00.000Z",
+        "ocds:releases/0/awards/0/value/amount": 5555.5,
+        "ocds:releases/0/contracts/0/implementation/transactions/0/value/amount": 736.1,
+        "appaltipop:releases/0/tender/participants/total": 1.0,
+        "appaltipop:releases/0/participants/total": 3290.0,
+        "appaltipop:releases/0/participants/mean": 1.93,
+        "appaltipop:releases/0/suppliers": [
             {
-                "CF": "S-IT-CF-03960230377",
-                "ragione sociale": "Italchim s.r.l.",
-                "importo totale appalti con lo stesso ente": 5635.46,
-                "totale contratti con ente appaltante": 2.0
+                "ocds:releases/0/parties/0/id": "S-IT-CF-03960230377",
+                "ocds:releases/0/parties/0/name": "Italchim s.r.l.",
+                "appaltipop:releases/0/supplier/amountBySingleBuyer/total": 5635.46,
+                "appaltipop:releases/0/supplier/contractsBySupplier/total": 2.0
             }
         ],
-        "redflags": [
+        "appaltipop:releases/0/redflags": [
             {
-                "codice redflag": "01",
-                "descrizione redflag": "Low number of mean bidders per tender for competitive processes"
+                "appaltipop:releases/0/redflag/code": "01",
+                "appaltipop:releases/0/redflag/description": "Low number of mean bidders per tender for competitive processes"
             }
         ],
-        "pubblica amministrazione proponente": [
+        "appaltipop:releases/0/buyers": [
             {
-                "ID": "IT-CF-84006890481",
-                "denominazione": "COMUNE DI PRATO"
+                "ocds:releases/0/buyer/id": "IT-CF-84006890481",
+                "ocds:releases/0/buyer/name": "COMUNE DI PRATO"
             }
         ]
     }
