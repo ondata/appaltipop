@@ -3,18 +3,18 @@
     "title": "AppaltiPOP - Buyer",
     "description": "",
     "required": [
-        "ID"
+        "ocds:releases/0/buyer/id"
     ],
     "properties": {
-        "ID": {
+        "ocds:releases/0/buyer/id": {
             "type": "string",
-            "title": "",
+            "title": "Buyer unique identifier",
             "description": "",
             "pattern": "^[A-Z]{2}-[A-Z]{2}-[0-9]+$"
         },
-        "denominazione": {
+        "ocds:releases/0/buyer/name": {
             "type": "string",
-            "title": "",
+            "title": "Buyer name",
             "description": ""
         }
     }

@@ -3,18 +3,18 @@
     "title": "AppaltiPOP - Supplier",
     "description": "",
     "required": [
-        "CF"
+        "ocds:releases/0/parties/0/id"
     ],
     "properties": {
-        "CF": {
+        "ocds:releases/0/parties/0/id": {
             "type": "string",
-            "title": "",
+            "title": "Supplier unique identifier",
             "description": "",
             "pattern": "^[A-Z]-[A-Z]{2}-[A-Z]{2}-[0-9]+$"
         },
-        "ragione sociale": {
+        "ocds:releases/0/parties/0/name": {
             "type": "string",
-            "title": "",
+            "title": "Supplier name",
             "description": ""
         }
     }
