@@ -17,77 +17,72 @@
       "title": "",
       "description": ""
     },
-    "CODISTAT": {
+    "PRO_COM_T": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "cod_amm": {
+    "IPA:cod": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "nomeComune": {
+    "IPA:descrizione": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "des_amm": {
-      "type": "string",
-      "title": "",
-      "description": ""
-    },
-    "Cap": {
+    "IPA:CAP": {
       "type": "integer",
       "title": "",
       "description": ""
     },
-    "sito_istituzionale": {
+    "IPA:sitoWeb": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "Indirizzo": {
+    "IPA:indirizzo": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "popolazione": {
+    "Istat:popolazione": {
       "type": "integer",
       "title": "",
       "description": ""
     },
-    "Codice Regione": {
+    "COD_REG": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "Codice dell'Unità territoriale sovracomunale (valida a fini statistici)": {
+    "DEN_CM": {
       "type": "integer",
       "title": "",
       "description": ""
     },
-    "Denominazione in italiano": {
+    "COMUNE": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "Denominazione regione": {
+    "DEN_REG": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "Denominazione dell'Unità territoriale sovracomunale (valida a fini statistici)": {
+    "DEN_CM": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "Sigla automobilistica": {
+    "SIGLA": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "Codice Catastale del comune": {
+    "IPA:codCatastale": {
       "type": "string",
       "title": "",
       "description": ""

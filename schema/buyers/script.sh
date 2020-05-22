@@ -101,3 +101,8 @@ mlr --csv cut -f "Codice Regione","Codice dell'Unità territoriale sovracomunale
 mlr --csv join --ul -j CODISTAT -l CODISTAT -r "Codice Comune formato alfanumerico" -f "$folder"/resources/anagraficaBuyers.csv then unsparsify then filter -S -x '$CODISTAT==""' "$folder"/resources/tmp.csv >"$folder"/anagraficaBuyers.csv
 
 mlr -I --csv cut -x -f Provincia,Regione "$folder"/anagraficaBuyers.csv
+
+nomeComune,COMUNE,CODISTAT,PRO_COM_T,"Codice Regione",COD_REG,"Codice dell'Unità territoriale sovracomunale (valida a fini statistici)",COD_CM,"Denominazione regione",DEN_REG,"Denominazione dell'Unità territoriale sovracomunale (valida a fini statistici)",DEN_CM,Sigla automobilistica,SIGLA,cod_amm,IPA:cod,des_amm,IPA:descrizione,Cap,CAP,sito_istituzionale,IPA:sitoWeb,Cf,CF,popolazione,Istat:popolazione,"Denominazione in italiano",Istat:aaa,IPA:codCatastale
+
+
+mlr -I --csv cut -x -f nomeComune then rename CODISTAT,PRO_COM_T,"Codice Regione",COD_REG,"Codice dell'Unità territoriale sovracomunale (valida a fini statistici)",COD_CM,"Denominazione regione",DEN_REG,"Denominazione dell'Unità territoriale sovracomunale (valida a fini statistici)",DEN_CM,"Sigla automobilistica",SIGLA,cod_amm,IPA:cod,des_amm,IPA:descrizione,Cap,IPA:CAP,sito_istituzionale,IPA:sitoWeb,Cf,CF,popolazione,Istat:popolazione,"Denominazione in italiano",COMUNE,"Codice Catastale del comune",IPA:codCatastale,Indirizzo,IPA:indirizzo "$folder"/anagraficaBuyers.csv
