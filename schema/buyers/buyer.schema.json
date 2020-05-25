@@ -6,18 +6,18 @@
     "ID"
   ],
   "properties": {
-    "ID": {
+    "ocds:releases/0/buyer/id": {
       "type": "string",
       "title": "",
       "description": "",
       "pattern": "^[A-Z]{2}-[A-Z]{2}-[0-9]+$"
     },
-    "denominazione": {
+    "ocds:releases/0/buyer/name": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "PRO_COM_T": {
+    "Istat:PRO_COM_T": {
       "type": "string",
       "title": "",
       "description": ""
@@ -27,62 +27,47 @@
       "title": "",
       "description": ""
     },
-    "IPA:descrizione": {
-      "type": "string",
-      "title": "",
-      "description": ""
-    },
-    "IPA:CAP": {
+    "ocds:releases/0/parties/address/postalCode": {
       "type": "integer",
       "title": "",
       "description": ""
     },
-    "IPA:sitoWeb": {
+    "ocds:releases/0/parties/contactPoint/url": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "IPA:indirizzo": {
+    "ocds:releases/0/parties/address/streetAddress": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "Istat:popolazione": {
+    "Istat:COD_REG": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "Istat:COD_CM": {
       "type": "integer",
       "title": "",
       "description": ""
     },
-    "COD_REG": {
+    "Istat:COMUNE": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "DEN_CM": {
-      "type": "integer",
-      "title": "",
-      "description": ""
-    },
-    "COMUNE": {
+    "ocds:releases/0/parties/address/region": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "DEN_REG": {
+    "Istat:DEN_CM": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "DEN_CM": {
-      "type": "string",
-      "title": "",
-      "description": ""
-    },
-    "SIGLA": {
-      "type": "string",
-      "title": "",
-      "description": ""
-    },
-    "IPA:codCatastale": {
+    "licencePlateCode": {
       "type": "string",
       "title": "",
       "description": ""
