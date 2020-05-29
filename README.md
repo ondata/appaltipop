@@ -19,4 +19,4 @@ General usage:
 - `cd [folder]`
 - `pipenv shell`
 - `pipenv install` (only the first time)
-- `python [script] [...args]`
+- `python [script] [...args]` (inside the virtual env) or `pipenv run python [script] [...args]`
