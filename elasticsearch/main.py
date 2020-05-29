@@ -1,6 +1,8 @@
 import os
 import sys
+import json
 import jsonlines
+import jsonschema
 from elasticsearch import Elasticsearch
 from elasticsearch.helpers import bulk
 import logging
@@ -12,7 +14,8 @@ logging.basicConfig(level=logging.INFO)
 
 schema_dir = "../schema"
 schema_filename = "tender.schema.json"
-schema = json.loads(f.read().replace('"#/', '"file:{}#/'.format(schema_filename)))
+with open(Path(schema_dir, schema_filename)) as f:
+    schema = json.loads(f.read().replace('"#/', '"file:{}#/'.format(schema_filename)))
 resolver = jsonschema.RefResolver(
     "file://{}/".format(
         Path(
@@ -120,7 +123,7 @@ if __name__ == "__main__":
         exit(1)
 
     es = Elasticsearch(
-        [os.environ.get("ES_HOST","localhost")],
+        [es_host],
         http_auth = es_auth,
         scheme = es_scheme,
         port = es_port
