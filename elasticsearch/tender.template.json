@@ -1,9 +1,16 @@
 {
-    "index_patterns": ["appaltipop-tenders-*"],
+    "index_patterns": [
+        "appaltipop-tenders-*"
+    ],
     "mappings": {
         "properties": {
             "ocds:releases/0/id": {
-                "type": "keyword"
+                "type": "text",
+                "fields": {
+                    "raw": {
+                        "type": "keyword"
+                    }
+                }
             },
             "ocds:releases/0/tender/title": {
                 "type": "text",
@@ -11,6 +18,10 @@
                     "it": {
                         "type": "text",
                         "analyzer": "italian"
+                    },
+                    "en": {
+                        "type": "text",
+                        "analyzer": "english"
                     }
                 }
             },
@@ -44,7 +55,12 @@
             "appaltipop:releases/0/suppliers": {
                 "properties": {
                     "ocds:releases/0/parties/0/id": {
-                        "type": "keyword"
+                        "type": "text",
+                        "fields": {
+                            "raw": {
+                                "type": "keyword"
+                            }
+                        }
                     },
                     "ocds:releases/0/parties/0/name": {
                         "type": "text",
@@ -52,6 +68,10 @@
                             "it": {
                                 "type": "text",
                                 "analyzer": "italian"
+                            },
+                            "en": {
+                                "type": "text",
+                                "analyzer": "english"
                             },
                             "raw": {
                                 "type": "keyword"
@@ -80,7 +100,12 @@
             "appaltipop:releases/0/buyers": {
                 "properties": {
                     "ocds:releases/0/buyer/id": {
-                        "type": "keyword"
+                        "type": "text",
+                        "fields": {
+                            "raw": {
+                                "type": "keyword"
+                            }
+                        }
                     },
                     "ocds:releases/0/buyer/name": {
                         "type": "text",
@@ -88,6 +113,10 @@
                             "it": {
                                 "type": "text",
                                 "analyzer": "italian"
+                            },
+                            "en": {
+                                "type": "text",
+                                "analyzer": "english"
                             },
                             "raw": {
                                 "type": "keyword"

@@ -1,9 +1,16 @@
 {
-    "index_patterns": ["appaltipop-suppliers"],
+    "index_patterns": [
+        "appaltipop-suppliers"
+    ],
     "mappings": {
         "properties": {
             "ocds:releases/0/parties/0/id": {
-                "type": "keyword"
+                "type": "text",
+                "fields": {
+                    "raw": {
+                        "type": "keyword"
+                    }
+                }
             },
             "ocds:releases/0/parties/0/name": {
                 "type": "text",
@@ -11,6 +18,10 @@
                     "it": {
                         "type": "text",
                         "analyzer": "italian"
+                    },
+                    "en": {
+                        "type": "text",
+                        "analyzer": "english"
                     },
                     "raw": {
                         "type": "keyword"
