@@ -17,12 +17,7 @@
       "title": "",
       "description": ""
     },
-    "Istat:PRO_COM_T": {
-      "type": "string",
-      "title": "",
-      "description": ""
-    },
-    "IPA:cod": {
+    "ipa:cod": {
       "type": "string",
       "title": "",
       "description": ""
@@ -42,17 +37,17 @@
       "title": "",
       "description": ""
     },
-    "Istat:COD_REG": {
+    "istat:COD_REG": {
       "type": "string",
       "title": "",
       "description": ""
     },
-    "Istat:COD_CM": {
+    "istat:COD_CM": {
       "type": "integer",
       "title": "",
       "description": ""
     },
-    "Istat:COMUNE": {
+    "ipa:COMUNE": {
       "type": "string",
       "title": "",
       "description": ""
@@ -62,7 +57,7 @@
       "title": "",
       "description": ""
     },
-    "Istat:DEN_CM": {
+    "istat:DEN_CM": {
       "type": "string",
       "title": "",
       "description": ""
