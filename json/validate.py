@@ -29,5 +29,9 @@ with open("{}/{}".format(schema_dir, schema_filename)) as f_schema:
                 try:
                     jsonschema.validate(tender, schema, resolver=resolver)
                 except Exception as ex:
-                    logging.error("Failed schema at {} in {}: {}".format(tender.get("ocds:releases/0/id"), json_file, ex))
+                    logging.error(
+                        "Failed schema at {} in {}: {}".format(
+                            tender.get("ocds:releases/0/id"), json_file, ex
+                        )
+                    )
                     exit(1)
