@@ -1,16 +1,27 @@
 {
-    "index_patterns": ["appaltipop-buyers"],
+    "index_patterns": [
+        "appaltipop-buyers"
+    ],
     "mappings": {
         "properties": {
-            "ID": {
-                "type": "keyword"
+            "ocds:releases/0/buyer/id": {
+                "type": "text",
+                "fields": {
+                    "raw": {
+                        "type": "keyword"
+                    }
+                }
             },
-            "denominazione": {
+            "ocds:releases/0/buyer/name": {
                 "type": "text",
                 "fields": {
                     "it": {
                         "type": "text",
                         "analyzer": "italian"
+                    },
+                    "en": {
+                        "type": "text",
+                        "analyzer": "english"
                     },
                     "raw": {
                         "type": "keyword"

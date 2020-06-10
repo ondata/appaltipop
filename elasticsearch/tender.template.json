@@ -1,93 +1,122 @@
 {
-    "index_patterns": ["appaltipop-tenders-*"],
+    "index_patterns": [
+        "appaltipop-tenders-*"
+    ],
     "mappings": {
         "properties": {
-            "cig": {
-                "type": "keyword"
+            "ocds:releases/0/id": {
+                "type": "text",
+                "fields": {
+                    "raw": {
+                        "type": "keyword"
+                    }
+                }
             },
-            "appalto": {
+            "ocds:releases/0/tender/title": {
                 "type": "text",
                 "fields": {
                     "it": {
                         "type": "text",
                         "analyzer": "italian"
+                    },
+                    "en": {
+                        "type": "text",
+                        "analyzer": "english"
                     }
                 }
             },
-            "tipo": {
+            "ocds:releases/0/tender/procurementMethodDetails": {
                 "type": "keyword"
             },
-            "data inizio": {
+            "ocds:releases/0/tender/contractPeriod/startDate": {
                 "type": "date"
             },
-            "data fine": {
+            "ocds:releases/0/tender/contractPeriod/endDate": {
                 "type": "date"
             },
-            "importo aggiudicazione": {
+            "ocds:releases/0/awards/0/value/amount": {
                 "type": "scaled_float",
                 "scaling_factor": 100
             },
-            "importo somme liquidate": {
+            "ocds:releases/0/contracts/0/implementation/transactions/0/value/amount": {
                 "type": "scaled_float",
                 "scaling_factor": 100
             },
-            "partecipanti": {
+            "appaltipop:releases/0/tender/participants/total": {
                 "type": "integer"
             },
-            "totale partecipanti": {
+            "appaltipop:releases/0/participants/total": {
                 "type": "integer"
             },
-            "media partecipanti": {
+            "appaltipop:releases/0/participants/mean": {
                 "type": "scaled_float",
                 "scaling_factor": 100
             },
-            "aggiudicatari": {
+            "appaltipop:releases/0/suppliers": {
                 "properties": {
-                    "CF": {
-                        "type": "keyword"
+                    "ocds:releases/0/parties/0/id": {
+                        "type": "text",
+                        "fields": {
+                            "raw": {
+                                "type": "keyword"
+                            }
+                        }
                     },
-                    "ragione sociale": {
+                    "ocds:releases/0/parties/0/name": {
                         "type": "text",
                         "fields": {
                             "it": {
                                 "type": "text",
                                 "analyzer": "italian"
                             },
+                            "en": {
+                                "type": "text",
+                                "analyzer": "english"
+                            },
                             "raw": {
                                 "type": "keyword"
                             }
                         }
                     },
-                    "importo totale appalti con lo stesso ente": {
+                    "appaltipop:releases/0/supplier/amountBySingleBuyer/total": {
                         "type": "scaled_float",
                         "scaling_factor": 100
                     },
-                    "totale contratti con ente appaltante": {
+                    "appaltipop:releases/0/supplier/contractsBySupplier/total": {
                         "type": "integer"
                     }
                 }
             },
-            "redflags": {
+            "appaltipop:releases/0/redflags": {
                 "properties": {
-                    "codice redflag": {
+                    "appaltipop:releases/0/redflag/code": {
                         "type": "keyword"
                     },
-                    "descrizione redflag": {
+                    "appaltipop:releases/0/redflag/description": {
                         "type": "keyword"
                     }
                 }
             },
-            "pubblica amministrazione proponente": {
+            "appaltipop:releases/0/buyers": {
                 "properties": {
-                    "ID": {
-                        "type": "keyword"
+                    "ocds:releases/0/buyer/id": {
+                        "type": "text",
+                        "fields": {
+                            "raw": {
+                                "type": "keyword"
+                            }
+                        }
                     },
-                    "denominazione": {
+                    "ocds:releases/0/buyer/name": {
                         "type": "text",
                         "fields": {
                             "it": {
                                 "type": "text",
                                 "analyzer": "italian"
+                            },
+                            "en": {
+                                "type": "text",
+                                "analyzer": "english"
                             },
                             "raw": {
                                 "type": "keyword"

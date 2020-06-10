@@ -10,7 +10,7 @@
             "type": "string",
             "title": "Supplier unique identifier",
             "description": "",
-            "pattern": "^[A-Z]-[A-Z]{2}-[A-Z]{2}-[0-9]+$"
+            "pattern": "^[A-Z]-[A-Z]{2}-[A-Z]{2}-[A-Z0-9,/]+$"
         },
         "ocds:releases/0/parties/0/name": {
             "type": "string",
