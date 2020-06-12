@@ -106,7 +106,7 @@ if __name__ == "__main__":
 
     es_scheme = os.environ.get("ES_SCHEME", "http")
     es_host = os.environ.get("ES_HOST", "localhost")
-    es_port = os.environ.get("ES_PORT", 443 if es_scheme == "https" else 9200 if es_host == "localhost" else 80)
+    es_port = os.environ.get("ES_PORT") or 443 if es_scheme == "https" else 9200 if es_host == "localhost" else 80
     es_auth = (
         os.environ.get("ES_AUTH_USERNAME"),
         os.environ.get("ES_AUTH_PASSWORD")
@@ -136,7 +136,8 @@ if __name__ == "__main__":
         [es_host],
         http_auth = es_auth,
         scheme = es_scheme,
-        port = es_port
+        port = es_port,
+        timeout = 300
     )
 
     bulk(
@@ -158,5 +159,6 @@ if __name__ == "__main__":
         ),
         stats_only = True,
         raise_on_exception = False,
-        raise_on_error = False
+        raise_on_error = False,
+        
     )
