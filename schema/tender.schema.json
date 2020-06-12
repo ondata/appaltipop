@@ -3,9 +3,7 @@
     "title": "AppaltiPOP - Tender",
     "description": "",
     "required": [
-        "ocds:releases/0/id",
-        "ocds:releases/0/tender/contractPeriod/startDate",
-        "appaltipop:releases/0/buyers"
+        "ocds:releases/0/id"
     ],
     "properties": {
         "ocds:releases/0/id": {

@@ -64,7 +64,7 @@ def docs(
                         "_op_type": "index",
                         "_index": "{}-tenders-{}".format(
                             es_index_prefix,
-                            datetime.fromisoformat(tender[es_date_field].replace("Z", "+00:00")).year
+                            datetime.fromisoformat(tender[es_date_field].replace("Z", "+00:00")).year if es_date_field in tender else "0000"
                         ),
                         "_id": tender[es_tender_id_field],
                         "_source": tender
@@ -101,12 +101,12 @@ def docs(
 if __name__ == "__main__":
 
     if len(sys.argv) == 1:
-        logging.error("Usage: {} /path/to/jsonl/file".format(sys.argv[0]))
+        logging.error("Usage: {} /path/to/jsonl/folder/".format(sys.argv[0]))
         exit(1)
 
     es_scheme = os.environ.get("ES_SCHEME", "http")
     es_host = os.environ.get("ES_HOST", "localhost")
-    es_port = os.environ.get("ES_PORT", 443 if es_scheme == "https" else 80)
+    es_port = os.environ.get("ES_PORT", 443 if es_scheme == "https" else 9200 if es_host == "localhost" else 80)
     es_auth = (
         os.environ.get("ES_AUTH_USERNAME"),
         os.environ.get("ES_AUTH_PASSWORD")
