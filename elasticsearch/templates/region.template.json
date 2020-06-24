@@ -1,0 +1,15 @@
+{
+    "index_patterns": [
+        "appaltipop-regions"
+    ],
+    "mappings": {
+        "properties": {
+            "istat:COD_REG": {
+                "type": "keyword"
+            },
+            "ocds:releases/0/parties/address/region": {
+                "type": "keyword"
+            }
+        }
+    }
+}

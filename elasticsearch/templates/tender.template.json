@@ -122,6 +122,21 @@
                                 "type": "keyword"
                             }
                         }
+                    },
+                    "istat:COD_REG": {
+                        "type": "keyword"
+                    },
+                    "istat:COD_CM": {
+                        "type": "keyword"
+                    },
+                    "ocds:releases/0/parties/address/region": {
+                        "type": "keyword"
+                    },
+                    "istat:DEN_CM": {
+                        "type": "keyword"
+                    },
+                    "unece:licencePlateCode": {
+                        "type": "keyword"
                     }
                 }
             }

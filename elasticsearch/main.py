@@ -34,12 +34,18 @@ def docs(
 
     es_tender_buyer_field,
     es_tender_supplier_field,
+    es_tender_redflag_field,
 
     es_tender_id_field,
     es_buyer_id_field,
     es_supplier_id_field,
+    es_region_id_field,
+    es_province_id_field,
+    es_redflag_id_field,
 
     es_supplier_fields,
+    es_region_fields,
+    es_province_fields,
 
     buyers
 ):
@@ -60,19 +66,11 @@ def docs(
 
                     #logging.info("Indexing {} document...".format(tender[es_tender_id_field]))
 
-                    yield {
-                        "_op_type": "index",
-                        "_index": "{}-tenders-{}".format(
-                            es_index_prefix,
-                            datetime.fromisoformat(tender[es_date_field].replace("Z", "+00:00")).year if es_date_field in tender else "0000"
-                        ),
-                        "_id": tender[es_tender_id_field],
-                        "_source": tender
-                    }
-
-                    for buyer in tender.get(es_tender_buyer_field, []):
+                    for index, buyer in enumerate(tender.get(es_tender_buyer_field, [])):
 
                         if buyer[es_buyer_id_field] in buyers:
+
+                            tender[es_tender_buyer_field][index].update({ k: buyers[buyer[es_buyer_id_field]].get(k, "") for k in (es_region_fields.split(',') + es_province_fields.split(',')) })
 
                             yield {
                                 "_op_type": "create",
@@ -83,6 +81,28 @@ def docs(
                                 "_source": buyers[buyer[es_buyer_id_field]]
                             }
 
+                            if es_region_id_field and es_region_fields:
+
+                                yield {
+                                    "_op_type": "create",
+                                    "_index": "{}-regions".format(
+                                        es_index_prefix
+                                    ),
+                                    "_id": buyers[buyer[es_buyer_id_field]][es_region_id_field],
+                                    "_source": { k: buyers[buyer[es_buyer_id_field]].get(k, "") for k in es_region_fields.split(',') }
+                                }
+
+                            if es_province_id_field and es_province_fields:
+
+                                yield {
+                                    "_op_type": "create",
+                                    "_index": "{}-provinces".format(
+                                        es_index_prefix
+                                    ),
+                                    "_id": buyers[buyer[es_buyer_id_field]][es_province_id_field],
+                                    "_source": { k: buyers[buyer[es_buyer_id_field]].get(k, "") for k in es_province_fields.split(',') }
+                                }
+
                     for supplier in tender.get(es_tender_supplier_field, []):
 
                         yield {
@@ -91,8 +111,29 @@ def docs(
                                 es_index_prefix
                             ),
                             "_id": supplier[es_supplier_id_field],
-                            "_source": { k: supplier[k] for k in es_supplier_fields.split(',') } if es_supplier_fields else supplier
+                            "_source": { k: supplier.get(k, "") for k in es_supplier_fields.split(',') } if es_supplier_fields else supplier
                         }
+
+                    for redflag in tender.get(es_tender_redflag_field, []):
+
+                        yield {
+                            "_op_type": "create",
+                            "_index": "{}-redflags".format(
+                                es_index_prefix
+                            ),
+                            "_id": redflag[es_redflag_id_field],
+                            "_source": redflag
+                        }
+
+                    yield {
+                        "_op_type": "index",
+                        "_index": "{}-tenders-{}".format(
+                            es_index_prefix,
+                            datetime.fromisoformat(tender[es_date_field].replace("Z", "+00:00")).year if es_date_field in tender else "0000"
+                        ),
+                        "_id": tender[es_tender_id_field],
+                        "_source": tender
+                    }
 
         else:
             logging.warning("Failed to open {}, skip...".format(jsonl_file))
@@ -117,12 +158,21 @@ if __name__ == "__main__":
 
     es_tender_buyer_field = os.environ.get("ES_TENDER_BUYER_FIELD")
     es_tender_supplier_field = os.environ.get("ES_TENDER_SUPPLIER_FIELD")
+    es_tender_redflag_field = os.environ.get("ES_TENDER_REDFLAG_FIELD")
 
     es_tender_id_field = os.environ.get("ES_TENDER_ID_FIELD")
     es_buyer_id_field = os.environ.get("ES_BUYER_ID_FIELD")
 
     es_supplier_id_field = os.environ.get("ES_SUPPLIER_ID_FIELD")
     es_supplier_fields = os.environ.get("ES_SUPPLIER_FIELDS")
+
+    es_region_id_field = os.environ.get("ES_REGION_ID_FIELD")
+    es_region_fields = os.environ.get("ES_REGION_FIELDS")
+
+    es_province_id_field = os.environ.get("ES_PROVINCE_ID_FIELD")
+    es_province_fields = os.environ.get("ES_PROVINCE_FIELDS")
+
+    es_redflag_id_field = os.environ.get("ES_REDFLAG_ID_FIELD")
 
     if not es_index_prefix or not es_date_field:
         logging.error("No ES_INDEX_PREFIX, ES_DATE_FIELD envars found")
@@ -148,12 +198,18 @@ if __name__ == "__main__":
 
             es_tender_buyer_field,
             es_tender_supplier_field,
+            es_tender_redflag_field,
 
             es_tender_id_field,
             es_buyer_id_field,
             es_supplier_id_field,
+            es_region_id_field,
+            es_province_id_field,
+            es_redflag_id_field,
 
             es_supplier_fields,
+            es_region_fields,
+            es_province_fields,
 
             buyers
         ),

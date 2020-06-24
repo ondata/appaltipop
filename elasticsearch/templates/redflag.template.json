@@ -1,0 +1,60 @@
+{
+    "index_patterns": [
+        "appaltipop-redflags"
+    ],
+    "mappings": {
+        "properties": {
+            "appaltipop:releases/0/redflag/code": {
+                "type": "keyword"
+            },
+            "appaltipop:releases/0/redflag/description": {
+                "type": "text",
+                "fields": {
+                    "it": {
+                        "type": "text",
+                        "analyzer": "italian"
+                    },
+                    "en": {
+                        "type": "text",
+                        "analyzer": "english"
+                    },
+                    "raw": {
+                        "type": "keyword"
+                    }
+                }
+            },
+            "appaltipop:releases/0/redflag/title": {
+                "type": "text",
+                "fields": {
+                    "it": {
+                        "type": "text",
+                        "analyzer": "italian"
+                    },
+                    "en": {
+                        "type": "text",
+                        "analyzer": "english"
+                    },
+                    "raw": {
+                        "type": "keyword"
+                    }
+                }
+            },
+            "appaltipop:releases/0/redflag/summary": {
+                "type": "text",
+                "fields": {
+                    "it": {
+                        "type": "text",
+                        "analyzer": "italian"
+                    },
+                    "en": {
+                        "type": "text",
+                        "analyzer": "english"
+                    },
+                    "raw": {
+                        "type": "keyword"
+                    }
+                }
+            }
+        }
+    }
+}

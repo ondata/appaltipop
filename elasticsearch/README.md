@@ -19,7 +19,7 @@ All parameters are in the `.env` file provided and are available inside the virt
 
 All documents are indexed in ES indices with a year-based name: `appaltipop-tenders-2014`, `appaltipop-tenders-2015`, and so on. If `ocds:releases/0/tender/contractPeriod/startDate` attribute is missing, index will be `appaltipop-tenders-0000`.
 
-Indices with `appaltipop-` prefix will be indexed following the template in `*.template.json` files. To apply or update them: `curl -XPUT $ES_SCHEME://$ES_HOST/_template/$ES_INDEX_PREFIX-[name] -H 'Content-Type: application/json' -d '@[name].template.json'` (replace `[name]` with `buyer`, `supplier` or `tender`).
+Indices with `appaltipop-` prefix will be indexed following the template in `*.template.json` files. To apply or update them: `curl -XPUT $ES_SCHEME://$ES_HOST:$ES_PORT/_template/$ES_INDEX_PREFIX-[name] -H 'Content-Type: application/json' -d '@[name].template.json'` (replace `[name]` with `buyer`, `supplier` or `tender`).
 
 ## Delete all indices
 

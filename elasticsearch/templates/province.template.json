@@ -1,0 +1,18 @@
+{
+    "index_patterns": [
+        "appaltipop-provinces"
+    ],
+    "mappings": {
+        "properties": {
+            "istat:COD_CM": {
+                "type": "keyword"
+            },
+            "istat:DEN_CM": {
+                "type": "keyword"
+            },
+            "unece:licencePlateCode": {
+                "type": "keyword"
+            }
+        }
+    }
+}
