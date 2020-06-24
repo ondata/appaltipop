@@ -6,7 +6,7 @@ This repository is intended for project tracking. Here you can also find raw dat
 
 Pipeline:
 
-- start: json files (an array of objects per source) in `json` folder
+- start: json files (an array of objects per source) in `json` folder, managed by [dvc](https://dvc.org/)
 - then: jsonl files (same data, but one objects per line) in `jsonl` folder
 - finally: indexing in `elasticsearch` folder
 
@@ -19,4 +19,4 @@ General usage:
 - `cd [folder]`
 - `pipenv shell`
 - `pipenv install` (only the first time)
-- `python [script] [...args]` (inside the virtual env) or `pipenv run python [script] [...args]`
+- `python [script] [...args]` (inside the virtual env) or `pipenv run python [script] [...args]` (insied normal shell)

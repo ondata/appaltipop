@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 jsonschema = "*"
 csv2json = "*"
+dvc = {extras = ["ssh"],version = "*"}
 
 [requires]
 python_version = "3.7"

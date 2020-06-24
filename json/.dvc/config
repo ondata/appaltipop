@@ -1,0 +1,4 @@
+[core]
+    remote = appaltipop.it
+['remote "appaltipop.it"']
+    url = ssh://appaltipop@ex-machina.ondata.it:48212/home/appaltipop/data
