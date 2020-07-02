@@ -7,7 +7,7 @@
     "version": "1.1",
     "releases": [
         {
-            "ocid": "ocds-xxxxxx-IDM3",
+            "ocid": "ocds-bxokds-IDM3",
             "id": "IDM3",
             "awards": [
                 {
@@ -84,7 +84,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-IDM23",
+            "ocid": "ocds-bxokds-IDM23",
             "id": "IDM23",
             "awards": [
                 {
@@ -157,7 +157,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7657273593",
+            "ocid": "ocds-bxokds-7657273593",
             "id": "7657273593",
             "awards": [
                 {
@@ -252,7 +252,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7665292F0D",
+            "ocid": "ocds-bxokds-7665292F0D",
             "id": "7665292F0D",
             "awards": [
                 {
@@ -394,7 +394,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-76653227D1",
+            "ocid": "ocds-bxokds-76653227D1",
             "id": "76653227D1",
             "awards": [
                 {
@@ -481,7 +481,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7674769BB9",
+            "ocid": "ocds-bxokds-7674769BB9",
             "id": "7674769BB9",
             "awards": [
                 {
@@ -568,14 +568,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-76748259F0",
+            "ocid": "ocds-bxokds-76748259F0",
             "id": "76748259F0",
             "awards": [
                 {
                     "id": "76748259F0",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -594,6 +599,20 @@
                     "awardID": "7"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -609,11 +628,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7713415F68",
+            "ocid": "ocds-bxokds-7713415F68",
             "id": "7713415F68",
             "awards": [
                 {
@@ -733,7 +757,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-77134815E2",
+            "ocid": "ocds-bxokds-77134815E2",
             "id": "77134815E2",
             "awards": [
                 {
@@ -842,7 +866,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-77136300D9",
+            "ocid": "ocds-bxokds-77136300D9",
             "id": "77136300D9",
             "awards": [
                 {
@@ -940,14 +964,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7713683C92",
+            "ocid": "ocds-bxokds-7713683C92",
             "id": "7713683C92",
             "awards": [
                 {
                     "id": "7713683C92",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -966,6 +995,20 @@
                     "awardID": "11"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -981,11 +1024,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7722158E5C",
+            "ocid": "ocds-bxokds-7722158E5C",
             "id": "7722158E5C",
             "awards": [
                 {
@@ -1113,7 +1161,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-77422101CF",
+            "ocid": "ocds-bxokds-77422101CF",
             "id": "77422101CF",
             "awards": [
                 {
@@ -1186,14 +1234,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7747935639",
+            "ocid": "ocds-bxokds-7747935639",
             "id": "7747935639",
             "awards": [
                 {
                     "id": "7747935639",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -1271,7 +1324,7 @@
                 },
                 {
                     "name": "FHECOR INGENIEROS CONSULTORES S.A.",
-                    "id": "T-EE-CF-SA78379518",
+                    "id": "T-IT-CF-NAN",
                     "roles": [
                         "tenderer"
                     ]
@@ -1471,6 +1524,12 @@
                     "roles": [
                         "tenderer"
                     ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
                 }
             ],
             "date": "2020-02-15T00:00:00Z",
@@ -1524,7 +1583,7 @@
                     },
                     {
                         "name": "FHECOR INGENIEROS CONSULTORES S.A.",
-                        "id": "T-EE-CF-SA78379518"
+                        "id": "T-IT-CF-NAN"
                     },
                     {
                         "name": "STUDIO ASSOCIATO ICARO PROGETTI",
@@ -1642,14 +1701,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-774960043A",
+            "ocid": "ocds-bxokds-774960043A",
             "id": "774960043A",
             "awards": [
                 {
                     "id": "774960043A",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -1668,6 +1732,20 @@
                     "awardID": "15"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -1683,11 +1761,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "26-AFFIDAMENTO DIRETTO IN ADESIONE AD ACCORDO QUADRO/CONVENZIONE"
+                "procurementMethodDetails": "26-AFFIDAMENTO DIRETTO IN ADESIONE AD ACCORDO QUADRO/CONVENZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7761233415",
+            "ocid": "ocds-bxokds-7761233415",
             "id": "7761233415",
             "awards": [
                 {
@@ -1969,7 +2052,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-77715630AC",
+            "ocid": "ocds-bxokds-77715630AC",
             "id": "77715630AC",
             "awards": [
                 {
@@ -2064,14 +2147,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-77759672F7",
+            "ocid": "ocds-bxokds-77759672F7",
             "id": "77759672F7",
             "awards": [
                 {
                     "id": "77759672F7",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -2153,6 +2241,12 @@
                     "roles": [
                         "tenderer"
                     ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
                 }
             ],
             "date": "2020-02-15T00:00:00Z",
@@ -2212,7 +2306,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-778812326A",
+            "ocid": "ocds-bxokds-778812326A",
             "id": "778812326A",
             "awards": [
                 {
@@ -2285,7 +2379,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-77922819B2",
+            "ocid": "ocds-bxokds-77922819B2",
             "id": "77922819B2",
             "awards": [
                 {
@@ -2358,14 +2452,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7803978E5C",
+            "ocid": "ocds-bxokds-7803978E5C",
             "id": "7803978E5C",
             "awards": [
                 {
                     "id": "7803978E5C",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -2510,6 +2609,12 @@
                     "roles": [
                         "tenderer"
                     ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
                 }
             ],
             "date": "2020-02-15T00:00:00Z",
@@ -2605,7 +2710,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7816218324",
+            "ocid": "ocds-bxokds-7816218324",
             "id": "7816218324",
             "awards": [
                 {
@@ -2689,14 +2794,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-78183556A5",
+            "ocid": "ocds-bxokds-78183556A5",
             "id": "78183556A5",
             "awards": [
                 {
                     "id": "78183556A5",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -2715,6 +2825,20 @@
                     "awardID": "23"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -2730,11 +2854,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "01-PROCEDURA APERTA"
+                "procurementMethodDetails": "01-PROCEDURA APERTA",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7825973538",
+            "ocid": "ocds-bxokds-7825973538",
             "id": "7825973538",
             "awards": [
                 {
@@ -2832,7 +2961,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7825990340",
+            "ocid": "ocds-bxokds-7825990340",
             "id": "7825990340",
             "awards": [
                 {
@@ -2930,7 +3059,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7831129416",
+            "ocid": "ocds-bxokds-7831129416",
             "id": "7831129416",
             "awards": [
                 {
@@ -3017,7 +3146,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7840375221",
+            "ocid": "ocds-bxokds-7840375221",
             "id": "7840375221",
             "awards": [
                 {
@@ -3178,7 +3307,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7845586E5E",
+            "ocid": "ocds-bxokds-7845586E5E",
             "id": "7845586E5E",
             "awards": [
                 {
@@ -3394,7 +3523,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7845770638",
+            "ocid": "ocds-bxokds-7845770638",
             "id": "7845770638",
             "awards": [
                 {
@@ -3511,14 +3640,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7851050B68",
+            "ocid": "ocds-bxokds-7851050B68",
             "id": "7851050B68",
             "awards": [
                 {
                     "id": "7851050B68",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -3672,7 +3806,7 @@
                     ]
                 },
                 {
-                    "name": "Associazione Bayty Baytik \"Casa mia Ã© casa tua\"",
+                    "name": "Associazione Bayty Baytik \"Casa mia é casa tua\"",
                     "id": "T-IT-CF-97235600828",
                     "roles": [
                         "tenderer"
@@ -3714,7 +3848,7 @@
                     ]
                 },
                 {
-                    "name": "Iside SocietÃ  Cooperativa Sociale",
+                    "name": "Iside Società Cooperativa Sociale",
                     "id": "T-IT-CF-04416610824",
                     "roles": [
                         "tenderer"
@@ -3725,6 +3859,12 @@
                     "id": "T-IT-CF-06519910829",
                     "roles": [
                         "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
                     ]
                 }
             ],
@@ -3822,7 +3962,7 @@
                         "id": "T-IT-CF-97302930827"
                     },
                     {
-                        "name": "Associazione Bayty Baytik \"Casa mia Ã© casa tua\"",
+                        "name": "Associazione Bayty Baytik \"Casa mia é casa tua\"",
                         "id": "T-IT-CF-97235600828"
                     },
                     {
@@ -3846,7 +3986,7 @@
                         "id": "T-IT-CF-97304900828"
                     },
                     {
-                        "name": "Iside SocietÃ  Cooperativa Sociale",
+                        "name": "Iside Società Cooperativa Sociale",
                         "id": "T-IT-CF-04416610824"
                     },
                     {
@@ -3857,14 +3997,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-785108042C",
+            "ocid": "ocds-bxokds-785108042C",
             "id": "785108042C",
             "awards": [
                 {
                     "id": "785108042C",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -4018,7 +4163,7 @@
                     ]
                 },
                 {
-                    "name": "Associazione Bayty Baytik \"Casa mia Ã© casa tua\"",
+                    "name": "Associazione Bayty Baytik \"Casa mia é casa tua\"",
                     "id": "T-IT-CF-97235600828",
                     "roles": [
                         "tenderer"
@@ -4060,7 +4205,7 @@
                     ]
                 },
                 {
-                    "name": "Iside SocietÃ  Cooperativa Sociale",
+                    "name": "Iside Società Cooperativa Sociale",
                     "id": "T-IT-CF-04416610824",
                     "roles": [
                         "tenderer"
@@ -4071,6 +4216,12 @@
                     "id": "T-IT-CF-06519910829",
                     "roles": [
                         "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
                     ]
                 }
             ],
@@ -4168,7 +4319,7 @@
                         "id": "T-IT-CF-97302930827"
                     },
                     {
-                        "name": "Associazione Bayty Baytik \"Casa mia Ã© casa tua\"",
+                        "name": "Associazione Bayty Baytik \"Casa mia é casa tua\"",
                         "id": "T-IT-CF-97235600828"
                     },
                     {
@@ -4192,7 +4343,7 @@
                         "id": "T-IT-CF-97143970826"
                     },
                     {
-                        "name": "Iside SocietÃ  Cooperativa Sociale",
+                        "name": "Iside Società Cooperativa Sociale",
                         "id": "T-IT-CF-04416610824"
                     },
                     {
@@ -4203,7 +4354,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7864414FB9",
+            "ocid": "ocds-bxokds-7864414FB9",
             "id": "7864414FB9",
             "awards": [
                 {
@@ -4301,7 +4452,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-78648030C1",
+            "ocid": "ocds-bxokds-78648030C1",
             "id": "78648030C1",
             "awards": [
                 {
@@ -4377,14 +4528,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7867368574",
+            "ocid": "ocds-bxokds-7867368574",
             "id": "7867368574",
             "awards": [
                 {
                     "id": "7867368574",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -4455,7 +4611,7 @@
                 },
                 {
                     "name": "FHECOR INGENIEROS CONSULTORES S.A.",
-                    "id": "T-EE-CF-SA78379518",
+                    "id": "T-IT-CF-NAN",
                     "roles": [
                         "tenderer"
                     ]
@@ -4585,6 +4741,12 @@
                     "roles": [
                         "tenderer"
                     ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
                 }
             ],
             "date": "2020-02-15T00:00:00Z",
@@ -4634,7 +4796,7 @@
                     },
                     {
                         "name": "FHECOR INGENIEROS CONSULTORES S.A.",
-                        "id": "T-EE-CF-SA78379518"
+                        "id": "T-IT-CF-NAN"
                     },
                     {
                         "name": "STUDIO ASSOCIATO ICARO PROGETTI",
@@ -4712,14 +4874,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-788267090F",
+            "ocid": "ocds-bxokds-788267090F",
             "id": "788267090F",
             "awards": [
                 {
                     "id": "788267090F",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -4782,7 +4949,7 @@
                     ]
                 },
                 {
-                    "name": "nido d'argento societÃ  cooperativa sociale",
+                    "name": "nido d'argento società cooperativa sociale",
                     "id": "T-IT-CF-03882030822",
                     "roles": [
                         "tenderer"
@@ -4793,6 +4960,12 @@
                     "id": "T-IT-CF-80029740828",
                     "roles": [
                         "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
                     ]
                 }
             ],
@@ -4838,7 +5011,7 @@
                         "id": "T-IT-CF-06117600822"
                     },
                     {
-                        "name": "nido d'argento societÃ  cooperativa sociale",
+                        "name": "nido d'argento società cooperativa sociale",
                         "id": "T-IT-CF-03882030822"
                     },
                     {
@@ -4849,7 +5022,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7892686288",
+            "ocid": "ocds-bxokds-7892686288",
             "id": "7892686288",
             "awards": [
                 {
@@ -4955,14 +5128,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7908097018",
+            "ocid": "ocds-bxokds-7908097018",
             "id": "7908097018",
             "awards": [
                 {
                     "id": "7908097018",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -4981,6 +5159,20 @@
                     "awardID": "37"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -4996,11 +5188,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "01-PROCEDURA APERTA"
+                "procurementMethodDetails": "01-PROCEDURA APERTA",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7914043AE0",
+            "ocid": "ocds-bxokds-7914043AE0",
             "id": "7914043AE0",
             "awards": [
                 {
@@ -5098,7 +5295,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7914571E97",
+            "ocid": "ocds-bxokds-7914571E97",
             "id": "7914571E97",
             "awards": [
                 {
@@ -5218,7 +5415,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7917526525",
+            "ocid": "ocds-bxokds-7917526525",
             "id": "7917526525",
             "awards": [
                 {
@@ -5324,7 +5521,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7918021D9F",
+            "ocid": "ocds-bxokds-7918021D9F",
             "id": "7918021D9F",
             "awards": [
                 {
@@ -5400,14 +5597,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7926145DC2",
+            "ocid": "ocds-bxokds-7926145DC2",
             "id": "7926145DC2",
             "awards": [
                 {
                     "id": "7926145DC2",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -5447,6 +5649,12 @@
                     "roles": [
                         "tenderer"
                     ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
                 }
             ],
             "date": "2020-02-15T00:00:00Z",
@@ -5482,14 +5690,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7929301A2D",
+            "ocid": "ocds-bxokds-7929301A2D",
             "id": "7929301A2D",
             "awards": [
                 {
                     "id": "7929301A2D",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -5522,6 +5735,12 @@
                     "roles": [
                         "tenderer"
                     ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
                 }
             ],
             "date": "2020-02-15T00:00:00Z",
@@ -5553,7 +5772,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7935934BE6",
+            "ocid": "ocds-bxokds-7935934BE6",
             "id": "7935934BE6",
             "awards": [
                 {
@@ -5659,14 +5878,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-798131015F",
+            "ocid": "ocds-bxokds-798131015F",
             "id": "798131015F",
             "awards": [
                 {
                     "id": "798131015F",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -5741,6 +5965,12 @@
                     "roles": [
                         "tenderer"
                     ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
                 }
             ],
             "date": "2020-02-15T00:00:00Z",
@@ -5796,7 +6026,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7991565011",
+            "ocid": "ocds-bxokds-7991565011",
             "id": "7991565011",
             "awards": [
                 {
@@ -6034,7 +6264,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-7995939998",
+            "ocid": "ocds-bxokds-7995939998",
             "id": "7995939998",
             "awards": [
                 {
@@ -6118,14 +6348,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-8000246BD7",
+            "ocid": "ocds-bxokds-8000246BD7",
             "id": "8000246BD7",
             "awards": [
                 {
                     "id": "8000246BD7",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -6144,6 +6379,20 @@
                     "awardID": "48"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -6159,18 +6408,28 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-80210793C9",
+            "ocid": "ocds-bxokds-80210793C9",
             "id": "80210793C9",
             "awards": [
                 {
                     "id": "80210793C9",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -6189,6 +6448,20 @@
                     "awardID": "49"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -6204,11 +6477,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-8021090CDA",
+            "ocid": "ocds-bxokds-8021090CDA",
             "id": "8021090CDA",
             "awards": [
                 {
@@ -6281,7 +6559,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-8035044810",
+            "ocid": "ocds-bxokds-8035044810",
             "id": "8035044810",
             "awards": [
                 {
@@ -6365,7 +6643,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-8035289240",
+            "ocid": "ocds-bxokds-8035289240",
             "id": "8035289240",
             "awards": [
                 {
@@ -6449,7 +6727,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-8035620366",
+            "ocid": "ocds-bxokds-8035620366",
             "id": "8035620366",
             "awards": [
                 {
@@ -6544,14 +6822,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-803995900F",
+            "ocid": "ocds-bxokds-803995900F",
             "id": "803995900F",
             "awards": [
                 {
                     "id": "803995900F",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -6605,6 +6888,12 @@
                     "roles": [
                         "tenderer"
                     ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
                 }
             ],
             "date": "2020-02-15T00:00:00Z",
@@ -6648,7 +6937,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-80401605EC",
+            "ocid": "ocds-bxokds-80401605EC",
             "id": "80401605EC",
             "awards": [
                 {
@@ -6721,14 +7010,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-8040718267",
+            "ocid": "ocds-bxokds-8040718267",
             "id": "8040718267",
             "awards": [
                 {
                     "id": "8040718267",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -6747,6 +7041,20 @@
                     "awardID": "56"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -6762,11 +7070,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "01-PROCEDURA APERTA"
+                "procurementMethodDetails": "01-PROCEDURA APERTA",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-804268599D",
+            "ocid": "ocds-bxokds-804268599D",
             "id": "804268599D",
             "awards": [
                 {
@@ -6861,7 +7174,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-8060701CE2",
+            "ocid": "ocds-bxokds-8060701CE2",
             "id": "8060701CE2",
             "awards": [
                 {
@@ -6978,7 +7291,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-8061165BCA",
+            "ocid": "ocds-bxokds-8061165BCA",
             "id": "8061165BCA",
             "awards": [
                 {
@@ -7051,7 +7364,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-8061232317",
+            "ocid": "ocds-bxokds-8061232317",
             "id": "8061232317",
             "awards": [
                 {
@@ -7135,14 +7448,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-8061255611",
+            "ocid": "ocds-bxokds-8061255611",
             "id": "8061255611",
             "awards": [
                 {
                     "id": "8061255611",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -7161,6 +7479,20 @@
                     "awardID": "61"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -7176,18 +7508,28 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-80712573FB",
+            "ocid": "ocds-bxokds-80712573FB",
             "id": "80712573FB",
             "awards": [
                 {
                     "id": "80712573FB",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -7206,6 +7548,20 @@
                     "awardID": "62"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -7221,11 +7577,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-80797883FC",
+            "ocid": "ocds-bxokds-80797883FC",
             "id": "80797883FC",
             "awards": [
                 {
@@ -7298,7 +7659,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-8092676F7C",
+            "ocid": "ocds-bxokds-8092676F7C",
             "id": "8092676F7C",
             "awards": [
                 {
@@ -7393,14 +7754,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-8100939258",
+            "ocid": "ocds-bxokds-8100939258",
             "id": "8100939258",
             "awards": [
                 {
                     "id": "8100939258",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -7419,6 +7785,20 @@
                     "awardID": "65"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -7434,11 +7814,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-8131173839",
+            "ocid": "ocds-bxokds-8131173839",
             "id": "8131173839",
             "awards": [
                 {
@@ -7522,7 +7907,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-81326467C8",
+            "ocid": "ocds-bxokds-81326467C8",
             "id": "81326467C8",
             "awards": [
                 {
@@ -7595,7 +7980,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z00296BB55",
+            "ocid": "ocds-bxokds-Z00296BB55",
             "id": "Z00296BB55",
             "awards": [
                 {
@@ -7745,7 +8130,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z042A62EA4",
+            "ocid": "ocds-bxokds-Z042A62EA4",
             "id": "Z042A62EA4",
             "awards": [
                 {
@@ -7818,7 +8203,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z042A8A41A",
+            "ocid": "ocds-bxokds-Z042A8A41A",
             "id": "Z042A8A41A",
             "awards": [
                 {
@@ -7891,7 +8276,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z0829FE5CA",
+            "ocid": "ocds-bxokds-Z0829FE5CA",
             "id": "Z0829FE5CA",
             "awards": [
                 {
@@ -7964,7 +8349,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z0F265DCAC",
+            "ocid": "ocds-bxokds-Z0F265DCAC",
             "id": "Z0F265DCAC",
             "awards": [
                 {
@@ -8041,7 +8426,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z0F2A98F70",
+            "ocid": "ocds-bxokds-Z0F2A98F70",
             "id": "Z0F2A98F70",
             "awards": [
                 {
@@ -8114,7 +8499,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z1227DA827",
+            "ocid": "ocds-bxokds-Z1227DA827",
             "id": "Z1227DA827",
             "awards": [
                 {
@@ -8201,7 +8586,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z13273EA1C",
+            "ocid": "ocds-bxokds-Z13273EA1C",
             "id": "Z13273EA1C",
             "awards": [
                 {
@@ -8278,7 +8663,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z1529D5A57",
+            "ocid": "ocds-bxokds-Z1529D5A57",
             "id": "Z1529D5A57",
             "awards": [
                 {
@@ -8351,7 +8736,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z17296FB61",
+            "ocid": "ocds-bxokds-Z17296FB61",
             "id": "Z17296FB61",
             "awards": [
                 {
@@ -8537,7 +8922,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z182AC88BF",
+            "ocid": "ocds-bxokds-Z182AC88BF",
             "id": "Z182AC88BF",
             "awards": [
                 {
@@ -8610,7 +8995,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z182B25E00",
+            "ocid": "ocds-bxokds-Z182B25E00",
             "id": "Z182B25E00",
             "awards": [
                 {
@@ -8686,7 +9071,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z1929AB4EF",
+            "ocid": "ocds-bxokds-Z1929AB4EF",
             "id": "Z1929AB4EF",
             "awards": [
                 {
@@ -8763,7 +9148,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z1A265DCB2",
+            "ocid": "ocds-bxokds-Z1A265DCB2",
             "id": "Z1A265DCB2",
             "awards": [
                 {
@@ -8773,7 +9158,7 @@
                     },
                     "suppliers": [
                         {
-                            "name": "Teatro Europa SocietÃ  Cooperativa",
+                            "name": "Teatro Europa Società Cooperativa",
                             "id": "S-IT-CF-03579140827"
                         }
                     ]
@@ -8797,14 +9182,14 @@
             ],
             "parties": [
                 {
-                    "name": "Teatro Europa SocietÃ  Cooperativa",
+                    "name": "Teatro Europa Società Cooperativa",
                     "id": "T-IT-CF-03579140827",
                     "roles": [
                         "tenderer"
                     ]
                 },
                 {
-                    "name": "Teatro Europa SocietÃ  Cooperativa",
+                    "name": "Teatro Europa Società Cooperativa",
                     "id": "S-IT-CF-03579140827",
                     "roles": [
                         "supplier"
@@ -8833,14 +9218,14 @@
                 },
                 "tenderers": [
                     {
-                        "name": "Teatro Europa SocietÃ  Cooperativa",
+                        "name": "Teatro Europa Società Cooperativa",
                         "id": "T-IT-CF-03579140827"
                     }
                 ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z1A277C55E",
+            "ocid": "ocds-bxokds-Z1A277C55E",
             "id": "Z1A277C55E",
             "awards": [
                 {
@@ -8916,14 +9301,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z1C296AC54",
+            "ocid": "ocds-bxokds-Z1C296AC54",
             "id": "Z1C296AC54",
             "awards": [
                 {
                     "id": "Z1C296AC54",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -8942,6 +9332,20 @@
                     "awardID": "83"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -8957,18 +9361,28 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z1C2994FDF",
+            "ocid": "ocds-bxokds-Z1C2994FDF",
             "id": "Z1C2994FDF",
             "awards": [
                 {
                     "id": "Z1C2994FDF",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -8987,6 +9401,20 @@
                     "awardID": "84"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -9002,11 +9430,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z1E2A5A876",
+            "ocid": "ocds-bxokds-Z1E2A5A876",
             "id": "Z1E2A5A876",
             "awards": [
                 {
@@ -9079,7 +9512,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z1F281D181",
+            "ocid": "ocds-bxokds-Z1F281D181",
             "id": "Z1F281D181",
             "awards": [
                 {
@@ -9152,7 +9585,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z1F2A01917",
+            "ocid": "ocds-bxokds-Z1F2A01917",
             "id": "Z1F2A01917",
             "awards": [
                 {
@@ -9225,14 +9658,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z222A3E686",
+            "ocid": "ocds-bxokds-Z222A3E686",
             "id": "Z222A3E686",
             "awards": [
                 {
                     "id": "Z222A3E686",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -9251,6 +9689,20 @@
                     "awardID": "88"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -9266,11 +9718,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z23295C3E2",
+            "ocid": "ocds-bxokds-Z23295C3E2",
             "id": "Z23295C3E2",
             "awards": [
                 {
@@ -9343,7 +9800,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z27276F612",
+            "ocid": "ocds-bxokds-Z27276F612",
             "id": "Z27276F612",
             "awards": [
                 {
@@ -9416,7 +9873,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z28276E5AC",
+            "ocid": "ocds-bxokds-Z28276E5AC",
             "id": "Z28276E5AC",
             "awards": [
                 {
@@ -9426,7 +9883,7 @@
                     },
                     "suppliers": [
                         {
-                            "name": "SocietÃ  Logos s.r.l. Comunicazione & Immagine Palermo",
+                            "name": "Società Logos s.r.l. Comunicazione & Immagine Palermo",
                             "id": "S-IT-CF-80013610821"
                         }
                     ]
@@ -9450,14 +9907,14 @@
             ],
             "parties": [
                 {
-                    "name": "SocietÃ  Logos s.r.l. Comunicazione & Immagine Palermo",
+                    "name": "Società Logos s.r.l. Comunicazione & Immagine Palermo",
                     "id": "T-IT-CF-80013610821",
                     "roles": [
                         "tenderer"
                     ]
                 },
                 {
-                    "name": "SocietÃ  Logos s.r.l. Comunicazione & Immagine Palermo",
+                    "name": "Società Logos s.r.l. Comunicazione & Immagine Palermo",
                     "id": "S-IT-CF-80013610821",
                     "roles": [
                         "supplier"
@@ -9486,14 +9943,14 @@
                 },
                 "tenderers": [
                     {
-                        "name": "SocietÃ  Logos s.r.l. Comunicazione & Immagine Palermo",
+                        "name": "Società Logos s.r.l. Comunicazione & Immagine Palermo",
                         "id": "T-IT-CF-80013610821"
                     }
                 ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z2927621D9",
+            "ocid": "ocds-bxokds-Z2927621D9",
             "id": "Z2927621D9",
             "awards": [
                 {
@@ -9503,7 +9960,7 @@
                     },
                     "suppliers": [
                         {
-                            "name": "SocietÃ  Giornale di Sicilia editoriale Poligrafica s.p.a",
+                            "name": "Società Giornale di Sicilia editoriale Poligrafica s.p.a",
                             "id": "S-IT-CF-02709770826"
                         }
                     ]
@@ -9527,14 +9984,14 @@
             ],
             "parties": [
                 {
-                    "name": "SocietÃ  Giornale di Sicilia editoriale Poligrafica s.p.a",
+                    "name": "Società Giornale di Sicilia editoriale Poligrafica s.p.a",
                     "id": "T-IT-CF-02709770826",
                     "roles": [
                         "tenderer"
                     ]
                 },
                 {
-                    "name": "SocietÃ  Giornale di Sicilia editoriale Poligrafica s.p.a",
+                    "name": "Società Giornale di Sicilia editoriale Poligrafica s.p.a",
                     "id": "S-IT-CF-02709770826",
                     "roles": [
                         "supplier"
@@ -9563,14 +10020,14 @@
                 },
                 "tenderers": [
                     {
-                        "name": "SocietÃ  Giornale di Sicilia editoriale Poligrafica s.p.a",
+                        "name": "Società Giornale di Sicilia editoriale Poligrafica s.p.a",
                         "id": "T-IT-CF-02709770826"
                     }
                 ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z29282239E",
+            "ocid": "ocds-bxokds-Z29282239E",
             "id": "Z29282239E",
             "awards": [
                 {
@@ -9643,14 +10100,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z2B277C607",
+            "ocid": "ocds-bxokds-Z2B277C607",
             "id": "Z2B277C607",
             "awards": [
                 {
                     "id": "Z2B277C607",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -9669,6 +10131,20 @@
                     "awardID": "94"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -9684,11 +10160,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z2C265DCA5",
+            "ocid": "ocds-bxokds-Z2C265DCA5",
             "id": "Z2C265DCA5",
             "awards": [
                 {
@@ -9765,7 +10246,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z3229E8074",
+            "ocid": "ocds-bxokds-Z3229E8074",
             "id": "Z3229E8074",
             "awards": [
                 {
@@ -9871,7 +10352,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z3E265DC98",
+            "ocid": "ocds-bxokds-Z3E265DC98",
             "id": "Z3E265DC98",
             "awards": [
                 {
@@ -9881,7 +10362,7 @@
                     },
                     "suppliers": [
                         {
-                            "name": "CultPalermo SocietÃ  Cooperativa arl",
+                            "name": "CultPalermo Società Cooperativa arl",
                             "id": "S-IT-CF-06425660823"
                         }
                     ]
@@ -9905,14 +10386,14 @@
             ],
             "parties": [
                 {
-                    "name": "CultPalermo SocietÃ  Cooperativa arl",
+                    "name": "CultPalermo Società Cooperativa arl",
                     "id": "T-IT-CF-06425660823",
                     "roles": [
                         "tenderer"
                     ]
                 },
                 {
-                    "name": "CultPalermo SocietÃ  Cooperativa arl",
+                    "name": "CultPalermo Società Cooperativa arl",
                     "id": "S-IT-CF-06425660823",
                     "roles": [
                         "supplier"
@@ -9941,14 +10422,14 @@
                 },
                 "tenderers": [
                     {
-                        "name": "CultPalermo SocietÃ  Cooperativa arl",
+                        "name": "CultPalermo Società Cooperativa arl",
                         "id": "T-IT-CF-06425660823"
                     }
                 ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z3F2A28587",
+            "ocid": "ocds-bxokds-Z3F2A28587",
             "id": "Z3F2A28587",
             "awards": [
                 {
@@ -10043,7 +10524,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z412730455",
+            "ocid": "ocds-bxokds-Z412730455",
             "id": "Z412730455",
             "awards": [
                 {
@@ -10116,14 +10597,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z42262E1E3",
+            "ocid": "ocds-bxokds-Z42262E1E3",
             "id": "Z42262E1E3",
             "awards": [
                 {
                     "id": "Z42262E1E3",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -10142,6 +10628,20 @@
                     "awardID": "100"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -10157,11 +10657,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z452A11E55",
+            "ocid": "ocds-bxokds-Z452A11E55",
             "id": "Z452A11E55",
             "awards": [
                 {
@@ -10171,7 +10676,7 @@
                     },
                     "suppliers": [
                         {
-                            "name": "Associazione di Promozione Sociale BallarÃ² Buskers",
+                            "name": "Associazione di Promozione Sociale Ballarò Buskers",
                             "id": "S-IT-CF-97329690826"
                         }
                     ]
@@ -10195,14 +10700,14 @@
             ],
             "parties": [
                 {
-                    "name": "Associazione di Promozione Sociale BallarÃ² Buskers",
+                    "name": "Associazione di Promozione Sociale Ballarò Buskers",
                     "id": "T-IT-CF-97329690826",
                     "roles": [
                         "tenderer"
                     ]
                 },
                 {
-                    "name": "Associazione di Promozione Sociale BallarÃ² Buskers",
+                    "name": "Associazione di Promozione Sociale Ballarò Buskers",
                     "id": "S-IT-CF-97329690826",
                     "roles": [
                         "supplier"
@@ -10231,14 +10736,14 @@
                 },
                 "tenderers": [
                     {
-                        "name": "Associazione di Promozione Sociale BallarÃ² Buskers",
+                        "name": "Associazione di Promozione Sociale Ballarò Buskers",
                         "id": "T-IT-CF-97329690826"
                     }
                 ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z4A27AE59F",
+            "ocid": "ocds-bxokds-Z4A27AE59F",
             "id": "Z4A27AE59F",
             "awards": [
                 {
@@ -10311,7 +10816,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z4B274D2DE",
+            "ocid": "ocds-bxokds-Z4B274D2DE",
             "id": "Z4B274D2DE",
             "awards": [
                 {
@@ -10321,7 +10826,7 @@
                     },
                     "suppliers": [
                         {
-                            "name": "SocietÃ  Italiana degli Autori ed Editori (S.I.A.E.)",
+                            "name": "Società Italiana degli Autori ed Editori (S.I.A.E.)",
                             "id": "S-IT-CF-01336610587"
                         }
                     ]
@@ -10345,14 +10850,14 @@
             ],
             "parties": [
                 {
-                    "name": "SocietÃ  Italiana degli Autori ed Editori (S.I.A.E.)",
+                    "name": "Società Italiana degli Autori ed Editori (S.I.A.E.)",
                     "id": "T-IT-CF-01336610587",
                     "roles": [
                         "tenderer"
                     ]
                 },
                 {
-                    "name": "SocietÃ  Italiana degli Autori ed Editori (S.I.A.E.)",
+                    "name": "Società Italiana degli Autori ed Editori (S.I.A.E.)",
                     "id": "S-IT-CF-01336610587",
                     "roles": [
                         "supplier"
@@ -10381,14 +10886,14 @@
                 },
                 "tenderers": [
                     {
-                        "name": "SocietÃ  Italiana degli Autori ed Editori (S.I.A.E.)",
+                        "name": "Società Italiana degli Autori ed Editori (S.I.A.E.)",
                         "id": "T-IT-CF-01336610587"
                     }
                 ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z4B27BD425",
+            "ocid": "ocds-bxokds-Z4B27BD425",
             "id": "Z4B27BD425",
             "awards": [
                 {
@@ -10461,7 +10966,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z4B29AF951",
+            "ocid": "ocds-bxokds-Z4B29AF951",
             "id": "Z4B29AF951",
             "awards": [
                 {
@@ -10534,7 +11039,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z4B29D8168",
+            "ocid": "ocds-bxokds-Z4B29D8168",
             "id": "Z4B29D8168",
             "awards": [
                 {
@@ -10607,14 +11112,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z4D2235112",
+            "ocid": "ocds-bxokds-Z4D2235112",
             "id": "Z4D2235112",
             "awards": [
                 {
                     "id": "Z4D2235112",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -10633,6 +11143,20 @@
                     "awardID": "107"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -10648,11 +11172,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z4E278FA81",
+            "ocid": "ocds-bxokds-Z4E278FA81",
             "id": "Z4E278FA81",
             "awards": [
                 {
@@ -10747,7 +11276,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z4E28223C9",
+            "ocid": "ocds-bxokds-Z4E28223C9",
             "id": "Z4E28223C9",
             "awards": [
                 {
@@ -10820,7 +11349,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z4E29D5A04",
+            "ocid": "ocds-bxokds-Z4E29D5A04",
             "id": "Z4E29D5A04",
             "awards": [
                 {
@@ -10893,7 +11422,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z50276F656",
+            "ocid": "ocds-bxokds-Z50276F656",
             "id": "Z50276F656",
             "awards": [
                 {
@@ -10966,7 +11495,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z572A9E09D",
+            "ocid": "ocds-bxokds-Z572A9E09D",
             "id": "Z572A9E09D",
             "awards": [
                 {
@@ -11039,7 +11568,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z58265DCBD",
+            "ocid": "ocds-bxokds-Z58265DCBD",
             "id": "Z58265DCBD",
             "awards": [
                 {
@@ -11116,7 +11645,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z58275FE79",
+            "ocid": "ocds-bxokds-Z58275FE79",
             "id": "Z58275FE79",
             "awards": [
                 {
@@ -11200,7 +11729,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z5A247C6B7",
+            "ocid": "ocds-bxokds-Z5A247C6B7",
             "id": "Z5A247C6B7",
             "awards": [
                 {
@@ -11397,7 +11926,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z5B281A8CF",
+            "ocid": "ocds-bxokds-Z5B281A8CF",
             "id": "Z5B281A8CF",
             "awards": [
                 {
@@ -11660,7 +12189,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z5B29A5CD5",
+            "ocid": "ocds-bxokds-Z5B29A5CD5",
             "id": "Z5B29A5CD5",
             "awards": [
                 {
@@ -11799,7 +12328,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z5C2812A99",
+            "ocid": "ocds-bxokds-Z5C2812A99",
             "id": "Z5C2812A99",
             "awards": [
                 {
@@ -11927,7 +12456,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z5E2A62D68",
+            "ocid": "ocds-bxokds-Z5E2A62D68",
             "id": "Z5E2A62D68",
             "awards": [
                 {
@@ -11937,7 +12466,7 @@
                     },
                     "suppliers": [
                         {
-                            "name": "Associazione Culturale CittÃ  dell'Arte",
+                            "name": "Associazione Culturale Città dell'Arte",
                             "id": "S-IT-CF-04719610828"
                         }
                     ]
@@ -11961,14 +12490,14 @@
             ],
             "parties": [
                 {
-                    "name": "Associazione Culturale CittÃ  dell'Arte",
+                    "name": "Associazione Culturale Città dell'Arte",
                     "id": "T-IT-CF-04719610828",
                     "roles": [
                         "tenderer"
                     ]
                 },
                 {
-                    "name": "Associazione Culturale CittÃ  dell'Arte",
+                    "name": "Associazione Culturale Città dell'Arte",
                     "id": "S-IT-CF-04719610828",
                     "roles": [
                         "supplier"
@@ -11993,14 +12522,14 @@
                 "procurementMethodDetails": "23-AFFIDAMENTO DIRETTO",
                 "tenderers": [
                     {
-                        "name": "Associazione Culturale CittÃ  dell'Arte",
+                        "name": "Associazione Culturale Città dell'Arte",
                         "id": "T-IT-CF-04719610828"
                     }
                 ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z662801EAF",
+            "ocid": "ocds-bxokds-Z662801EAF",
             "id": "Z662801EAF",
             "awards": [
                 {
@@ -12183,7 +12712,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z6728738BE",
+            "ocid": "ocds-bxokds-Z6728738BE",
             "id": "Z6728738BE",
             "awards": [
                 {
@@ -12267,7 +12796,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z6828DC2AC",
+            "ocid": "ocds-bxokds-Z6828DC2AC",
             "id": "Z6828DC2AC",
             "awards": [
                 {
@@ -12354,7 +12883,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z6C2715D93",
+            "ocid": "ocds-bxokds-Z6C2715D93",
             "id": "Z6C2715D93",
             "awards": [
                 {
@@ -12427,14 +12956,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z6C296A866",
+            "ocid": "ocds-bxokds-Z6C296A866",
             "id": "Z6C296A866",
             "awards": [
                 {
                     "id": "Z6C296A866",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -12453,6 +12987,20 @@
                     "awardID": "124"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -12468,11 +13016,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z6D28C215C",
+            "ocid": "ocds-bxokds-Z6D28C215C",
             "id": "Z6D28C215C",
             "awards": [
                 {
@@ -12581,7 +13134,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z6D29570E1",
+            "ocid": "ocds-bxokds-Z6D29570E1",
             "id": "Z6D29570E1",
             "awards": [
                 {
@@ -12687,7 +13240,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z6E28C4101",
+            "ocid": "ocds-bxokds-Z6E28C4101",
             "id": "Z6E28C4101",
             "awards": [
                 {
@@ -12771,7 +13324,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z6F29D591B",
+            "ocid": "ocds-bxokds-Z6F29D591B",
             "id": "Z6F29D591B",
             "awards": [
                 {
@@ -12844,7 +13397,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z71265DC9D",
+            "ocid": "ocds-bxokds-Z71265DC9D",
             "id": "Z71265DC9D",
             "awards": [
                 {
@@ -12921,7 +13474,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z7129D59A5",
+            "ocid": "ocds-bxokds-Z7129D59A5",
             "id": "Z7129D59A5",
             "awards": [
                 {
@@ -12994,7 +13547,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z73277116B",
+            "ocid": "ocds-bxokds-Z73277116B",
             "id": "Z73277116B",
             "awards": [
                 {
@@ -13089,7 +13642,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z742B1FA47",
+            "ocid": "ocds-bxokds-Z742B1FA47",
             "id": "Z742B1FA47",
             "awards": [
                 {
@@ -13162,7 +13715,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z75265DCB6",
+            "ocid": "ocds-bxokds-Z75265DCB6",
             "id": "Z75265DCB6",
             "awards": [
                 {
@@ -13172,7 +13725,7 @@
                     },
                     "suppliers": [
                         {
-                            "name": "Teatro Franco ZappalÃ  srls",
+                            "name": "Teatro Franco Zappalà srls",
                             "id": "S-IT-CF-06539420825"
                         }
                     ]
@@ -13196,14 +13749,14 @@
             ],
             "parties": [
                 {
-                    "name": "Teatro Franco ZappalÃ  srls",
+                    "name": "Teatro Franco Zappalà srls",
                     "id": "T-IT-CF-06539420825",
                     "roles": [
                         "tenderer"
                     ]
                 },
                 {
-                    "name": "Teatro Franco ZappalÃ  srls",
+                    "name": "Teatro Franco Zappalà srls",
                     "id": "S-IT-CF-06539420825",
                     "roles": [
                         "supplier"
@@ -13232,21 +13785,26 @@
                 },
                 "tenderers": [
                     {
-                        "name": "Teatro Franco ZappalÃ  srls",
+                        "name": "Teatro Franco Zappalà srls",
                         "id": "T-IT-CF-06539420825"
                     }
                 ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z752AB7F98",
+            "ocid": "ocds-bxokds-Z752AB7F98",
             "id": "Z752AB7F98",
             "awards": [
                 {
                     "id": "Z752AB7F98",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -13265,6 +13823,20 @@
                     "awardID": "134"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -13280,11 +13852,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z7627CB770",
+            "ocid": "ocds-bxokds-Z7627CB770",
             "id": "Z7627CB770",
             "awards": [
                 {
@@ -13357,14 +13934,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z7727D40F9",
+            "ocid": "ocds-bxokds-Z7727D40F9",
             "id": "Z7727D40F9",
             "awards": [
                 {
                     "id": "Z7727D40F9",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -13383,6 +13965,20 @@
                     "awardID": "136"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -13398,11 +13994,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z782682DB9",
+            "ocid": "ocds-bxokds-Z782682DB9",
             "id": "Z782682DB9",
             "awards": [
                 {
@@ -13479,7 +14080,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z782822357",
+            "ocid": "ocds-bxokds-Z782822357",
             "id": "Z782822357",
             "awards": [
                 {
@@ -13552,7 +14153,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z79276F59F",
+            "ocid": "ocds-bxokds-Z79276F59F",
             "id": "Z79276F59F",
             "awards": [
                 {
@@ -13625,14 +14226,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z792959F41",
+            "ocid": "ocds-bxokds-Z792959F41",
             "id": "Z792959F41",
             "awards": [
                 {
                     "id": "Z792959F41",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -13651,6 +14257,20 @@
                     "awardID": "140"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -13666,11 +14286,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z7A2783F54",
+            "ocid": "ocds-bxokds-Z7A2783F54",
             "id": "Z7A2783F54",
             "awards": [
                 {
@@ -13743,14 +14368,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z7E24BD007",
+            "ocid": "ocds-bxokds-Z7E24BD007",
             "id": "Z7E24BD007",
             "awards": [
                 {
                     "id": "Z7E24BD007",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -13769,6 +14399,20 @@
                     "awardID": "142"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -13784,11 +14428,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z812AB25AF",
+            "ocid": "ocds-bxokds-Z812AB25AF",
             "id": "Z812AB25AF",
             "awards": [
                 {
@@ -13861,14 +14510,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z852A6C325",
+            "ocid": "ocds-bxokds-Z852A6C325",
             "id": "Z852A6C325",
             "awards": [
                 {
                     "id": "Z852A6C325",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -13887,6 +14541,20 @@
                     "awardID": "144"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -13902,11 +14570,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z862822331",
+            "ocid": "ocds-bxokds-Z862822331",
             "id": "Z862822331",
             "awards": [
                 {
@@ -13916,7 +14589,7 @@
                     },
                     "suppliers": [
                         {
-                            "name": "Intelmedia PubblicitÃ  s.r.l.",
+                            "name": "Intelmedia Pubblicità s.r.l.",
                             "id": "S-IT-CF-04757180726"
                         }
                     ]
@@ -13940,14 +14613,14 @@
             ],
             "parties": [
                 {
-                    "name": "Intelmedia PubblicitÃ  s.r.l.",
+                    "name": "Intelmedia Pubblicità s.r.l.",
                     "id": "T-IT-CF-04757180726",
                     "roles": [
                         "tenderer"
                     ]
                 },
                 {
-                    "name": "Intelmedia PubblicitÃ  s.r.l.",
+                    "name": "Intelmedia Pubblicità s.r.l.",
                     "id": "S-IT-CF-04757180726",
                     "roles": [
                         "supplier"
@@ -13972,14 +14645,14 @@
                 "procurementMethodDetails": "23-AFFIDAMENTO DIRETTO",
                 "tenderers": [
                     {
-                        "name": "Intelmedia PubblicitÃ  s.r.l.",
+                        "name": "Intelmedia Pubblicità s.r.l.",
                         "id": "T-IT-CF-04757180726"
                     }
                 ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z8726512AF",
+            "ocid": "ocds-bxokds-Z8726512AF",
             "id": "Z8726512AF",
             "awards": [
                 {
@@ -14056,7 +14729,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z902A07165",
+            "ocid": "ocds-bxokds-Z902A07165",
             "id": "Z902A07165",
             "awards": [
                 {
@@ -14272,7 +14945,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-Z9B2AA9B95",
+            "ocid": "ocds-bxokds-Z9B2AA9B95",
             "id": "Z9B2AA9B95",
             "awards": [
                 {
@@ -14345,7 +15018,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZA1265DCCE",
+            "ocid": "ocds-bxokds-ZA1265DCCE",
             "id": "ZA1265DCCE",
             "awards": [
                 {
@@ -14422,7 +15095,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZA32715DB1",
+            "ocid": "ocds-bxokds-ZA32715DB1",
             "id": "ZA32715DB1",
             "awards": [
                 {
@@ -14495,7 +15168,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZA4265DCA2",
+            "ocid": "ocds-bxokds-ZA4265DCA2",
             "id": "ZA4265DCA2",
             "awards": [
                 {
@@ -14572,7 +15245,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZA52A04703",
+            "ocid": "ocds-bxokds-ZA52A04703",
             "id": "ZA52A04703",
             "awards": [
                 {
@@ -14656,7 +15329,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZA727BC4BE",
+            "ocid": "ocds-bxokds-ZA727BC4BE",
             "id": "ZA727BC4BE",
             "awards": [
                 {
@@ -14817,14 +15490,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZA72B406D9",
+            "ocid": "ocds-bxokds-ZA72B406D9",
             "id": "ZA72B406D9",
             "awards": [
                 {
                     "id": "ZA72B406D9",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -14843,6 +15521,20 @@
                     "awardID": "154"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -14858,11 +15550,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZA92715D59",
+            "ocid": "ocds-bxokds-ZA92715D59",
             "id": "ZA92715D59",
             "awards": [
                 {
@@ -14935,7 +15632,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZAA26589EE",
+            "ocid": "ocds-bxokds-ZAA26589EE",
             "id": "ZAA26589EE",
             "awards": [
                 {
@@ -15012,7 +15709,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZAA2A62F43",
+            "ocid": "ocds-bxokds-ZAA2A62F43",
             "id": "ZAA2A62F43",
             "awards": [
                 {
@@ -15089,7 +15786,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZAC2AAFA5E",
+            "ocid": "ocds-bxokds-ZAC2AAFA5E",
             "id": "ZAC2AAFA5E",
             "awards": [
                 {
@@ -15173,7 +15870,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZAD268080B",
+            "ocid": "ocds-bxokds-ZAD268080B",
             "id": "ZAD268080B",
             "awards": [
                 {
@@ -15272,7 +15969,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZAE2A2CCA0",
+            "ocid": "ocds-bxokds-ZAE2A2CCA0",
             "id": "ZAE2A2CCA0",
             "awards": [
                 {
@@ -15345,14 +16042,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZAF28C3FE5",
+            "ocid": "ocds-bxokds-ZAF28C3FE5",
             "id": "ZAF28C3FE5",
             "awards": [
                 {
                     "id": "ZAF28C3FE5",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -15371,6 +16073,20 @@
                     "awardID": "161"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -15386,11 +16102,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZB429E8228",
+            "ocid": "ocds-bxokds-ZB429E8228",
             "id": "ZB429E8228",
             "awards": [
                 {
@@ -15474,7 +16195,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZB6265DC95",
+            "ocid": "ocds-bxokds-ZB6265DC95",
             "id": "ZB6265DC95",
             "awards": [
                 {
@@ -15484,7 +16205,7 @@
                     },
                     "suppliers": [
                         {
-                            "name": "Agricantus SocietÃ  Cooperativa Culturale Sociale",
+                            "name": "Agricantus Società Cooperativa Culturale Sociale",
                             "id": "S-IT-CF-03200110827"
                         }
                     ]
@@ -15508,14 +16229,14 @@
             ],
             "parties": [
                 {
-                    "name": "Agricantus SocietÃ  Cooperativa Culturale Sociale",
+                    "name": "Agricantus Società Cooperativa Culturale Sociale",
                     "id": "T-IT-CF-03200110827",
                     "roles": [
                         "tenderer"
                     ]
                 },
                 {
-                    "name": "Agricantus SocietÃ  Cooperativa Culturale Sociale",
+                    "name": "Agricantus Società Cooperativa Culturale Sociale",
                     "id": "S-IT-CF-03200110827",
                     "roles": [
                         "supplier"
@@ -15544,14 +16265,14 @@
                 },
                 "tenderers": [
                     {
-                        "name": "Agricantus SocietÃ  Cooperativa Culturale Sociale",
+                        "name": "Agricantus Società Cooperativa Culturale Sociale",
                         "id": "T-IT-CF-03200110827"
                     }
                 ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZBB27DE65F",
+            "ocid": "ocds-bxokds-ZBB27DE65F",
             "id": "ZBB27DE65F",
             "awards": [
                 {
@@ -15668,7 +16389,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZC027CBBB2",
+            "ocid": "ocds-bxokds-ZC027CBBB2",
             "id": "ZC027CBBB2",
             "awards": [
                 {
@@ -15745,7 +16466,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZC028C408E",
+            "ocid": "ocds-bxokds-ZC028C408E",
             "id": "ZC028C408E",
             "awards": [
                 {
@@ -15840,7 +16561,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZC729E8260",
+            "ocid": "ocds-bxokds-ZC729E8260",
             "id": "ZC729E8260",
             "awards": [
                 {
@@ -15913,7 +16634,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZCA2479F4A",
+            "ocid": "ocds-bxokds-ZCA2479F4A",
             "id": "ZCA2479F4A",
             "awards": [
                 {
@@ -15986,7 +16707,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZCB2A15223",
+            "ocid": "ocds-bxokds-ZCB2A15223",
             "id": "ZCB2A15223",
             "awards": [
                 {
@@ -16070,7 +16791,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZCE22A074E",
+            "ocid": "ocds-bxokds-ZCE22A074E",
             "id": "ZCE22A074E",
             "awards": [
                 {
@@ -16179,7 +16900,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZCF2798243",
+            "ocid": "ocds-bxokds-ZCF2798243",
             "id": "ZCF2798243",
             "awards": [
                 {
@@ -16266,7 +16987,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZCF29D78DD",
+            "ocid": "ocds-bxokds-ZCF29D78DD",
             "id": "ZCF29D78DD",
             "awards": [
                 {
@@ -16339,7 +17060,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZD02B20B3B",
+            "ocid": "ocds-bxokds-ZD02B20B3B",
             "id": "ZD02B20B3B",
             "awards": [
                 {
@@ -16412,7 +17133,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZD32971685",
+            "ocid": "ocds-bxokds-ZD32971685",
             "id": "ZD32971685",
             "awards": [
                 {
@@ -16485,7 +17206,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZD32A9BF5D",
+            "ocid": "ocds-bxokds-ZD32A9BF5D",
             "id": "ZD32A9BF5D",
             "awards": [
                 {
@@ -16558,7 +17279,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZD42A5E352",
+            "ocid": "ocds-bxokds-ZD42A5E352",
             "id": "ZD42A5E352",
             "awards": [
                 {
@@ -16631,14 +17352,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZD528C3F5A",
+            "ocid": "ocds-bxokds-ZD528C3F5A",
             "id": "ZD528C3F5A",
             "awards": [
                 {
                     "id": "ZD528C3F5A",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -16657,6 +17383,20 @@
                     "awardID": "177"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -16672,11 +17412,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZD627C6A5D",
+            "ocid": "ocds-bxokds-ZD627C6A5D",
             "id": "ZD627C6A5D",
             "awards": [
                 {
@@ -16753,7 +17498,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZD62A99FD1",
+            "ocid": "ocds-bxokds-ZD62A99FD1",
             "id": "ZD62A99FD1",
             "awards": [
                 {
@@ -16826,7 +17571,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZD62A9E087",
+            "ocid": "ocds-bxokds-ZD62A9E087",
             "id": "ZD62A9E087",
             "awards": [
                 {
@@ -16899,7 +17644,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZD7265DCA7",
+            "ocid": "ocds-bxokds-ZD7265DCA7",
             "id": "ZD7265DCA7",
             "awards": [
                 {
@@ -16976,14 +17721,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZD728D169D",
+            "ocid": "ocds-bxokds-ZD728D169D",
             "id": "ZD728D169D",
             "awards": [
                 {
                     "id": "ZD728D169D",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -17002,6 +17752,20 @@
                     "awardID": "182"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -17017,11 +17781,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "23-AFFIDAMENTO DIRETTO"
+                "procurementMethodDetails": "23-AFFIDAMENTO DIRETTO",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZD9275D6BA",
+            "ocid": "ocds-bxokds-ZD9275D6BA",
             "id": "ZD9275D6BA",
             "awards": [
                 {
@@ -17182,7 +17951,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZD92945538",
+            "ocid": "ocds-bxokds-ZD92945538",
             "id": "ZD92945538",
             "awards": [
                 {
@@ -17266,7 +18035,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZDA25B37C2",
+            "ocid": "ocds-bxokds-ZDA25B37C2",
             "id": "ZDA25B37C2",
             "awards": [
                 {
@@ -17343,7 +18112,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZDB27CBB21",
+            "ocid": "ocds-bxokds-ZDB27CBB21",
             "id": "ZDB27CBB21",
             "awards": [
                 {
@@ -17420,7 +18189,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZDF27D92EE",
+            "ocid": "ocds-bxokds-ZDF27D92EE",
             "id": "ZDF27D92EE",
             "awards": [
                 {
@@ -17548,7 +18317,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZDF291CEBF",
+            "ocid": "ocds-bxokds-ZDF291CEBF",
             "id": "ZDF291CEBF",
             "awards": [
                 {
@@ -17643,7 +18412,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZE129C072D",
+            "ocid": "ocds-bxokds-ZE129C072D",
             "id": "ZE129C072D",
             "awards": [
                 {
@@ -17716,7 +18485,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZE12A713D4",
+            "ocid": "ocds-bxokds-ZE12A713D4",
             "id": "ZE12A713D4",
             "awards": [
                 {
@@ -17789,7 +18558,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZE226C9661",
+            "ocid": "ocds-bxokds-ZE226C9661",
             "id": "ZE226C9661",
             "awards": [
                 {
@@ -17799,7 +18568,7 @@
                     },
                     "suppliers": [
                         {
-                            "name": "Intelmedia PubblicitÃ  s.r.l.",
+                            "name": "Intelmedia Pubblicità s.r.l.",
                             "id": "S-IT-CF-04757180726"
                         }
                     ]
@@ -17823,14 +18592,14 @@
             ],
             "parties": [
                 {
-                    "name": "Intelmedia PubblicitÃ  s.r.l.",
+                    "name": "Intelmedia Pubblicità s.r.l.",
                     "id": "T-IT-CF-04757180726",
                     "roles": [
                         "tenderer"
                     ]
                 },
                 {
-                    "name": "Intelmedia PubblicitÃ  s.r.l.",
+                    "name": "Intelmedia Pubblicità s.r.l.",
                     "id": "S-IT-CF-04757180726",
                     "roles": [
                         "supplier"
@@ -17855,14 +18624,14 @@
                 "procurementMethodDetails": "23-AFFIDAMENTO DIRETTO",
                 "tenderers": [
                     {
-                        "name": "Intelmedia PubblicitÃ  s.r.l.",
+                        "name": "Intelmedia Pubblicità s.r.l.",
                         "id": "T-IT-CF-04757180726"
                     }
                 ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZE22A2A6AD",
+            "ocid": "ocds-bxokds-ZE22A2A6AD",
             "id": "ZE22A2A6AD",
             "awards": [
                 {
@@ -17939,7 +18708,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZE327DB558",
+            "ocid": "ocds-bxokds-ZE327DB558",
             "id": "ZE327DB558",
             "awards": [
                 {
@@ -18012,7 +18781,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZE528DEC35",
+            "ocid": "ocds-bxokds-ZE528DEC35",
             "id": "ZE528DEC35",
             "awards": [
                 {
@@ -18085,7 +18854,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZE72A9DE3F",
+            "ocid": "ocds-bxokds-ZE72A9DE3F",
             "id": "ZE72A9DE3F",
             "awards": [
                 {
@@ -18169,7 +18938,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZEB28091F3",
+            "ocid": "ocds-bxokds-ZEB28091F3",
             "id": "ZEB28091F3",
             "awards": [
                 {
@@ -18246,7 +19015,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZED2A1D8CD",
+            "ocid": "ocds-bxokds-ZED2A1D8CD",
             "id": "ZED2A1D8CD",
             "awards": [
                 {
@@ -18256,7 +19025,7 @@
                     },
                     "suppliers": [
                         {
-                            "name": "CO.RE.IS - ComunitÃ  Religiosa Islamica Italiana",
+                            "name": "CO.RE.IS - Comunità Religiosa Islamica Italiana",
                             "id": "S-IT-CF-97139100156"
                         }
                     ]
@@ -18280,14 +19049,14 @@
             ],
             "parties": [
                 {
-                    "name": "CO.RE.IS - ComunitÃ  Religiosa Islamica Italiana",
+                    "name": "CO.RE.IS - Comunità Religiosa Islamica Italiana",
                     "id": "T-IT-CF-97139100156",
                     "roles": [
                         "tenderer"
                     ]
                 },
                 {
-                    "name": "CO.RE.IS - ComunitÃ  Religiosa Islamica Italiana",
+                    "name": "CO.RE.IS - Comunità Religiosa Islamica Italiana",
                     "id": "S-IT-CF-97139100156",
                     "roles": [
                         "supplier"
@@ -18316,14 +19085,14 @@
                 },
                 "tenderers": [
                     {
-                        "name": "CO.RE.IS - ComunitÃ  Religiosa Islamica Italiana",
+                        "name": "CO.RE.IS - Comunità Religiosa Islamica Italiana",
                         "id": "T-IT-CF-97139100156"
                     }
                 ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZF02980E8D",
+            "ocid": "ocds-bxokds-ZF02980E8D",
             "id": "ZF02980E8D",
             "awards": [
                 {
@@ -18396,7 +19165,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZF12893B6D",
+            "ocid": "ocds-bxokds-ZF12893B6D",
             "id": "ZF12893B6D",
             "awards": [
                 {
@@ -18472,7 +19241,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZF2293E166",
+            "ocid": "ocds-bxokds-ZF2293E166",
             "id": "ZF2293E166",
             "awards": [
                 {
@@ -18622,7 +19391,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZF325D1424",
+            "ocid": "ocds-bxokds-ZF325D1424",
             "id": "ZF325D1424",
             "awards": [
                 {
@@ -18698,7 +19467,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZF326C960F",
+            "ocid": "ocds-bxokds-ZF326C960F",
             "id": "ZF326C960F",
             "awards": [
                 {
@@ -18771,14 +19540,19 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZF328B1879",
+            "ocid": "ocds-bxokds-ZF328B1879",
             "id": "ZF328B1879",
             "awards": [
                 {
                     "id": "ZF328B1879",
                     "value": {
                         "amount": 0
-                    }
+                    },
+                    "suppliers": [
+                        {
+                            "id": "S-IT-CF-NAN"
+                        }
+                    ]
                 }
             ],
             "contracts": [
@@ -18797,6 +19571,20 @@
                     "awardID": "203"
                 }
             ],
+            "parties": [
+                {
+                    "id": "T-IT-CF-NAN",
+                    "roles": [
+                        "tenderer"
+                    ]
+                },
+                {
+                    "id": "S-IT-CF-NAN",
+                    "roles": [
+                        "supplier"
+                    ]
+                }
+            ],
             "date": "2020-02-15T00:00:00Z",
             "tag": [
                 "award"
@@ -18812,11 +19600,16 @@
                 "procuringEntity": {
                     "id": "IT-CF-80016350821"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE"
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "tenderers": [
+                    {
+                        "id": "T-IT-CF-NAN"
+                    }
+                ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZF328E94B3",
+            "ocid": "ocds-bxokds-ZF328E94B3",
             "id": "ZF328E94B3",
             "awards": [
                 {
@@ -18903,7 +19696,7 @@
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZF7276F63F",
+            "ocid": "ocds-bxokds-ZF7276F63F",
             "id": "ZF7276F63F",
             "awards": [
                 {
@@ -18913,7 +19706,7 @@
                     },
                     "suppliers": [
                         {
-                            "name": "Intelmedia PubblicitÃ  s.r.l.",
+                            "name": "Intelmedia Pubblicità s.r.l.",
                             "id": "S-IT-CF-04757180726"
                         }
                     ]
@@ -18937,14 +19730,14 @@
             ],
             "parties": [
                 {
-                    "name": "Intelmedia PubblicitÃ  s.r.l.",
+                    "name": "Intelmedia Pubblicità s.r.l.",
                     "id": "T-IT-CF-04757180726",
                     "roles": [
                         "tenderer"
                     ]
                 },
                 {
-                    "name": "Intelmedia PubblicitÃ  s.r.l.",
+                    "name": "Intelmedia Pubblicità s.r.l.",
                     "id": "S-IT-CF-04757180726",
                     "roles": [
                         "supplier"
@@ -18969,14 +19762,14 @@
                 "procurementMethodDetails": "23-AFFIDAMENTO DIRETTO",
                 "tenderers": [
                     {
-                        "name": "Intelmedia PubblicitÃ  s.r.l.",
+                        "name": "Intelmedia Pubblicità s.r.l.",
                         "id": "T-IT-CF-04757180726"
                     }
                 ]
             }
         },
         {
-            "ocid": "ocds-xxxxxx-ZF928C2F90",
+            "ocid": "ocds-bxokds-ZF928C2F90",
             "id": "ZF928C2F90",
             "awards": [
                 {
