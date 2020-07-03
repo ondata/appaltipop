@@ -16,7 +16,8 @@ schema_dir = "../schema"
 schema_filename = "tender.schema.json"
 
 with open(Path(schema_dir, schema_filename)) as f:
-    schema = json.loads(f.read().replace('"#/', '"file:{}#/'.format(schema_filename)))
+    schema = json.loads(f.read().replace(
+        '"#/', '"file:{}#/'.format(schema_filename)))
 
 resolver = jsonschema.RefResolver(
     "file://{}/".format(
@@ -28,6 +29,7 @@ resolver = jsonschema.RefResolver(
     None
 )
 
+
 def docs(
     es_index_prefix,
     es_date_field,
@@ -35,6 +37,10 @@ def docs(
     es_tender_buyer_field,
     es_tender_supplier_field,
     es_tender_redflag_field,
+    es_tender_redflagcount_field,
+    es_tender_startdate_field,
+    es_tender_enddate_field,
+    es_tender_daterange_field,
 
     es_tender_id_field,
     es_buyer_id_field,
@@ -51,7 +57,8 @@ def docs(
 ):
 
     jsonl_path = Path(sys.argv[1])
-    jsonl_files = jsonl_path.glob("*.jsonl") if jsonl_path.is_dir() else [jsonl_path]
+    jsonl_files = jsonl_path.glob(
+        "*.jsonl") if jsonl_path.is_dir() else [jsonl_path]
 
     for jsonl_file in jsonl_files:
         if jsonl_file.is_file():
@@ -61,16 +68,25 @@ def docs(
                     try:
                         jsonschema.validate(tender, schema, resolver=resolver)
                     except Exception as ex:
-                        logging.warning("Failed schema at {}, skip...".format(tender.get(es_tender_id_field)))
+                        logging.warning("Failed schema at {}, skip...".format(
+                            tender.get(es_tender_id_field)))
                         continue
 
                     #logging.info("Indexing {} document...".format(tender[es_tender_id_field]))
+                    tender[es_tender_redflagcount_field] = len(tender.get(es_tender_redflag_field, []))
+                    if tender.get(es_tender_startdate_field) or tender.get(es_tender_enddate_field):
+                        tender[es_tender_daterange_field] = {}
+                        if tender.get(es_tender_startdate_field):
+                            tender[es_tender_daterange_field]["gte"] = tender.get(es_tender_startdate_field)
+                        if tender.get(es_tender_enddate_field):
+                            tender[es_tender_daterange_field]["lte"] = tender.get(es_tender_enddate_field)
 
                     for index, buyer in enumerate(tender.get(es_tender_buyer_field, [])):
 
                         if buyer[es_buyer_id_field] in buyers:
 
-                            tender[es_tender_buyer_field][index].update({ k: buyers[buyer[es_buyer_id_field]].get(k, "") for k in (es_region_fields.split(',') + es_province_fields.split(',')) })
+                            tender[es_tender_buyer_field][index].update({k: buyers[buyer[es_buyer_id_field]].get(
+                                k, "") for k in (es_region_fields.split(',') + es_province_fields.split(','))})
 
                             yield {
                                 "_op_type": "create",
@@ -89,7 +105,7 @@ def docs(
                                         es_index_prefix
                                     ),
                                     "_id": buyers[buyer[es_buyer_id_field]][es_region_id_field],
-                                    "_source": { k: buyers[buyer[es_buyer_id_field]].get(k, "") for k in es_region_fields.split(',') }
+                                    "_source": {k: buyers[buyer[es_buyer_id_field]].get(k, "") for k in es_region_fields.split(',')}
                                 }
 
                             if es_province_id_field and es_province_fields:
@@ -100,7 +116,7 @@ def docs(
                                         es_index_prefix
                                     ),
                                     "_id": buyers[buyer[es_buyer_id_field]][es_province_id_field],
-                                    "_source": { k: buyers[buyer[es_buyer_id_field]].get(k, "") for k in es_province_fields.split(',') }
+                                    "_source": {k: buyers[buyer[es_buyer_id_field]].get(k, "") for k in es_province_fields.split(',')}
                                 }
 
                     for supplier in tender.get(es_tender_supplier_field, []):
@@ -111,7 +127,7 @@ def docs(
                                 es_index_prefix
                             ),
                             "_id": supplier[es_supplier_id_field],
-                            "_source": { k: supplier.get(k, "") for k in es_supplier_fields.split(',') } if es_supplier_fields else supplier
+                            "_source": {k: supplier.get(k, "") for k in es_supplier_fields.split(',')} if es_supplier_fields else supplier
                         }
 
                     for redflag in tender.get(es_tender_redflag_field, []):
@@ -129,7 +145,8 @@ def docs(
                         "_op_type": "index",
                         "_index": "{}-tenders-{}".format(
                             es_index_prefix,
-                            datetime.fromisoformat(tender[es_date_field].replace("Z", "+00:00")).year if es_date_field in tender else "0000"
+                            datetime.fromisoformat(tender[es_date_field].replace(
+                                "Z", "+00:00")).year if es_date_field in tender else "0000"
                         ),
                         "_id": tender[es_tender_id_field],
                         "_source": tender
@@ -147,7 +164,8 @@ if __name__ == "__main__":
 
     es_scheme = os.environ.get("ES_SCHEME", "http")
     es_host = os.environ.get("ES_HOST", "localhost")
-    es_port = os.environ.get("ES_PORT") or 443 if es_scheme == "https" else 9200 if es_host == "localhost" else 80
+    es_port = os.environ.get(
+        "ES_PORT") or 443 if es_scheme == "https" else 9200 if es_host == "localhost" else 80
     es_auth = (
         os.environ.get("ES_AUTH_USERNAME"),
         os.environ.get("ES_AUTH_PASSWORD")
@@ -159,6 +177,10 @@ if __name__ == "__main__":
     es_tender_buyer_field = os.environ.get("ES_TENDER_BUYER_FIELD")
     es_tender_supplier_field = os.environ.get("ES_TENDER_SUPPLIER_FIELD")
     es_tender_redflag_field = os.environ.get("ES_TENDER_REDFLAG_FIELD")
+    es_tender_redflagcount_field = os.environ.get("ES_TENDER_REDFLAGCOUNT_FIELD")
+    es_tender_startdate_field = os.environ.get("ES_TENDER_STARTDATE_FIELD")
+    es_tender_enddate_field = os.environ.get("ES_TENDER_ENDDATE_FIELD")
+    es_tender_daterange_field = os.environ.get("ES_TENDER_DATERANGE_FIELD")
 
     es_tender_id_field = os.environ.get("ES_TENDER_ID_FIELD")
     es_buyer_id_field = os.environ.get("ES_BUYER_ID_FIELD")
@@ -180,14 +202,14 @@ if __name__ == "__main__":
 
     buyer_filename = "../json/buyers/buyers.json"
     with open(Path(buyer_filename)) as f:
-        buyers = { buyer[es_buyer_id_field]: buyer for buyer in json.load(f) }
+        buyers = {buyer[es_buyer_id_field]: buyer for buyer in json.load(f)}
 
     es = Elasticsearch(
         [es_host],
-        http_auth = es_auth,
-        scheme = es_scheme,
-        port = es_port,
-        timeout = 300
+        http_auth=es_auth,
+        scheme=es_scheme,
+        port=es_port,
+        timeout=300
     )
 
     bulk(
@@ -199,6 +221,10 @@ if __name__ == "__main__":
             es_tender_buyer_field,
             es_tender_supplier_field,
             es_tender_redflag_field,
+            es_tender_redflagcount_field,
+            es_tender_startdate_field,
+            es_tender_enddate_field,
+            es_tender_daterange_field,
 
             es_tender_id_field,
             es_buyer_id_field,
@@ -213,8 +239,8 @@ if __name__ == "__main__":
 
             buyers
         ),
-        stats_only = True,
-        raise_on_exception = False,
-        raise_on_error = False,
-        
+        stats_only=True,
+        raise_on_exception=False,
+        raise_on_error=False,
+
     )
