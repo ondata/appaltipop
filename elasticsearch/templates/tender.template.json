@@ -136,10 +136,20 @@
             "type": "keyword"
           },
           "ocds:releases/0/parties/address/region": {
-            "type": "keyword"
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword"
+              }
+            }
           },
           "istat:DEN_CM": {
-            "type": "keyword"
+            "type": "text",
+            "fields": {
+              "raw": {
+                "type": "keyword"
+              }
+            }
           },
           "unece:licencePlateCode": {
             "type": "keyword"

@@ -1,68 +1,78 @@
 {
-    "index_patterns": [
-        "appaltipop-buyers"
-    ],
-    "mappings": {
-        "properties": {
-            "ocds:releases/0/buyer/id": {
-                "type": "text",
-                "fields": {
-                    "raw": {
-                        "type": "keyword"
-                    }
-                }
-            },
-            "ocds:releases/0/buyer/name": {
-                "type": "text",
-                "fields": {
-                    "it": {
-                        "type": "text",
-                        "analyzer": "italian"
-                    },
-                    "en": {
-                        "type": "text",
-                        "analyzer": "english"
-                    },
-                    "raw": {
-                        "type": "keyword"
-                    }
-                }
-            },
-            "ipa:cod_amm": {
-                "type": "keyword"
-            },
-            "ocds:releases/0/parties/address/postalCode": {
-                "type": "keyword"
-            },
-            "ocds:releases/0/parties/contactPoint/url": {
-                "type": "keyword"
-            },
-            "ocds:releases/0/parties/address/streetAddress": {
-                "type": "text",
-                "fields": {
-                    "raw": {
-                        "type": "keyword"
-                    }
-                }
-            },
-            "istat:COD_REG": {
-                "type": "keyword"
-            },
-            "istat:COD_CM": {
-                "type": "keyword"
-            },
-            "ipa:comune": {
-                "type": "keyword"
-            },
-            "ocds:releases/0/parties/address/region": {
-                "type": "keyword"
-            },
-            "istat:DEN_CM": {
-                "type": "keyword"
-            },
-            "unece:licencePlateCode": {
-                "type": "keyword"
-            }
+  "index_patterns": [
+    "appaltipop-buyers"
+  ],
+  "mappings": {
+    "properties": {
+      "ocds:releases/0/buyer/id": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
         }
+      },
+      "ocds:releases/0/buyer/name": {
+        "type": "text",
+        "fields": {
+          "it": {
+            "type": "text",
+            "analyzer": "italian"
+          },
+          "en": {
+            "type": "text",
+            "analyzer": "english"
+          },
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "ipa:cod_amm": {
+        "type": "keyword"
+      },
+      "ocds:releases/0/parties/address/postalCode": {
+        "type": "keyword"
+      },
+      "ocds:releases/0/parties/contactPoint/url": {
+        "type": "keyword"
+      },
+      "ocds:releases/0/parties/address/streetAddress": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "istat:COD_REG": {
+        "type": "keyword"
+      },
+      "istat:COD_CM": {
+        "type": "keyword"
+      },
+      "ipa:comune": {
+        "type": "keyword"
+      },
+      "ocds:releases/0/parties/address/region": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "istat:DEN_CM": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "unece:licencePlateCode": {
+        "type": "keyword"
+      }
     }
+  }
 }

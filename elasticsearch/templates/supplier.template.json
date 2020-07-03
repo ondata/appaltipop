@@ -1,33 +1,33 @@
 {
-    "index_patterns": [
-        "appaltipop-suppliers"
-    ],
-    "mappings": {
-        "properties": {
-            "ocds:releases/0/parties/0/id": {
-                "type": "text",
-                "fields": {
-                    "raw": {
-                        "type": "keyword"
-                    }
-                }
-            },
-            "ocds:releases/0/parties/0/name": {
-                "type": "text",
-                "fields": {
-                    "it": {
-                        "type": "text",
-                        "analyzer": "italian"
-                    },
-                    "en": {
-                        "type": "text",
-                        "analyzer": "english"
-                    },
-                    "raw": {
-                        "type": "keyword"
-                    }
-                }
-            }
+  "index_patterns": [
+    "appaltipop-suppliers"
+  ],
+  "mappings": {
+    "properties": {
+      "ocds:releases/0/parties/0/id": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
         }
+      },
+      "ocds:releases/0/parties/0/name": {
+        "type": "text",
+        "fields": {
+          "it": {
+            "type": "text",
+            "analyzer": "italian"
+          },
+          "en": {
+            "type": "text",
+            "analyzer": "english"
+          },
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      }
     }
+  }
 }

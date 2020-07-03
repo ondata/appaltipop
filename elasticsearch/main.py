@@ -44,6 +44,7 @@ def docs(
 
     es_tender_id_field,
     es_buyer_id_field,
+    es_buyer_name_field,
     es_supplier_id_field,
     es_region_id_field,
     es_province_id_field,
@@ -85,8 +86,17 @@ def docs(
 
                         if buyer[es_buyer_id_field] in buyers:
 
-                            tender[es_tender_buyer_field][index].update({k: buyers[buyer[es_buyer_id_field]].get(
-                                k, "") for k in (es_region_fields.split(',') + es_province_fields.split(','))})
+                            if tender[es_tender_buyer_field][index].get(es_buyer_name_field) and buyer.get(es_buyer_name_field):
+                                if tender[es_tender_buyer_field][index].get(es_buyer_name_field) is not buyer.get(es_buyer_name_field):
+                                    tender[es_tender_buyer_field][index][es_buyer_name_field] = "{} - {}".format(
+                                        tender[es_tender_buyer_field][index][es_buyer_name_field],
+                                        buyer[es_buyer_name_field]
+                                    )
+
+                            tender[es_tender_buyer_field][index].update({
+                                k: buyers[buyer[es_buyer_id_field]].get(k, "")
+                                for k in (es_region_fields.split(',') + es_province_fields.split(','))
+                            })
 
                             yield {
                                 "_op_type": "create",
@@ -184,6 +194,7 @@ if __name__ == "__main__":
 
     es_tender_id_field = os.environ.get("ES_TENDER_ID_FIELD")
     es_buyer_id_field = os.environ.get("ES_BUYER_ID_FIELD")
+    es_buyer_name_field = os.environ.get("ES_BUYER_NAME_FIELD")
 
     es_supplier_id_field = os.environ.get("ES_SUPPLIER_ID_FIELD")
     es_supplier_fields = os.environ.get("ES_SUPPLIER_FIELDS")
@@ -228,6 +239,7 @@ if __name__ == "__main__":
 
             es_tender_id_field,
             es_buyer_id_field,
+            es_buyer_name_field,
             es_supplier_id_field,
             es_region_id_field,
             es_province_id_field,
