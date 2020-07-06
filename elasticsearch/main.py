@@ -84,7 +84,7 @@ def docs(
 
                     for index, buyer in enumerate(tender.get(es_tender_buyer_field, [])):
 
-                        if buyer[es_buyer_id_field] in buyers:
+                        if buyer.get(es_buyer_id_field) in buyers:
 
                             if tender[es_tender_buyer_field][index].get(es_buyer_name_field) and buyer.get(es_buyer_name_field):
                                 if tender[es_tender_buyer_field][index].get(es_buyer_name_field) is not buyer.get(es_buyer_name_field):
@@ -100,8 +100,9 @@ def docs(
 
                             yield {
                                 "_op_type": "create",
-                                "_index": "{}-buyers".format(
-                                    es_index_prefix
+                                "_index": "{}-buyers-{}".format(
+                                    es_index_prefix,
+                                    buyer[es_buyer_id_field][:5].lower()
                                 ),
                                 "_id": buyer[es_buyer_id_field],
                                 "_source": buyers[buyer[es_buyer_id_field]]
@@ -129,14 +130,27 @@ def docs(
                                     "_source": {k: buyers[buyer[es_buyer_id_field]].get(k, "") for k in es_province_fields.split(',')}
                                 }
 
+                        else:
+
+                            yield {
+                                "_op_type": "create",
+                                "_index": "{}-buyers-{}".format(
+                                    es_index_prefix,
+                                    buyer.get(es_buyer_id_field, "XX-XX")[:5].lower()
+                                ),
+                                **({ "_id": buyer[es_buyer_id_field] } if buyer.get(es_buyer_id_field) else {}),
+                                "_source": buyers[buyer[es_buyer_id_field]]
+                            }
+
                     for supplier in tender.get(es_tender_supplier_field, []):
 
                         yield {
                             "_op_type": "create",
-                            "_index": "{}-suppliers".format(
-                                es_index_prefix
+                            "_index": "{}-suppliers-{}".format(
+                                es_index_prefix,
+                                supplier.get(es_supplier_id_field, "X-XX-XX")[:7].lower()
                             ),
-                            "_id": supplier[es_supplier_id_field],
+                            **({ "_id": supplier[es_supplier_id_field] } if supplier.get(es_supplier_id_field) else {}),
                             "_source": {k: supplier.get(k, "") for k in es_supplier_fields.split(',')} if es_supplier_fields else supplier
                         }
 

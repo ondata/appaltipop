@@ -2,9 +2,6 @@
     "type": "object",
     "title": "AppaltiPOP - Buyer",
     "description": "",
-    "required": [
-        "ocds:releases/0/buyer/id"
-    ],
     "properties": {
         "ocds:releases/0/buyer/id": {
             "type": "string",

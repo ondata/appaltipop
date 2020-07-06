@@ -2,9 +2,6 @@
     "type": "object",
     "title": "AppaltiPOP - Supplier",
     "description": "",
-    "required": [
-        "ocds:releases/0/parties/0/id"
-    ],
     "properties": {
         "ocds:releases/0/parties/0/id": {
             "type": "string",

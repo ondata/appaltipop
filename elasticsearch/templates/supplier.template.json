@@ -1,6 +1,6 @@
 {
   "index_patterns": [
-    "appaltipop-suppliers"
+    "appaltipop-suppliers-*"
   ],
   "mappings": {
     "properties": {
