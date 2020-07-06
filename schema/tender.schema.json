@@ -2,9 +2,6 @@
     "type": "object",
     "title": "AppaltiPOP - Tender",
     "description": "",
-    "required": [
-        "ocds:releases/0/id"
-    ],
     "properties": {
         "ocds:releases/0/id": {
             "type": "string",

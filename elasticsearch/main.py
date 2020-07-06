@@ -70,7 +70,8 @@ def docs(
                         jsonschema.validate(tender, schema, resolver=resolver)
                     except Exception as ex:
                         logging.warning("Failed schema at {}, skip...".format(
-                            tender.get(es_tender_id_field)))
+                            tender.get(es_tender_id_field)
+                        ))
                         continue
 
                     #logging.info("Indexing {} document...".format(tender[es_tender_id_field]))
@@ -102,7 +103,7 @@ def docs(
                                 "_op_type": "create",
                                 "_index": "{}-buyers-{}".format(
                                     es_index_prefix,
-                                    buyer[es_buyer_id_field][:5].lower()
+                                    buyer[es_buyer_id_field][:2].lower()
                                 ),
                                 "_id": buyer[es_buyer_id_field],
                                 "_source": buyers[buyer[es_buyer_id_field]]
@@ -112,8 +113,9 @@ def docs(
 
                                 yield {
                                     "_op_type": "create",
-                                    "_index": "{}-regions".format(
-                                        es_index_prefix
+                                    "_index": "{}-regions-{}".format(
+                                        es_index_prefix,
+                                        buyer[es_buyer_id_field][:2].lower()
                                     ),
                                     "_id": buyers[buyer[es_buyer_id_field]][es_region_id_field],
                                     "_source": {k: buyers[buyer[es_buyer_id_field]].get(k, "") for k in es_region_fields.split(',')}
@@ -123,8 +125,9 @@ def docs(
 
                                 yield {
                                     "_op_type": "create",
-                                    "_index": "{}-provinces".format(
-                                        es_index_prefix
+                                    "_index": "{}-provinces-{}".format(
+                                        es_index_prefix,
+                                        buyer[es_buyer_id_field][:2].lower()
                                     ),
                                     "_id": buyers[buyer[es_buyer_id_field]][es_province_id_field],
                                     "_source": {k: buyers[buyer[es_buyer_id_field]].get(k, "") for k in es_province_fields.split(',')}
@@ -136,10 +139,10 @@ def docs(
                                 "_op_type": "create",
                                 "_index": "{}-buyers-{}".format(
                                     es_index_prefix,
-                                    buyer.get(es_buyer_id_field, "XX-XX")[:5].lower()
+                                    buyer.get(es_buyer_id_field, "XX-XX")[:2].lower()
                                 ),
                                 **({ "_id": buyer[es_buyer_id_field] } if buyer.get(es_buyer_id_field) else {}),
-                                "_source": buyers[buyer[es_buyer_id_field]]
+                                "_source": buyer
                             }
 
                     for supplier in tender.get(es_tender_supplier_field, []):
@@ -148,7 +151,7 @@ def docs(
                             "_op_type": "create",
                             "_index": "{}-suppliers-{}".format(
                                 es_index_prefix,
-                                supplier.get(es_supplier_id_field, "X-XX-XX")[:7].lower()
+                                supplier.get(es_supplier_id_field, "X-XX-XX")[2:4].lower()
                             ),
                             **({ "_id": supplier[es_supplier_id_field] } if supplier.get(es_supplier_id_field) else {}),
                             "_source": {k: supplier.get(k, "") for k in es_supplier_fields.split(',')} if es_supplier_fields else supplier
@@ -169,10 +172,13 @@ def docs(
                         "_op_type": "index",
                         "_index": "{}-tenders-{}".format(
                             es_index_prefix,
-                            datetime.fromisoformat(tender[es_date_field].replace(
-                                "Z", "+00:00")).year if es_date_field in tender else "0000"
+                            (
+                                datetime.fromisoformat(
+                                    tender[es_date_field].replace("Z", "+00:00")
+                                ).year if tender.get(es_date_field) else "0000"
+                            ) if tender.get(es_tender_id_field) else "xxxx"
                         ),
-                        "_id": tender[es_tender_id_field],
+                        **({ "_id": tender[es_tender_id_field] } if tender.get(es_tender_id_field) else {}),
                         "_source": tender
                     }
 
