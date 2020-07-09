@@ -45,6 +45,7 @@ def docs(
     es_tender_id_field,
     es_buyer_id_field,
     es_buyer_name_field,
+    es_buyer_resource_field,
     es_supplier_id_field,
     es_region_id_field,
     es_province_id_field,
@@ -54,7 +55,8 @@ def docs(
     es_region_fields,
     es_province_fields,
 
-    buyers
+    buyers,
+    resources
 ):
 
     jsonl_path = Path(sys.argv[1])
@@ -81,15 +83,16 @@ def docs(
                         if tender.get(es_tender_startdate_field):
                             tender[es_tender_daterange_field]["gte"] = tender.get(es_tender_startdate_field)
                         if tender.get(es_tender_enddate_field):
-                            tender[es_tender_daterange_field]["lte"] = tender.get(es_tender_enddate_field)
+                            if not tender.get(es_tender_startdate_field) or tender.get(es_tender_startdate_field) < tender.get(es_tender_enddate_field):
+                                tender[es_tender_daterange_field]["lte"] = tender.get(es_tender_enddate_field)
 
                     for index, buyer in enumerate(tender.get(es_tender_buyer_field, [])):
 
                         if buyer.get(es_buyer_id_field) in buyers:
 
                             if tender[es_tender_buyer_field][index].get(es_buyer_name_field) and buyer.get(es_buyer_name_field):
-                                if tender[es_tender_buyer_field][index].get(es_buyer_name_field) is not buyer.get(es_buyer_name_field):
-                                    tender[es_tender_buyer_field][index][es_buyer_name_field] = "{} - {}".format(
+                                if tender[es_tender_buyer_field][index].get(es_buyer_name_field) != buyer.get(es_buyer_name_field):
+                                    tender[es_tender_buyer_field][index][es_buyer_name_field] = "{} ({})".format(
                                         tender[es_tender_buyer_field][index][es_buyer_name_field],
                                         buyer[es_buyer_name_field]
                                     )
@@ -98,6 +101,9 @@ def docs(
                                 k: buyers[buyer[es_buyer_id_field]].get(k, "")
                                 for k in (es_region_fields.split(',') + es_province_fields.split(','))
                             })
+
+                            if buyer[es_buyer_id_field] in resources:
+                                buyers[buyer[es_buyer_id_field]][es_buyer_resource_field] = resources.get(buyer[es_buyer_id_field])
 
                             yield {
                                 "_op_type": "create",
@@ -134,6 +140,9 @@ def docs(
                                 }
 
                         else:
+
+                            if buyer.get(es_buyer_id_field) in resources:
+                                buyer[es_buyer_resource_field] = resources[buyer[es_buyer_id_field]]
 
                             yield {
                                 "_op_type": "create",
@@ -213,8 +222,11 @@ if __name__ == "__main__":
     es_tender_daterange_field = os.environ.get("ES_TENDER_DATERANGE_FIELD")
 
     es_tender_id_field = os.environ.get("ES_TENDER_ID_FIELD")
+    es_resource_id_field = os.environ.get("ES_RESOURCE_ID_FIELD")
+
     es_buyer_id_field = os.environ.get("ES_BUYER_ID_FIELD")
     es_buyer_name_field = os.environ.get("ES_BUYER_NAME_FIELD")
+    es_buyer_resource_field = os.environ.get("ES_BUYER_RESOURCE_FIELD")
 
     es_supplier_id_field = os.environ.get("ES_SUPPLIER_ID_FIELD")
     es_supplier_fields = os.environ.get("ES_SUPPLIER_FIELDS")
@@ -231,9 +243,13 @@ if __name__ == "__main__":
         logging.error("No ES_INDEX_PREFIX, ES_DATE_FIELD envars found")
         exit(1)
 
-    buyer_filename = "../json/buyers/buyers.json"
-    with open(Path(buyer_filename)) as f:
+    buyers_filename = "../json/buyers/buyers.json"
+    with open(Path(buyers_filename)) as f:
         buyers = {buyer[es_buyer_id_field]: buyer for buyer in json.load(f)}
+
+    resources_filename = "../data/download.json"
+    with open(Path(resources_filename)) as f:
+        resources = {resource[es_resource_id_field]: resource for resource in json.load(f)}
 
     es = Elasticsearch(
         [es_host],
@@ -260,6 +276,7 @@ if __name__ == "__main__":
             es_tender_id_field,
             es_buyer_id_field,
             es_buyer_name_field,
+            es_buyer_resource_field,
             es_supplier_id_field,
             es_region_id_field,
             es_province_id_field,
@@ -269,7 +286,8 @@ if __name__ == "__main__":
             es_region_fields,
             es_province_fields,
 
-            buyers
+            buyers,
+            resources
         ),
         stats_only=True,
         raise_on_exception=False,

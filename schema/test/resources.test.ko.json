@@ -1,0 +1,9 @@
+[
+  {
+    "appaltipop:releases/0/buyer/resource/id": "IT-CF-00355870221",
+    "appaltipop:releases/0/buyer/resource/source": "http://www.sicopat.provincia.tn.it/olpdataset/2019/00355870221/00355870221_2019_indicedataset.xml",
+    "appaltipop:releases/0/buyer/resource/year": "2020",
+    "appaltipop:releases/0/buyer/resource/json": "data/IT-CF-00355870221/ocds/input.json",
+    "appaltipop:releases/0/buyer/resource/xlsx": "data/IT-CF-00355870221/ocds/input.xlsx"
+  }
+]

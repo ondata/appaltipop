@@ -1,68 +1,76 @@
 {
-    "type": "object",
-    "title": "AppaltiPOP - Buyer",
-    "description": "",
-    "properties": {
-        "ocds:releases/0/buyer/id": {
-            "type": "string",
-            "title": "Buyer unique identifier",
-            "description": "",
-            "pattern": "^[A-Z]{2}-[A-Z]{2}-[0-9]+$"
-        },
-        "ocds:releases/0/buyer/name": {
-            "type": "string",
-            "title": "Buyer name",
-            "description": ""
-        },
-        "ipa:cod_amm": {
-            "type": "string",
-            "title": "",
-            "description": ""
-        },
-        "ocds:releases/0/parties/address/postalCode": {
-            "type": "string",
-            "title": "",
-            "description": ""
-        },
-        "ocds:releases/0/parties/contactPoint/url": {
-            "type": "string",
-            "title": "",
-            "description": ""
-        },
-        "ocds:releases/0/parties/address/streetAddress": {
-            "type": "string",
-            "title": "",
-            "description": ""
-        },
-        "istat:COD_REG": {
-            "type": "string",
-            "title": "",
-            "description": ""
-        },
-        "istat:COD_CM": {
-            "type": "string",
-            "title": "",
-            "description": ""
-        },
-        "ipa:comune": {
-            "type": "string",
-            "title": "",
-            "description": ""
-        },
-        "ocds:releases/0/parties/address/region": {
-            "type": "string",
-            "title": "",
-            "description": ""
-        },
-        "istat:DEN_CM": {
-            "type": "string",
-            "title": "",
-            "description": ""
-        },
-        "unece:licencePlateCode": {
-            "type": "string",
-            "title": "",
-            "description": ""
-        }
+  "type": "object",
+  "title": "AppaltiPOP - Buyer",
+  "description": "",
+  "properties": {
+    "ocds:releases/0/buyer/id": {
+      "type": "string",
+      "title": "Buyer unique identifier",
+      "description": "",
+      "pattern": "^[A-Z]{2}-[A-Z]{2}-[0-9]+$"
+    },
+    "ocds:releases/0/buyer/name": {
+      "type": "string",
+      "title": "Buyer name",
+      "description": ""
+    },
+    "ipa:cod_amm": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "ocds:releases/0/parties/address/postalCode": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "ocds:releases/0/parties/contactPoint/url": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "ocds:releases/0/parties/address/streetAddress": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "istat:COD_REG": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "istat:COD_CM": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "ipa:comune": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "ocds:releases/0/parties/address/region": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "istat:DEN_CM": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "unece:licencePlateCode": {
+      "type": "string",
+      "title": "",
+      "description": ""
+    },
+    "appaltipop:releases/0/buyer/resource": {
+      "$ref": "#/$defs/resource"
     }
+  },
+  "$defs": {
+    "resource": {
+      "$ref": "file:resource.schema.json"
+    }
+  }
 }

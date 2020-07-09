@@ -72,6 +72,25 @@
       },
       "unece:licencePlateCode": {
         "type": "keyword"
+      },
+      "appaltipop:releases/0/buyer/resource": {
+        "properties": {
+          "appaltipop:releases/0/buyer/resource/id": {
+            "type": "keyword"
+          },
+          "appaltipop:releases/0/buyer/resource/source": {
+            "type": "keyword"
+          },
+          "appaltipop:releases/0/buyer/resource/year": {
+            "type": "integer"
+          },
+          "appaltipop:releases/0/buyer/resource/json": {
+            "type": "keyword"
+          },
+          "appaltipop:releases/0/buyer/resource/xlsx": {
+            "type": "keyword"
+          }
+        }
       }
     }
   }

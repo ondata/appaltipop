@@ -1,126 +1,126 @@
 {
-    "type": "object",
-    "title": "AppaltiPOP - Tender",
-    "description": "",
-    "properties": {
-        "ocds:releases/0/id": {
-            "type": "string",
-            "title": "Tender unique identifier",
-            "description": "",
-            "pattern": "^[A-Z0-9]+$"
-        },
-        "ocds:releases/0/tender/title": {
-            "type": "string",
-            "title": "Tender title",
-            "description": "ocds:releases/0/tender/procurementMethodDetails"
-        },
-        "ocds:releases/0/tender/procurementMethodDetails": {
-            "type": "string",
-            "title": "Tender type",
-            "description": ""
-        },
-        "ocds:releases/0/tender/contractPeriod/startDate": {
-            "type": "string",
-            "title": "Tender start date",
-            "description": "",
-            "format": "date-time"
-        },
-        "ocds:releases/0/tender/contractPeriod/endDate": {
-            "type": "string",
-            "title": "Tender end date",
-            "description": "",
-            "format": "date-time"
-        },
-        "ocds:releases/0/awards/0/value/amount": {
-            "type": "number",
-            "title": "Tender total amount",
-            "description": "",
-            "minimum": 0
-        },
-        "ocds:releases/0/contracts/0/implementation/transactions/0/value/amount": {
-            "type": "number",
-            "title": "Tender amount spent",
-            "description": "",
-            "minimum": 0
-        },
-        "appaltipop:releases/0/tender/participants/total": {
-            "type": "integer",
-            "title": "Tender participating suppliers",
-            "description": "",
-            "minimum": 0
-        },
-        "appaltipop:releases/0/participants/total": {
-            "type": "integer",
-            "title": "All participating suppliers",
-            "description": "",
-            "minimum": 0
-        },
-        "appaltipop:releases/0/participants/mean": {
-            "type": "number",
-            "title": "Participating suppliers per tender (average)",
-            "description": "",
-            "minimum": 0
-        },
-        "appaltipop:releases/0/suppliers": {
-            "type": "array",
-            "title": "Tender suppliers",
-            "description": "",
-            "items": {
-                "$ref": "#/$defs/supplier"
-            }
-        },
-        "appaltipop:releases/0/redflags": {
-            "type": "array",
-            "title": "Redflags",
-            "description": "",
-            "items": {
-                "$ref": "#/$defs/redflag"
-            }
-        },
-        "appaltipop:releases/0/buyers": {
-            "type": "array",
-            "title": "Tender buyers",
-            "description": "",
-            "items": {
-                "$ref": "#/$defs/buyer"
-            }
-        }
+  "type": "object",
+  "title": "AppaltiPOP - Tender",
+  "description": "",
+  "properties": {
+    "ocds:releases/0/id": {
+      "type": "string",
+      "title": "Tender unique identifier",
+      "description": "",
+      "pattern": "^[A-Z0-9]+$"
     },
-    "$defs": {
-        "supplier": {
-            "$ref": "file:supplier.schema.json",
-            "appaltipop:releases/0/supplier/amountBySingleBuyer/total": {
-                "type": "number",
-                "title": "Total value of tenders per buyer",
-                "description": "",
-                "minimum": 0
-            },
-            "appaltipop:releases/0/supplier/contractsBySupplier/total": {
-                "type": "integer",
-                "title": "Number of tenders per buyer",
-                "description": "",
-                "minimum": 0
-            }
-        },
-        "redflag": {
-            "type": "object",
-            "title": "",
-            "description": "",
-            "properties": {
-                "appaltipop:releases/0/redflag/code": {
-                    "type": "string",
-                    "title": "Redflag unique identifier",
-                    "description": ""
-                },
-                "appaltipop:releases/0/redflag/description": {
-                    "type": "string",
-                    "title": "Redflag description",
-                    "description": ""
-                }
-            }
-        },
-        "buyer": {
-            "$ref": "file:buyer.schema.json"
-        }
+    "ocds:releases/0/tender/title": {
+      "type": "string",
+      "title": "Tender title",
+      "description": "ocds:releases/0/tender/procurementMethodDetails"
+    },
+    "ocds:releases/0/tender/procurementMethodDetails": {
+      "type": "string",
+      "title": "Tender type",
+      "description": ""
+    },
+    "ocds:releases/0/tender/contractPeriod/startDate": {
+      "type": "string",
+      "title": "Tender start date",
+      "description": "",
+      "format": "date-time"
+    },
+    "ocds:releases/0/tender/contractPeriod/endDate": {
+      "type": "string",
+      "title": "Tender end date",
+      "description": "",
+      "format": "date-time"
+    },
+    "ocds:releases/0/awards/0/value/amount": {
+      "type": "number",
+      "title": "Tender total amount",
+      "description": "",
+      "minimum": 0
+    },
+    "ocds:releases/0/contracts/0/implementation/transactions/0/value/amount": {
+      "type": "number",
+      "title": "Tender amount spent",
+      "description": "",
+      "minimum": 0
+    },
+    "appaltipop:releases/0/tender/participants/total": {
+      "type": "integer",
+      "title": "Tender participating suppliers",
+      "description": "",
+      "minimum": 0
+    },
+    "appaltipop:releases/0/participants/total": {
+      "type": "integer",
+      "title": "All participating suppliers",
+      "description": "",
+      "minimum": 0
+    },
+    "appaltipop:releases/0/participants/mean": {
+      "type": "number",
+      "title": "Participating suppliers per tender (average)",
+      "description": "",
+      "minimum": 0
+    },
+    "appaltipop:releases/0/suppliers": {
+      "type": "array",
+      "title": "Tender suppliers",
+      "description": "",
+      "items": {
+        "$ref": "#/$defs/supplier"
+      }
+    },
+    "appaltipop:releases/0/redflags": {
+      "type": "array",
+      "title": "Redflags",
+      "description": "",
+      "items": {
+        "$ref": "#/$defs/redflag"
+      }
+    },
+    "appaltipop:releases/0/buyers": {
+      "type": "array",
+      "title": "Tender buyers",
+      "description": "",
+      "items": {
+        "$ref": "#/$defs/buyer"
+      }
     }
+  },
+  "$defs": {
+    "supplier": {
+      "$ref": "file:supplier.schema.json",
+      "appaltipop:releases/0/supplier/amountBySingleBuyer/total": {
+        "type": "number",
+        "title": "Total value of tenders per buyer",
+        "description": "",
+        "minimum": 0
+      },
+      "appaltipop:releases/0/supplier/contractsBySupplier/total": {
+        "type": "integer",
+        "title": "Number of tenders per buyer",
+        "description": "",
+        "minimum": 0
+      }
+    },
+    "redflag": {
+      "type": "object",
+      "title": "",
+      "description": "",
+      "properties": {
+        "appaltipop:releases/0/redflag/code": {
+          "type": "string",
+          "title": "Redflag unique identifier",
+          "description": ""
+        },
+        "appaltipop:releases/0/redflag/description": {
+          "type": "string",
+          "title": "Redflag description",
+          "description": ""
+        }
+      }
+    },
+    "buyer": {
+      "$ref": "file:buyer.schema.json"
+    }
+  }
 }

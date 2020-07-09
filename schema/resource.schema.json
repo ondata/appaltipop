@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "title": "AppaltiPOP - Resource",
+  "description": "",
+  "properties": {
+    "appaltipop:releases/0/buyer/resource/id": {
+      "type": "string",
+      "title": "Buyer unique identifier",
+      "description": "",
+      "pattern": "^[A-Z]{2}-[A-Z]{2}-[0-9]+$"
+    },
+    "appaltipop:releases/0/buyer/resource/source": {
+      "type": "string",
+      "title": "Resource source",
+      "description": "Resource source (absolute url)"
+    },
+    "appaltipop:releases/0/buyer/resource/year": {
+      "type": "integer",
+      "title": "Resource last update",
+      "description": "Resource last update (year)"
+    },
+    "appaltipop:releases/0/buyer/resource/json": {
+      "type": "string",
+      "title": "Resource in json format",
+      "description": "Resource in json format (relative url)"
+    },
+    "appaltipop:releases/0/buyer/resource/xlsx": {
+      "type": "string",
+      "title": "Resource in xlsx format",
+      "description": "Resource in xlsx format (relative url)"
+    }
+  }
+}
