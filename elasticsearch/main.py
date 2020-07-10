@@ -41,6 +41,7 @@ def docs(
     es_tender_startdate_field,
     es_tender_enddate_field,
     es_tender_daterange_field,
+    es_tender_duration_field,
 
     es_tender_id_field,
     es_buyer_id_field,
@@ -78,6 +79,7 @@ def docs(
 
                     #logging.info("Indexing {} document...".format(tender[es_tender_id_field]))
                     tender[es_tender_redflagcount_field] = len(tender.get(es_tender_redflag_field, []))
+
                     if tender.get(es_tender_startdate_field) or tender.get(es_tender_enddate_field):
                         tender[es_tender_daterange_field] = {}
                         if tender.get(es_tender_startdate_field):
@@ -85,6 +87,11 @@ def docs(
                         if tender.get(es_tender_enddate_field):
                             if not tender.get(es_tender_startdate_field) or tender.get(es_tender_startdate_field) < tender.get(es_tender_enddate_field):
                                 tender[es_tender_daterange_field]["lte"] = tender.get(es_tender_enddate_field)
+                    
+                    if tender.get(es_tender_startdate_field) and tender.get(es_tender_enddate_field):
+                        tender[es_tender_duration_field] = (
+                            datetime.fromisoformat(tender[es_tender_enddate_field].replace('Z', '')) - datetime.fromisoformat(tender[es_tender_startdate_field].replace('Z', ''))
+                        ).days
 
                     for index, buyer in enumerate(tender.get(es_tender_buyer_field, [])):
 
@@ -220,7 +227,8 @@ if __name__ == "__main__":
     es_tender_startdate_field = os.environ.get("ES_TENDER_STARTDATE_FIELD")
     es_tender_enddate_field = os.environ.get("ES_TENDER_ENDDATE_FIELD")
     es_tender_daterange_field = os.environ.get("ES_TENDER_DATERANGE_FIELD")
-
+    es_tender_duration_field = os.environ.get("ES_TENDER_DURATION_FIELD")
+    
     es_tender_id_field = os.environ.get("ES_TENDER_ID_FIELD")
     es_resource_id_field = os.environ.get("ES_RESOURCE_ID_FIELD")
 
@@ -272,6 +280,7 @@ if __name__ == "__main__":
             es_tender_startdate_field,
             es_tender_enddate_field,
             es_tender_daterange_field,
+            es_tender_duration_field,
 
             es_tender_id_field,
             es_buyer_id_field,
