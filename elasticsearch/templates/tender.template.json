@@ -14,11 +14,11 @@
       },
       "ocds:releases/0/tender/title": {
         "type": "text",
+        "fielddata": true,
         "fields": {
           "it": {
             "type": "text",
-            "analyzer": "italian",
-            "fielddata": true
+            "analyzer": "italian"
           },
           "en": {
             "type": "text",
