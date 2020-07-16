@@ -20,13 +20,13 @@
       "description": ""
     },
     "ocds:releases/0/tender/contractPeriod/startDate": {
-      "type": "string",
+      "type": ["string", "null"],
       "title": "Tender start date",
       "description": "",
       "format": "date-time"
     },
     "ocds:releases/0/tender/contractPeriod/endDate": {
-      "type": "string",
+      "type": ["string", "null"],
       "title": "Tender end date",
       "description": "",
       "format": "date-time"
