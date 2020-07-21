@@ -5,12 +5,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00080270838/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00080270838/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "2035731"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00080270838/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00080270838/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "319283"
       }
@@ -22,12 +22,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00097020598/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00097020598/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "2330576"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00097020598/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00097020598/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "357434"
       }
@@ -39,12 +39,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00104330493/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00104330493/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "3440522"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00104330493/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00104330493/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "469702"
       }
@@ -56,12 +56,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00124600685/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00124600685/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "2307044"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00124600685/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00124600685/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "354953"
       }
@@ -73,12 +73,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00125680033/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00125680033/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "6234520"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00125680033/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00125680033/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "946848"
       }
@@ -90,12 +90,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00137020871/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00137020871/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "1704349"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00137020871/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00137020871/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "244055"
       }
@@ -107,12 +107,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00147990923/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00147990923/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "14243505"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00147990923/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00147990923/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "2188841"
       }
@@ -124,12 +124,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00162210348/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00162210348/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "2452927"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00162210348/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00162210348/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "363660"
       }
@@ -141,12 +141,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00163570542/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00163570542/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "2309661"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00163570542/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00163570542/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "302204"
       }
@@ -158,12 +158,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00175660554/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00175660554/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "1285552"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00175660554/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00175660554/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "185592"
       }
@@ -175,12 +175,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00215150236/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00215150236/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "41996834"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00215150236/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00215150236/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "6564316"
       }
@@ -192,12 +192,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00221940364/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00221940364/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "8867159"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00221940364/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00221940364/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "1356343"
       }
@@ -209,12 +209,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00229080338/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00229080338/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "7159694"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00229080338/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00229080338/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "1061640"
       }
@@ -226,12 +226,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00239740905/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00239740905/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "5584888"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00239740905/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00239740905/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "823103"
       }
@@ -243,12 +243,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00297110389/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00297110389/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "8054637"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00297110389/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00297110389/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "1276198"
       }
@@ -260,12 +260,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00304260409/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00304260409/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "7044691"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00304260409/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00304260409/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "1093797"
       }
@@ -277,12 +277,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00339370272/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00339370272/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "3974262"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00339370272/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00339370272/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "586871"
       }
@@ -294,12 +294,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00351040423/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00351040423/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "5458868"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00351040423/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00351040423/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "793899"
       }
@@ -311,12 +311,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00354730392/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00354730392/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "8938504"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00354730392/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00354730392/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "1381821"
       }
@@ -328,12 +328,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00355870221/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00355870221/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "6359879"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00355870221/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00355870221/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "924059"
       }
@@ -345,12 +345,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00389240219/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00389240219/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "13298518"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00389240219/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00389240219/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "2023420"
       }
@@ -362,12 +362,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00514490010/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00514490010/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "486624"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00514490010/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00514490010/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "80333"
       }
@@ -379,12 +379,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00606620409/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00606620409/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "4293481"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00606620409/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00606620409/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "608588"
       }
@@ -396,12 +396,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00644060287/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00644060287/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "11406472"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00644060287/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00644060287/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "1828204"
       }
@@ -413,12 +413,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00856930102/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00856930102/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "17891430"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00856930102/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00856930102/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "2326918"
       }
@@ -430,12 +430,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01199250158/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01199250158/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "10294582"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01199250158/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01199250158/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "1528287"
       }
@@ -447,12 +447,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01232710374/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01232710374/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "8605258"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01232710374/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01232710374/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "1285302"
       }
@@ -464,12 +464,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01307110484/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01307110484/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "14741895"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01307110484/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01307110484/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "2314099"
       }
@@ -481,12 +481,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-02030880153/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-02030880153/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "3475150"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-02030880153/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-02030880153/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "400891"
       }
@@ -498,12 +498,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80000330656/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80000330656/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "4167291"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80000330656/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80000330656/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "668878"
       }
@@ -515,12 +515,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80015010723/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80015010723/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "18037936"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80015010723/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80015010723/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "3195928"
       }
@@ -532,12 +532,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80016350821/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80016350821/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "677523"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80016350821/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80016350821/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "117826"
       }
@@ -549,12 +549,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80025760820/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80025760820/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "785694"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80025760820/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80025760820/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "122960"
       }
@@ -566,12 +566,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80049220637/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80049220637/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "505752"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80049220637/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80049220637/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "81417"
       }
@@ -583,12 +583,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-81001210723/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-81001210723/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "547239"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-81001210723/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-81001210723/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "91501"
       }
@@ -600,12 +600,12 @@
     "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
     "appaltipop:releases/0/buyer/dataSource/resources": [
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-84006890481/input.json",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-84006890481/ocds.json",
         "appaltipop:releases/0/buyer/resource/format": "json",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "4684460"
       },
       {
-        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-84006890481/input.xlsx",
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-84006890481/ocds.xlsx",
         "appaltipop:releases/0/buyer/resource/format": "xlsx",
         "appaltipop:releases/0/buyer/resource/sizeBytes": "694657"
       }
