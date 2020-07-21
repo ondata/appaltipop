@@ -3,31 +3,22 @@
   "title": "AppaltiPOP - Resource",
   "description": "",
   "properties": {
-    "appaltipop:releases/0/buyer/resource/id": {
+    "appaltipop:releases/0/buyer/resource/url": {
       "type": "string",
-      "title": "Buyer unique identifier",
-      "description": "",
-      "pattern": "^[A-Z]{2}-[A-Z]{2}-[0-9]+$"
+      "title": "Resource url",
+      "description": "Resource relative path",
+      "format": "uri-reference"
     },
-    "appaltipop:releases/0/buyer/resource/source": {
+    "appaltipop:releases/0/buyer/resource/format": {
       "type": "string",
-      "title": "Resource source",
-      "description": "Resource source (absolute url)"
+      "title": "Resource format",
+      "description": "Resource format (ie. json, csv, xlsx)"
     },
-    "appaltipop:releases/0/buyer/resource/year": {
+    "appaltipop:releases/0/buyer/resource/sizeBytes": {
       "type": "integer",
-      "title": "Resource last update",
-      "description": "Resource last update (year)"
-    },
-    "appaltipop:releases/0/buyer/resource/json": {
-      "type": "string",
-      "title": "Resource in json format",
-      "description": "Resource in json format (relative url)"
-    },
-    "appaltipop:releases/0/buyer/resource/xlsx": {
-      "type": "string",
-      "title": "Resource in xlsx format",
-      "description": "Resource in xlsx format (relative url)"
+      "title": "Resource size",
+      "description": "Resource size (in bytes)",
+      "minimum": 0
     }
   }
 }

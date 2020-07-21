@@ -16,56 +16,73 @@
     },
     "ipa:cod_amm": {
       "type": "string",
-      "title": "",
+      "title": "Buyer unique identifier by iPA",
       "description": ""
     },
     "ocds:releases/0/parties/address/postalCode": {
       "type": "string",
-      "title": "",
+      "title": "Buyer postal code",
       "description": ""
     },
     "ocds:releases/0/parties/contactPoint/url": {
       "type": "string",
-      "title": "",
-      "description": ""
+      "title": "Buyer website",
+      "description": "",
+      "format": "uri"
     },
     "ocds:releases/0/parties/address/streetAddress": {
       "type": "string",
-      "title": "",
+      "title": "Buyer street address",
       "description": ""
     },
     "istat:COD_REG": {
       "type": "string",
-      "title": "",
+      "title": "Buyer region code by ISTAT",
       "description": ""
     },
     "istat:COD_CM": {
       "type": "string",
-      "title": "",
+      "title": "Buyer province code by ISTAT",
       "description": ""
     },
     "ipa:comune": {
       "type": "string",
-      "title": "",
+      "title": "Buyer municipality name by iPA",
       "description": ""
     },
     "ocds:releases/0/parties/address/region": {
       "type": "string",
-      "title": "",
+      "title": "Buyer region name",
       "description": ""
     },
     "istat:DEN_CM": {
       "type": "string",
-      "title": "",
+      "title": "Buyer province name",
       "description": ""
     },
     "unece:licencePlateCode": {
       "type": "string",
-      "title": "",
+      "title": "Buyer province abbreviation",
       "description": ""
     },
-    "appaltipop:releases/0/buyer/resource": {
-      "$ref": "#/$defs/resource"
+    "appaltipop:releases/0/buyer/dataSource/url": {
+      "type": "string",
+      "title": "Buyer original data source",
+      "description": "",
+      "format": "uri"
+    },
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": {
+      "type": "string",
+      "title": "Buyer data source last update",
+      "description": "",
+      "format": "date-time"
+    },
+    "appaltipop:releases/0/buyer/dataSource/resources": {
+      "type": "array",
+      "title": "Buyer resources",
+      "items": {
+        "$ref": "#/$defs/resource"
+      }
     }
   },
   "$defs": {

@@ -73,22 +73,22 @@
       "unece:licencePlateCode": {
         "type": "keyword"
       },
-      "appaltipop:releases/0/buyer/resource": {
+      "appaltipop:releases/0/buyer/dataSource/url": {
+        "type": "keyword"
+      },
+      "appaltipop:releases/0/buyer/dataSource/lastUpdate": {
+        "type": "date"
+      },
+      "appaltipop:releases/0/buyer/dataSource/resources": {
         "properties": {
-          "appaltipop:releases/0/buyer/resource/id": {
+          "appaltipop:releases/0/buyer/resource/url": {
             "type": "keyword"
           },
-          "appaltipop:releases/0/buyer/resource/source": {
+          "appaltipop:releases/0/buyer/resource/format": {
             "type": "keyword"
           },
-          "appaltipop:releases/0/buyer/resource/year": {
+          "appaltipop:releases/0/buyer/resource/sizeBytes": {
             "type": "integer"
-          },
-          "appaltipop:releases/0/buyer/resource/json": {
-            "type": "keyword"
-          },
-          "appaltipop:releases/0/buyer/resource/xlsx": {
-            "type": "keyword"
           }
         }
       }

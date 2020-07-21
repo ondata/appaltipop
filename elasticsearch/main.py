@@ -46,7 +46,6 @@ def docs(
     es_tender_id_field,
     es_buyer_id_field,
     es_buyer_name_field,
-    es_buyer_resource_field,
     es_supplier_id_field,
     es_region_id_field,
     es_province_id_field,
@@ -110,7 +109,7 @@ def docs(
                             })
 
                             if buyer[es_buyer_id_field] in resources:
-                                buyers[buyer[es_buyer_id_field]][es_buyer_resource_field] = resources.get(buyer[es_buyer_id_field])
+                                buyers[buyer[es_buyer_id_field]].update(resources.get(buyer[es_buyer_id_field]))
 
                             yield {
                                 "_op_type": "create",
@@ -149,7 +148,7 @@ def docs(
                         else:
 
                             if buyer.get(es_buyer_id_field) in resources:
-                                buyer[es_buyer_resource_field] = resources[buyer[es_buyer_id_field]]
+                                buyer.update(resources[buyer[es_buyer_id_field]])
 
                             yield {
                                 "_op_type": "create",
@@ -230,11 +229,9 @@ if __name__ == "__main__":
     es_tender_duration_field = os.environ.get("ES_TENDER_DURATION_FIELD")
     
     es_tender_id_field = os.environ.get("ES_TENDER_ID_FIELD")
-    es_resource_id_field = os.environ.get("ES_RESOURCE_ID_FIELD")
 
     es_buyer_id_field = os.environ.get("ES_BUYER_ID_FIELD")
     es_buyer_name_field = os.environ.get("ES_BUYER_NAME_FIELD")
-    es_buyer_resource_field = os.environ.get("ES_BUYER_RESOURCE_FIELD")
 
     es_supplier_id_field = os.environ.get("ES_SUPPLIER_ID_FIELD")
     es_supplier_fields = os.environ.get("ES_SUPPLIER_FIELDS")
@@ -257,7 +254,7 @@ if __name__ == "__main__":
 
     resources_filename = "../data/download.json"
     with open(Path(resources_filename)) as f:
-        resources = {resource[es_resource_id_field]: resource for resource in json.load(f)}
+        resources = {resource[es_buyer_id_field]: resource for resource in json.load(f)}
 
     es = Elasticsearch(
         [es_host],
@@ -285,7 +282,6 @@ if __name__ == "__main__":
             es_tender_id_field,
             es_buyer_id_field,
             es_buyer_name_field,
-            es_buyer_resource_field,
             es_supplier_id_field,
             es_region_id_field,
             es_province_id_field,
