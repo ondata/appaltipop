@@ -1,0 +1,8 @@
+{
+  "type": "array",
+  "title": "AppaltiPOP - Collection of resources",
+  "description": "",
+  "items": {
+    "$ref": "file:resource.schema.json"
+  }
+}

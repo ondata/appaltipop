@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "title": "AppaltiPOP - Resource",
+  "description": "",
+  "properties": {
+    "appaltipop:releases/0/buyer/resource/url": {
+      "type": "string",
+      "title": "Resource url",
+      "description": "Resource relative path",
+      "format": "uri-reference"
+    },
+    "appaltipop:releases/0/buyer/resource/format": {
+      "type": "string",
+      "title": "Resource format",
+      "description": "Resource format (ie. json, csv, xlsx)"
+    },
+    "appaltipop:releases/0/buyer/resource/sizeBytes": {
+      "type": "integer",
+      "title": "Resource size",
+      "description": "Resource size (in bytes)",
+      "minimum": 0
+    }
+  }
+}

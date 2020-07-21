@@ -14,6 +14,7 @@
       },
       "ocds:releases/0/tender/title": {
         "type": "text",
+        "fielddata": true,
         "fields": {
           "it": {
             "type": "text",
@@ -36,6 +37,9 @@
       },
       "appaltipop:releases/0/tender/contractPeriod/dateRange": {
         "type": "date_range"
+      },
+      "appaltipop:releases/0/tender/contractPeriod/durationDays": {
+        "type": "integer"
       },
       "ocds:releases/0/awards/0/value/amount": {
         "type": "scaled_float",

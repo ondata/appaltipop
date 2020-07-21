@@ -8,7 +8,7 @@ from pathlib import Path
 
 schema_dir = "../schema"
 schema_filename = "tender.schema.json"
-jsonl_dir = "./"
+jsonl_dir = "./tenders/"
 resolver = jsonschema.RefResolver(
     "file://{}/".format(
         Path(
@@ -20,7 +20,11 @@ resolver = jsonschema.RefResolver(
 )
 
 with open("{}/{}".format(schema_dir, schema_filename)) as f:
-    schema = json.loads(f.read().replace('"#/', '"file:{}#/'.format(schema_filename)))
+    schema = json.loads(
+        f.read()
+            .replace('"#/', '"file:{}#/'.format(schema_filename))
+            .replace(', "null"', '') # null keys should be stripped out in json -> jsonl conversion
+    )
     jsonl_files = Path(jsonl_dir).glob("*.jsonl") if len(sys.argv) == 1 else [sys.argv[1]]
     for jsonl_file in jsonl_files:
         print("Validating {}...".format(jsonl_file))

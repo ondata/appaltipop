@@ -1,1 +1,614 @@
-[{"id":"IT-CF-00355870221","source":"http://www.sicopat.provincia.tn.it/olpdataset/2019/00355870221/00355870221_2019_indicedataset.xml","year":"2020","json":"data/IT-CF-00355870221/ocds/input.json","xlsx":"data/IT-CF-00355870221/ocds/input.xlsx"},{"id":"IT-CF-02030880153","source":"http://www.comune.monza.it/it/DOCUMENTI/comunemonza/trasparenza/2020/2019_AVCP_data_.xml","year":"2020","json":"data/IT-CF-02030880153/ocds/input.json","xlsx":"data/IT-CF-02030880153/ocds/input.xlsx"},{"id":"IT-CF-81001210723","source":"http://www.comune.andria.bt.it/190/appalti2019.xml","year":"2020","json":"data/IT-CF-81001210723/ocds/input.json","xlsx":"data/IT-CF-81001210723/ocds/input.xlsx"},{"id":"IT-CF-00339370272","source":"https://www.comune.venezia.it/sites/comune.venezia.it/files/page/files/dataset2019_L190.xml","year":"2020","json":"data/IT-CF-00339370272/ocds/input.json","xlsx":"data/IT-CF-00339370272/ocds/input.xlsx"},{"id":"IT-CF-00175660554","source":"http://www.comune.terni.it/amministrazione_trasparente/opendata/contratti-list/list-2019.xml","year":"2020","json":"data/IT-CF-00175660554/ocds/input.json","xlsx":"data/IT-CF-00175660554/ocds/input.xlsx"},{"id":"IT-CF-00297110389","source":"https://www.comune.fe.it/attach/trasparenza/docs/gare_e_contratti/dataset2019.xml","year":"2020","json":"data/IT-CF-00297110389/ocds/input.json","xlsx":"data/IT-CF-00297110389/ocds/input.xlsx"},{"id":"IT-CF-00104330493","source":"http://www.comune.livorno.it/_livo/avcp/indicedataset.xml","year":"2020","json":"data/IT-CF-00104330493/ocds/input.json","xlsx":"data/IT-CF-00104330493/ocds/input.xlsx"},{"id":"IT-CF-01307110484","source":"http://wwwext.comune.fi.it/01307110484/2019_L190_indice.xml","year":"2020","json":"data/IT-CF-01307110484/ocds/input.json","xlsx":"data/IT-CF-01307110484/ocds/input.xlsx"},{"id":"IT-CF-01199250158","source":"http://allegati.comune.milano.it/Comunicazione/Trasparenza/indicedataset2019.xml","year":"2020","json":"data/IT-CF-01199250158/ocds/input.json","xlsx":"data/IT-CF-01199250158/ocds/input.xlsx"},{"id":"IT-CF-00229080338","source":"http://trasparenza.comune.piacenza.it/L190/sezione/download/795498","year":"2020","json":"data/IT-CF-00229080338/ocds/input.json","xlsx":"data/IT-CF-00229080338/ocds/input.xlsx"},{"id":"IT-CF-00137020871","source":"https://www.comune.catania.it/repository/pubblicitaappalti/advertisings_exports/ComunediCatania-2019-DatasetLegge190.xml","year":"2020","json":"data/IT-CF-00137020871/ocds/input.json","xlsx":"data/IT-CF-00137020871/ocds/input.xlsx"},{"id":"IT-CF-00389240219","source":"http://www.comune.bolzano.it/trasparenzaamministrativa/L190/indicedataset2019.xml","year":"2020","json":"data/IT-CF-00389240219/ocds/input.json","xlsx":"data/IT-CF-00389240219/ocds/input.xlsx"},{"id":"IT-CF-80016350821","source":"http://portaleappalti.comune.palermo.it/PortaleAppalti/resources/appaltiavcp/2019/indice_dataset.xml","year":"2020","json":"data/IT-CF-80016350821/ocds/input.json","xlsx":"data/IT-CF-80016350821/ocds/input.xlsx"},{"id":"IT-CF-00162210348","source":"http://ssl.comune.parma.it/trasparenza/xmlfiles/DataSet_Comune_di_Parma_2019.xml","year":"2020","json":"data/IT-CF-00162210348/ocds/input.json","xlsx":"data/IT-CF-00162210348/ocds/input.xlsx"},{"id":"IT-CF-00080270838","source":"https://onlinepa.info/Download/Legge190/2019_Citt%C3%A0%20di_Messina.xml","year":"2020","json":"data/IT-CF-00080270838/ocds/input.json","xlsx":"data/IT-CF-00080270838/ocds/input.xlsx"},{"id":"IT-CF-00644060287","source":"http://www.padovanet.it/sites/default/files/attachment/indice-Appalti2019.xml","year":"2020","json":"data/IT-CF-00644060287/ocds/input.json","xlsx":"data/IT-CF-00644060287/ocds/input.xlsx"},{"id":"IT-CF-00351040423","source":"https://comancona.comune.ancona.it/ammtrasp_art37/docxml/xml2019.xml","year":"2020","json":"data/IT-CF-00351040423/ocds/input.json","xlsx":"data/IT-CF-00351040423/ocds/input.xlsx"},{"id":"IT-CF-00606620409","source":"http://www.comune.forli.fc.it/upload/forli/gestionedocumentale/dataset2019_784_66876.XML","year":"2020","json":"data/IT-CF-00606620409/ocds/input.json","xlsx":"data/IT-CF-00606620409/ocds/input.xlsx"},{"id":"IT-CF-80025760820","source":"https://www.comune.sangiuseppejato.pa.it/index.php/bandi-di-gara-e-contratti/informazioni-sulle-singole-procedure-in-formato-tabellare?download=2427:avcp-dataset-2019","year":"2020","json":"data/IT-CF-80025760820/ocds/input.json","xlsx":"data/IT-CF-80025760820/ocds/input.xlsx"},{"id":"IT-CF-80015010723","source":"http://opendata.comune.bari.it/anticorruzione/2019/indice_dataset.xml","year":"2020","json":"data/IT-CF-80015010723/ocds/input.json","xlsx":"data/IT-CF-80015010723/ocds/input.xlsx"},{"id":"IT-CF-00124600685","source":"https://pescara.trasparenza-valutazione-merito.it/anac/ws/c_g482/2019/dataset_2019.xml","year":"2020","json":"data/IT-CF-00124600685/ocds/input.json","xlsx":"data/IT-CF-00124600685/ocds/input.xlsx"},{"id":"IT-CF-84006890481","source":"http://dati.comune.prato.it/contratti/2019/datasetappalti2019.xml","year":"2020","json":"data/IT-CF-84006890481/ocds/input.json","xlsx":"data/IT-CF-84006890481/ocds/input.xlsx"},{"id":"IT-CF-00163570542","source":"https://www.comune.perugia.it/Resources/trasparenza/BandiGaraContratti/OpenData/L190-2019-gennaio-dicembre.xml","year":"2020","json":"data/IT-CF-00163570542/ocds/input.json","xlsx":"data/IT-CF-00163570542/ocds/input.xlsx"},{"id":"IT-CF-00147990923","source":"https://www.comune.cagliari.it/cmsresources/cms/documents/ANAC/2019/AvcpIndice.xml","year":"2020","json":"data/IT-CF-00147990923/ocds/input.json","xlsx":"data/IT-CF-00147990923/ocds/input.xlsx"},{"id":"IT-CF-80000330656","source":"http://albofornitori.comune.salerno.it/PortaleAppalti/resources/appaltiavcp/2019/indice_dataset.xml","year":"2020","json":"data/IT-CF-80000330656/ocds/input.json","xlsx":"data/IT-CF-80000330656/ocds/input.xlsx"},{"id":"IT-CF-00221940364","source":"http://bandi.comune.modena.it/public/dataset_L190_2019-12-31.xml","year":"2020","json":"data/IT-CF-00221940364/ocds/input.json","xlsx":"data/IT-CF-00221940364/ocds/input.xlsx"},{"id":"IT-CF-00215150236","source":"https://file.comune.verona.it/opendata/190/2019/appalti.xml","year":"2020","json":"data/IT-CF-00215150236/ocds/input.json","xlsx":"data/IT-CF-00215150236/ocds/input.xlsx"},{"id":"IT-CF-00125680033","source":"http://llpp.comune.novara.it/PortaleAppalti/resources/appaltiavcp/2019/indice_dataset.xml","year":"2020","json":"data/IT-CF-00125680033/ocds/input.json","xlsx":"data/IT-CF-00125680033/ocds/input.xlsx"},{"id":"IT-CF-80049220637","source":"http://portale.comune.giugliano.na.it/allegati/10711file_unificato_per_pubblicazione.xml","year":"2020","json":"data/IT-CF-80049220637/ocds/input.json","xlsx":"data/IT-CF-80049220637/ocds/input.xlsx"},{"id":"IT-CF-01232710374","source":"http://dati.comune.bologna.it/file/dataset/appalti2019.xml","year":"2020","json":"data/IT-CF-01232710374/ocds/input.json","xlsx":"data/IT-CF-01232710374/ocds/input.xlsx"},{"id":"IT-CF-00514490010","source":"http://www.comune.torino.it/affidamenti/anac/2019/dataset1.xml","year":"2020","json":"data/IT-CF-00514490010/ocds/input.json","xlsx":"data/IT-CF-00514490010/ocds/input.xlsx"},{"id":"IT-CF-00354730392","source":"http://www.comune.ra.it/content/download/500670/5850676/file/datasetAppalti2019.xml","year":"2020","json":"data/IT-CF-00354730392/ocds/input.json","xlsx":"data/IT-CF-00354730392/ocds/input.xlsx"},{"id":"IT-CF-00856930102","source":"http://www.comune.genova.it/contratti/2020/00856930102_indice_2019.xml","year":"2020","json":"data/IT-CF-00856930102/ocds/input.json","xlsx":"data/IT-CF-00856930102/ocds/input.xlsx"},{"id":"IT-CF-00304260409","source":"https://appaltiecontratti.comune.rimini.it/PortaleAppalti/resources/appaltiavcp/2019/indice_dataset.xml","year":"2020","json":"data/IT-CF-00304260409/ocds/input.json","xlsx":"data/IT-CF-00304260409/ocds/input.xlsx"},{"id":"IT-CF-00239740905","source":"http://www.comune.sassari.it/avcp/2019/LEX190INDICE2019.XML","year":"2020","json":"data/IT-CF-00239740905/ocds/input.json","xlsx":"data/IT-CF-00239740905/ocds/input.xlsx"},{"id":"IT-CF-00097020598","source":"http://comunelatina-appalti.maggiolicloud.it/PortaleAppalti/resources/appaltiavcp/2019/indice_dataset.xml","year":"2020","json":"data/IT-CF-00097020598/ocds/input.json","xlsx":"data/IT-CF-00097020598/ocds/input.xlsx"}]
+[
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00080270838",
+    "appaltipop:releases/0/buyer/dataSource/url": "https://onlinepa.info/Download/Legge190/2019_Citt%C3%A0%20di_Messina.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00080270838/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "2035731"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00080270838/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "319283"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00097020598",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://comunelatina-appalti.maggiolicloud.it/PortaleAppalti/resources/appaltiavcp/2019/indice_dataset.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00097020598/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "2330576"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00097020598/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "357434"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00104330493",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://www.comune.livorno.it/_livo/avcp/indicedataset.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00104330493/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "3440522"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00104330493/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "469702"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00124600685",
+    "appaltipop:releases/0/buyer/dataSource/url": "https://pescara.trasparenza-valutazione-merito.it/anac/ws/c_g482/2019/dataset_2019.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00124600685/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "2307044"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00124600685/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "354953"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00125680033",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://llpp.comune.novara.it/PortaleAppalti/resources/appaltiavcp/2019/indice_dataset.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00125680033/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "6234520"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00125680033/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "946848"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00137020871",
+    "appaltipop:releases/0/buyer/dataSource/url": "https://www.comune.catania.it/repository/pubblicitaappalti/advertisings_exports/ComunediCatania-2019-DatasetLegge190.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00137020871/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "1704349"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00137020871/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "244055"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00147990923",
+    "appaltipop:releases/0/buyer/dataSource/url": "https://www.comune.cagliari.it/cmsresources/cms/documents/ANAC/2019/AvcpIndice.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00147990923/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "14243505"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00147990923/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "2188841"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00162210348",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://ssl.comune.parma.it/trasparenza/xmlfiles/DataSet_Comune_di_Parma_2019.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00162210348/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "2452927"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00162210348/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "363660"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00163570542",
+    "appaltipop:releases/0/buyer/dataSource/url": "https://www.comune.perugia.it/Resources/trasparenza/BandiGaraContratti/OpenData/L190-2019-gennaio-dicembre.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00163570542/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "2309661"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00163570542/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "302204"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00175660554",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://www.comune.terni.it/amministrazione_trasparente/opendata/contratti-list/list-2019.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00175660554/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "1285552"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00175660554/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "185592"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00215150236",
+    "appaltipop:releases/0/buyer/dataSource/url": "https://file.comune.verona.it/opendata/190/2019/appalti.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00215150236/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "41996834"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00215150236/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "6564316"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00221940364",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://bandi.comune.modena.it/public/dataset_L190_2019-12-31.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00221940364/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "8867159"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00221940364/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "1356343"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00229080338",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://trasparenza.comune.piacenza.it/L190/sezione/download/795498",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00229080338/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "7159694"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00229080338/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "1061640"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00239740905",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://www.comune.sassari.it/avcp/2019/LEX190INDICE2019.XML",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00239740905/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "5584888"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00239740905/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "823103"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00297110389",
+    "appaltipop:releases/0/buyer/dataSource/url": "https://www.comune.fe.it/attach/trasparenza/docs/gare_e_contratti/dataset2019.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00297110389/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "8054637"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00297110389/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "1276198"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00304260409",
+    "appaltipop:releases/0/buyer/dataSource/url": "https://appaltiecontratti.comune.rimini.it/PortaleAppalti/resources/appaltiavcp/2019/indice_dataset.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00304260409/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "7044691"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00304260409/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "1093797"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00339370272",
+    "appaltipop:releases/0/buyer/dataSource/url": "https://www.comune.venezia.it/sites/comune.venezia.it/files/page/files/dataset2019_L190.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00339370272/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "3974262"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00339370272/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "586871"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00351040423",
+    "appaltipop:releases/0/buyer/dataSource/url": "https://comancona.comune.ancona.it/ammtrasp_art37/docxml/xml2019.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00351040423/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "5458868"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00351040423/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "793899"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00354730392",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://www.comune.ra.it/content/download/500670/5850676/file/datasetAppalti2019.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00354730392/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "8938504"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00354730392/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "1381821"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00355870221",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://www.sicopat.provincia.tn.it/olpdataset/2019/00355870221/00355870221_2019_indicedataset.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00355870221/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "6359879"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00355870221/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "924059"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00389240219",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://www.comune.bolzano.it/trasparenzaamministrativa/L190/indicedataset2019.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00389240219/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "13298518"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00389240219/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "2023420"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00514490010",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://www.comune.torino.it/affidamenti/anac/2019/dataset1.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00514490010/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "486624"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00514490010/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "80333"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00606620409",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://www.comune.forli.fc.it/upload/forli/gestionedocumentale/dataset2019_784_66876.XML",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00606620409/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "4293481"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00606620409/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "608588"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00644060287",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://www.padovanet.it/sites/default/files/attachment/indice-Appalti2019.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00644060287/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "11406472"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00644060287/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "1828204"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-00856930102",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://www.comune.genova.it/contratti/2020/00856930102_indice_2019.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00856930102/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "17891430"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-00856930102/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "2326918"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-01199250158",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://allegati.comune.milano.it/Comunicazione/Trasparenza/indicedataset2019.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01199250158/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "10294582"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01199250158/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "1528287"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-01232710374",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://dati.comune.bologna.it/file/dataset/appalti2019.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01232710374/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "8605258"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01232710374/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "1285302"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-01307110484",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://wwwext.comune.fi.it/01307110484/2019_L190_indice.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01307110484/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "14741895"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-01307110484/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "2314099"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-02030880153",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://www.comune.monza.it/it/DOCUMENTI/comunemonza/trasparenza/2020/2019_AVCP_data_.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-02030880153/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "3475150"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-02030880153/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "400891"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-80000330656",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://albofornitori.comune.salerno.it/PortaleAppalti/resources/appaltiavcp/2019/indice_dataset.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80000330656/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "4167291"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80000330656/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "668878"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-80015010723",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://opendata.comune.bari.it/anticorruzione/2019/indice_dataset.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80015010723/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "18037936"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80015010723/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "3195928"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-80016350821",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://portaleappalti.comune.palermo.it/PortaleAppalti/resources/appaltiavcp/2019/indice_dataset.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80016350821/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "677523"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80016350821/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "117826"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-80025760820",
+    "appaltipop:releases/0/buyer/dataSource/url": "https://www.comune.sangiuseppejato.pa.it/index.php/bandi-di-gara-e-contratti/informazioni-sulle-singole-procedure-in-formato-tabellare?download=2427:avcp-dataset-2019",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80025760820/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "785694"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80025760820/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "122960"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-80049220637",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://portale.comune.giugliano.na.it/allegati/10711file_unificato_per_pubblicazione.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80049220637/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "505752"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-80049220637/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "81417"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-81001210723",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://www.comune.andria.bt.it/190/appalti2019.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-81001210723/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "547239"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-81001210723/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "91501"
+      }
+    ]
+  },
+  {
+    "ocds:releases/0/buyer/id": "IT-CF-84006890481",
+    "appaltipop:releases/0/buyer/dataSource/url": "http://dati.comune.prato.it/contratti/2019/datasetappalti2019.xml",
+    "appaltipop:releases/0/buyer/dataSource/lastUpdate": "2020-07-09T14:48:00.000Z",
+    "appaltipop:releases/0/buyer/dataSource/resources": [
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-84006890481/ocds.json",
+        "appaltipop:releases/0/buyer/resource/format": "json",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "4684460"
+      },
+      {
+        "appaltipop:releases/0/buyer/resource/url": "data/IT-CF-84006890481/ocds.xlsx",
+        "appaltipop:releases/0/buyer/resource/format": "xlsx",
+        "appaltipop:releases/0/buyer/resource/sizeBytes": "694657"
+      }
+    ]
+  }
+]
