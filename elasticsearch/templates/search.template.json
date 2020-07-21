@@ -1,0 +1,58 @@
+{
+  "index_patterns": [
+    "appaltipop-searches-*"
+  ],
+  "mappings": {
+    "properties": {
+      "appaltipop:releases/0/search/timestamp": {
+        "type": "date"
+      },
+      "appaltipop:releases/0/search/lang": {
+        "type": "keyword"
+      },
+      "appaltipop:releases/0/search/q": {
+        "type": "text",
+        "fields": {
+          "it": {
+            "type": "text",
+            "analyzer": "italian"
+          },
+          "en": {
+            "type": "text",
+            "analyzer": "english"
+          }
+        }
+      },
+      "appaltipop:releases/0/search/buyer": {
+        "type": "keyword"
+      },
+      "appaltipop:releases/0/search/region": {
+        "type": "keyword"
+      },
+      "appaltipop:releases/0/search/method": {
+        "type": "keyword"
+      },
+      "appaltipop:releases/0/search/minAmount": {
+        "type": "integer"
+      },
+      "appaltipop:releases/0/search/maxAmount": {
+        "type": "integer"
+      },
+      "appaltipop:releases/0/search/minDate": {
+        "type": "date"
+      },
+      "appaltipop:releases/0/search/maxDate": {
+        "type": "date"
+      },
+      "appaltipop:releases/0/search/minFlags": {
+        "type": "integer"
+      },
+      "appaltipop:releases/0/search/maxFlags": {
+        "type": "integer"
+      },
+      "appaltipop:releases/0/search/page": {
+        "type": "integer"
+      }
+    }
+  }
+}
