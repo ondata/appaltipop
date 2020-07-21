@@ -37,6 +37,8 @@ def docs(
     es_tender_buyer_field,
     es_tender_supplier_field,
     es_tender_redflag_field,
+    es_tender_buyercount_field,
+    es_tender_suppliercount_field,
     es_tender_redflagcount_field,
     es_tender_startdate_field,
     es_tender_enddate_field,
@@ -77,6 +79,8 @@ def docs(
                         continue
 
                     #logging.info("Indexing {} document...".format(tender[es_tender_id_field]))
+                    tender[es_tender_buyercount_field] = len(tender.get(es_tender_buyer_field, []))
+                    tender[es_tender_suppliercount_field] = len(tender.get(es_tender_supplier_field, []))
                     tender[es_tender_redflagcount_field] = len(tender.get(es_tender_redflag_field, []))
 
                     if tender.get(es_tender_startdate_field) or tender.get(es_tender_enddate_field):
@@ -222,6 +226,8 @@ if __name__ == "__main__":
     es_tender_buyer_field = os.environ.get("ES_TENDER_BUYER_FIELD")
     es_tender_supplier_field = os.environ.get("ES_TENDER_SUPPLIER_FIELD")
     es_tender_redflag_field = os.environ.get("ES_TENDER_REDFLAG_FIELD")
+    es_tender_buyercount_field = os.environ.get("ES_TENDER_BUYERCOUNT_FIELD")
+    es_tender_suppliercount_field = os.environ.get("ES_TENDER_SUPPLIERCOUNT_FIELD")
     es_tender_redflagcount_field = os.environ.get("ES_TENDER_REDFLAGCOUNT_FIELD")
     es_tender_startdate_field = os.environ.get("ES_TENDER_STARTDATE_FIELD")
     es_tender_enddate_field = os.environ.get("ES_TENDER_ENDDATE_FIELD")
@@ -273,6 +279,8 @@ if __name__ == "__main__":
             es_tender_buyer_field,
             es_tender_supplier_field,
             es_tender_redflag_field,
+            es_tender_buyercount_field,
+            es_tender_suppliercount_field,
             es_tender_redflagcount_field,
             es_tender_startdate_field,
             es_tender_enddate_field,
