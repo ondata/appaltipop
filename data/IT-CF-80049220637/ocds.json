@@ -70,7 +70,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-80049220637"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-05-01T09:30:00Z",
                     "endDate": "2022-04-30T09:30:00Z"
@@ -12159,7 +12159,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-80049220637"
                 },
-                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2016-03-31T09:30:00Z",
                     "endDate": "2019-08-30T09:30:00Z"

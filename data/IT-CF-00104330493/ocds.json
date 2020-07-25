@@ -334,7 +334,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "id": "T-IT-CF-NAN"
@@ -403,7 +403,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "id": "T-IT-CF-NAN"
@@ -589,7 +589,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "id": "T-IT-CF-NAN"
@@ -658,7 +658,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "id": "T-IT-CF-NAN"
@@ -833,7 +833,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "id": "T-IT-CF-NAN"
@@ -7579,7 +7579,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "DAFNE SOC. COOP. ARL",
@@ -8013,7 +8013,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "GE.ST.IM. S.R.L.",
@@ -8498,7 +8498,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "Sol. Edil. Srl",
@@ -9368,7 +9368,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-04-24T09:30:00Z"
                 },
@@ -9480,7 +9480,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-04-01T09:30:00Z",
                     "endDate": "2019-07-31T09:30:00Z"
@@ -10497,7 +10497,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-04-09T09:30:00Z",
                     "endDate": "2020-10-08T09:30:00Z"
@@ -13450,7 +13450,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "FERRAMENTA LA ROSA DI LOSSO RENATA",
@@ -14058,7 +14058,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-05-01T09:30:00Z",
                     "endDate": "2019-06-30T09:30:00Z"
@@ -14342,7 +14342,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "STUDIO SANCILIO INGEGNERI E ARCHITETTI ASSOCIATI",
@@ -15411,7 +15411,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "SPAGNOLI ILIO & FIGLI S.R.L.",
@@ -16948,7 +16948,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-06-01T09:30:00Z",
                     "endDate": "2019-09-30T09:30:00Z"
@@ -17289,7 +17289,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-12-03T09:30:00Z",
                     "endDate": "2019-12-17T09:30:00Z"
@@ -18050,7 +18050,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-05-08T09:30:00Z",
                     "endDate": "2019-06-30T09:30:00Z"
@@ -21656,7 +21656,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "FERRAMENTA LA ROSA DI LOSSO RENATA",
@@ -22970,7 +22970,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-11-04T09:30:00Z",
                     "endDate": "2019-12-31T09:30:00Z"
@@ -23148,7 +23148,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-09-03T09:30:00Z",
                     "endDate": "2019-09-04T09:30:00Z"
@@ -24507,7 +24507,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2020-01-01T09:30:00Z",
                     "endDate": "2020-01-31T09:30:00Z"
@@ -25161,7 +25161,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2020-01-01T09:30:00Z",
                     "endDate": "2020-01-31T09:30:00Z"
@@ -25238,7 +25238,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-04-11T09:30:00Z",
                     "endDate": "2019-05-26T09:30:00Z"
@@ -26155,7 +26155,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "Il Carro Società Cooperativa Agricola",
@@ -26974,7 +26974,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "GEOFER SAS DI GEOGRAFO ANTONIO",
@@ -27478,7 +27478,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "Frangerini Impresa s.r.l.",
@@ -27834,7 +27834,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "Collecoop Coop. Sociale",
@@ -29365,7 +29365,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-10-01T09:30:00Z",
                     "endDate": "2019-12-31T09:30:00Z"
@@ -29561,7 +29561,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "Emme.Erre Costruzioni Generali di Russo Massimo",
@@ -29786,7 +29786,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-12-17T09:30:00Z",
                     "endDate": "2019-12-20T09:30:00Z"
@@ -30361,7 +30361,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-07-01T09:30:00Z",
                     "endDate": "2019-09-30T09:30:00Z"
@@ -30671,7 +30671,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "FERRAMENTA ARDENZA SNC",
@@ -31099,7 +31099,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-10-01T09:30:00Z",
                     "endDate": "2019-12-31T09:30:00Z"
@@ -31888,7 +31888,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "Agricenter di Pimazzoni Andrea Giovanni",
@@ -32062,7 +32062,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2020-01-02T09:30:00Z",
                     "endDate": "2020-12-31T09:30:00Z"
@@ -32304,7 +32304,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "AVR S.p.A.",
@@ -32571,7 +32571,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "GIOVANNINI DARIO",
@@ -33018,7 +33018,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-04-30T09:30:00Z",
                     "endDate": "2019-04-30T09:30:00Z"
@@ -34589,7 +34589,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "Lena Srl",
@@ -35232,7 +35232,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-08-05T09:30:00Z",
                     "endDate": "2019-10-25T09:30:00Z"
@@ -36231,7 +36231,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-07-01T09:30:00Z",
                     "endDate": "2019-09-30T09:30:00Z"
@@ -38927,7 +38927,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2020-01-01T09:30:00Z",
                     "endDate": "2020-12-31T09:30:00Z"
@@ -39332,7 +39332,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "Collecoop Coop. Sociale",
@@ -40082,7 +40082,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "Impresa Edile Agostino Barbagli",
@@ -40288,7 +40288,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "Castorani Paolo",
@@ -41104,7 +41104,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "Abate s.r.l.",
@@ -41369,7 +41369,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "B.N.V. SRL",
@@ -42064,7 +42064,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "MATED SAS DI CENTI",
@@ -43669,7 +43669,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-12-05T09:30:00Z",
                     "endDate": "2019-12-31T09:30:00Z"
@@ -43843,7 +43843,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-09-26T09:30:00Z",
                     "endDate": "2019-10-03T09:30:00Z"
@@ -44696,7 +44696,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2020-01-01T09:30:00Z",
                     "endDate": "2020-01-31T09:30:00Z"
@@ -45820,7 +45820,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "Fratelli Colloca",
@@ -46613,7 +46613,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-12-16T09:30:00Z",
                     "endDate": "2019-12-20T09:30:00Z"
@@ -49338,7 +49338,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "BARBAGLI",
@@ -49636,7 +49636,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "PEF COSTRUZIONI SRL",
@@ -50456,7 +50456,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2020-01-01T09:30:00Z",
                     "endDate": "2020-01-31T09:30:00Z"
@@ -52182,7 +52182,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "CARPENTER SNC",
@@ -53134,7 +53134,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "HOLZHOF",
@@ -53446,7 +53446,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-10-01T09:30:00Z",
                     "endDate": "2019-12-31T09:30:00Z"
@@ -53799,7 +53799,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "La Fortezza snc",
@@ -53900,7 +53900,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-07-01T09:30:00Z",
                     "endDate": "2019-09-30T09:30:00Z"
@@ -54311,7 +54311,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "tenderers": [
                     {
                         "name": "Frangerini Impresa s.r.l.",
@@ -54477,7 +54477,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-11-01T09:30:00Z",
                     "endDate": "2019-12-31T09:30:00Z"
@@ -54898,7 +54898,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-05-02T09:30:00Z",
                     "endDate": "2020-05-02T09:30:00Z"
@@ -55429,7 +55429,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-07-01T09:30:00Z",
                     "endDate": "2019-09-30T09:30:00Z"
@@ -57982,7 +57982,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2019-07-01T09:30:00Z",
                     "endDate": "2019-07-31T09:30:00Z"
@@ -58067,7 +58067,7 @@
                 "procuringEntity": {
                     "id": "IT-CF-00104330493"
                 },
-                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE",
+                "procurementMethodDetails": "04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DEL BANDO",
                 "contractPeriod": {
                     "startDate": "2020-01-01T09:30:00Z",
                     "endDate": "2020-01-31T09:30:00Z"
