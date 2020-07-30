@@ -12,7 +12,7 @@
     "ocds:releases/0/tender/title": {
       "type": "string",
       "title": "Tender title",
-      "description": "ocds:releases/0/tender/procurementMethodDetails"
+      "description": ""
     },
     "ocds:releases/0/tender/procurementMethodDetails": {
       "type": "string",
