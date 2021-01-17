@@ -1,7 +1,9 @@
-{"uri": "http://www.ondata.it",
+{"uri": "https://github.com/ondata/appaltipop/raw/master/data/IT-CF-00137020871/ocds.json",
 "publishedDate": "2020-02-15T00:00:00Z",
-"publisher":  {"name": "Comune di Catania"},
-"version": "1.1"
+"publisher":  {"name": "onData"},
+"version": "1.1",
+"license":"https://creativecommons.org/licenses/by/4.0/legalcode",
+"publicationPolicy": "https://github.com/ondata/appaltipop/policy"
 }
 
 
