@@ -9,17 +9,17 @@ ocid_code = 'bxokds'
 
 
 
-def read_aggiudicatari (work_dir):
+def read_aggiudicatari (work_dir, cod_pa):
 
     agg_csv_path = os.path.join(work_dir, "aggiudicatari.csv")
     agg_input = pd.read_csv(agg_csv_path,  dtype={'codiceFiscale':'object'}, encoding='utf-8')
     
     #Elimina righe con cig NULL
-    agg_input = agg_input[agg_input['cig'].notna()]
+    #agg_input = agg_input[agg_input['cig'].notna()]
 
     #Assegna valore univoco agli aggiudicatari con cig = 0000000000
-    agg_input['cig'] = np.where(agg_input['cig'] == '0000000000', agg_input['lottoID'], agg_input['cig'])
-    agg_input['cig'] = np.where(agg_input['cig'] == '00000000000', agg_input['lottoID'], agg_input['cig'])
+    agg_input['cig'] = np.where(agg_input['cig'] == '0000000000', cod_pa + '-' + agg_input['lottoID'], agg_input['cig'])
+    agg_input['cig'] = np.where(agg_input['cig'] == '00000000000', cod_pa + '-' + agg_input['lottoID'], agg_input['cig'])
 
     #Elimina righe con cig 0
 
@@ -58,7 +58,7 @@ def read_aggiudicatari (work_dir):
     return agg_input
 
 
-def read_partecipanti (work_dir):
+def read_partecipanti (work_dir, cod_pa):
 
     par_csv_path = os.path.join(work_dir, "partecipanti.csv")
     par_input = pd.read_csv(par_csv_path, dtype={'codiceFiscale':'object'}, encoding = 'utf-8')
@@ -66,11 +66,11 @@ def read_partecipanti (work_dir):
     
 
     #Elimina righe con cig NULL
-    par_input = par_input[par_input ['cig'].notna()]
+    # par_input = par_input[par_input ['cig'].notna()]
 
     #Assegna valore univoco agli aggiudicatari con cig = 0000000000
-    par_input['cig'] = np.where(par_input['cig'] == '0000000000', par_input['lottoID'], par_input['cig'])
-    par_input['cig'] = np.where(par_input['cig'] == '00000000000', par_input['lottoID'], par_input['cig'])
+    par_input['cig'] = np.where(par_input['cig'] == '0000000000', cod_pa + '-' + par_input['lottoID'], par_input['cig'])
+    par_input['cig'] = np.where(par_input['cig'] == '00000000000', cod_pa + '-' + par_input['lottoID'], par_input['cig'])
 
     #Elimina righe con cig 0
     par_input = par_input[par_input['cig']!='0']
@@ -107,7 +107,7 @@ def read_partecipanti (work_dir):
 
 
 
-def read_lotti (work_dir):
+def read_lotti (work_dir, cod_pa):
 
     lot_csv_path = os.path.join(work_dir, "lotti.csv")
     lot_input = pd.read_csv(lot_csv_path, dtype={'strutturaProponente:codiceFiscaleProp': object}, encoding = 'utf-8')
@@ -116,7 +116,7 @@ def read_lotti (work_dir):
     lot_input  = lot_input[lot_input['cig'].notna()]
 
     #Assegna valore univoco i lotti con cig = 0000000000
-    lot_input['cig'] = np.where(lot_input['cig'] == '0000000000', lot_input['lottoID'], lot_input['cig'])
+    lot_input['cig'] = np.where(lot_input['cig'] == '0000000000', cod_pa + '-' + lot_input['lottoID'], lot_input['cig'])
 
     #cancellazione lotti con cig = 0
     lot_input = lot_input[lot_input['cig']!='0']
@@ -159,16 +159,21 @@ def read_lotti (work_dir):
     return lot_input
 
 
-def create_releases (lot_input, date, tag, initiationType):
+def create_releases (lot_input, date):
 
+    tag='tender; award; contract; implementation'
+    initiationType='tender'
+    
     releases_data = {
                 'ocid': lot_input['ocid'],
-                'id': lot_input['cig'].values,
+                'id': lot_input['ocid'] + '-' + date,
+                #'id': lot_input['cig'].values,
                 'buyer/name': lot_input['strutturaProponente:denominazione'].values,
                 'buyer/id': lot_input['strutturaProponente:codiceFiscaleProp'].values,
                 'tender/id': lot_input['cig'].values,
                 'tender/title': lot_input['oggetto'].values,
                 'tender/procuringEntity/id': lot_input['strutturaProponente:codiceFiscaleProp'].values,
+                'tender/procuringEntity/name': lot_input['strutturaProponente:denominazione'].values,
                 'tender/procurementMethodDetails': lot_input['sceltaContraente'].values,
                 'tender/contractPeriod/startDate': lot_input['tempiCompletamento:dataInizio'].values,
                 'tender/contractPeriod/endDate': lot_input['tempiCompletamento:dataUltimazione'].values,    
@@ -201,36 +206,52 @@ def create_releases (lot_input, date, tag, initiationType):
     return releases
 
 
-def create_parties (par_input, agg_input):
+def create_parties (par_input, agg_input, lot_input, date):
 
+    # 'buyer/name': lot_input['strutturaProponente:denominazione'].values,
+    # 'buyer/id': lot_input['strutturaProponente:codiceFiscaleProp'].values,
+    
     parties_tmp = par_input[['codiceFiscale', 'ragioneSociale', 'ocid', 'cig']].copy()
     agg_tmp = agg_input[['codiceFiscale', 'ragioneSociale', 'ocid', 'cig']].copy()
+    lot_tmp = lot_input[['strutturaProponente:codiceFiscaleProp', 'strutturaProponente:denominazione', 'ocid', 'cig']].copy()
+
+  
    
     parties_tmp = parties_tmp.drop_duplicates(subset=['cig', 'codiceFiscale'])
     agg_tmp = agg_tmp.drop_duplicates(subset=['cig', 'codiceFiscale'])
+    lot_tmp = lot_tmp.drop_duplicates(subset=['cig', 'strutturaProponente:codiceFiscaleProp'])
 
+    buyer_tmp = lot_tmp.rename(columns={'strutturaProponente:codiceFiscaleProp' : 'codiceFiscale', 'strutturaProponente:denominazione' : 'ragioneSociale'})
+    buyer_final = buyer_tmp[['codiceFiscale', 'ragioneSociale', 'ocid', 'cig']].copy()
+    proc_entity_final = buyer_tmp[['codiceFiscale', 'ragioneSociale', 'ocid', 'cig']].copy()
 
     common = pd.merge(agg_tmp, parties_tmp, on=['cig', 'codiceFiscale'], how='inner')
     common = common.drop_duplicates(subset=['cig', 'codiceFiscale'])
     common_renamed = common.rename(columns={'ragioneSociale_x': 'ragioneSociale', 'ocid_x': 'ocid'})
     common_final = common_renamed[['codiceFiscale', 'ragioneSociale', 'ocid', 'cig']].copy()
     common_final['ruolo'] ='supplier;tenderer'
+    buyer_final['ruolo'] ='buyer; procuringEntity'
+    #proc_entity_final['ruolo'] ='tender.procuringEntity'
 
     parties_only = parties_tmp.merge(common, on=['cig', 'codiceFiscale'], how = 'outer' ,indicator=True).loc[lambda x : x['_merge']=='left_only']
     agg_only = agg_tmp.merge(common, on=['cig', 'codiceFiscale'], how = 'outer' ,indicator=True).loc[lambda x : x['_merge']=='left_only']
 
-    parties_final = parties_only[['codiceFiscale', 'ragioneSociale', 'ocid', 'cig']].copy()
+    par_final = parties_only[['codiceFiscale', 'ragioneSociale', 'ocid', 'cig']].copy()
     agg_final = agg_only[['codiceFiscale', 'ragioneSociale', 'ocid', 'cig']].copy()
 
     agg_final['ruolo'] ='supplier'
-    parties_final['ruolo'] ='tenderer'
+    par_final['ruolo'] ='tenderer'
+    
 
-    parties_agg = parties_final.append(agg_final)
-    parties_final = parties_agg.append(common_final)
+    parties_agg = par_final.append(agg_final)
+    parties_com = parties_agg.append(common_final)
+    parties_final = parties_com.append(buyer_final)
+    #parties_final = parties_proc.append(proc_entity_final)
 
     parties_data = {
                 'ocid': parties_final['ocid'].values,
-                'id': parties_final['cig'].values,
+                'id': parties_final['ocid'] + '-' + date,
+                #'id': parties_final['cig'].values,
                 'parties/0/name': parties_final['ragioneSociale'].values,
                 'parties/0/id': parties_final['codiceFiscale'].values,
                 'parties/0/roles': parties_final['ruolo'].values
@@ -245,18 +266,19 @@ def create_parties (par_input, agg_input):
                                                     'parties/0/memberOf/name'])
 
 
-    parties = parties.reset_index().drop_duplicates(subset=['id','parties/0/id'], keep='first').set_index('index')
-
+    parties = parties.reset_index().drop_duplicates(subset=['id','parties/0/id','parties/0/roles'], keep='first').set_index('index')
 
 
     return parties
+    #return parties
 
 
-def create_tende_tenderers (par_input):
+def create_tende_tenderers (par_input, date):
 
     tende_tenderers_data = {
              'ocid': par_input['ocid'].values,
-              'id': par_input['cig'].values,
+             'id': par_input['ocid'] + '-' + date,
+             # 'id': par_input['cig'].values,
              'tender/id': par_input['cig'].values,
              'tender/tenderers/0/name': par_input['ragioneSociale'].values,
              'tender/tenderers/0/id': par_input['codiceFiscale'].values
@@ -274,11 +296,12 @@ def create_tende_tenderers (par_input):
 
 
 
-def create_awards (lot_input):
+def create_awards (lot_input, date):
 
     awards_data = {
                 'ocid': lot_input['ocid'].values,
-                'id': lot_input['cig'].values,
+                'id': lot_input['ocid'] + '-' + date,
+                #'id': lot_input['cig'].values,
                 'awards/0/id': lot_input['cig'].values,
                 'awards/0/value/amount': lot_input['importoAggiudicazione'].values
 
@@ -296,12 +319,13 @@ def create_awards (lot_input):
 
 
 
-def create_awards_suppliers (agg_input):
+def create_awards_suppliers (agg_input, date):
 
     awards_suppliers_data = {
                           
              'ocid': agg_input['ocid'].values,
-             'id': agg_input['cig'].values,
+             'id': agg_input['ocid'] + '-' + date,
+             #'id': agg_input['cig'].values,
              'awards/0/suppliers/0/name': agg_input['ragioneSociale'].values,
              'awards/0/id': agg_input['cig'].values,
              'awards/0/suppliers/0/id': agg_input['codiceFiscale'].values
@@ -320,11 +344,12 @@ def create_awards_suppliers (agg_input):
     return awards_suppliers
 
 
-def create_contr_imple_transactions (lot_input):
+def create_contr_imple_transactions (lot_input, date):
 
     contr_imple_transactions_data = {
              'ocid': lot_input['ocid'].values,
-             'id': lot_input['cig'].values,
+             'id': lot_input['ocid'] + '-' + date,
+             #'id': lot_input['cig'].values,
              'contracts/0/id': lot_input['cig'].values,
              'contracts/0/implementation/transactions/0/id': lot_input['cig'].values,
              'contracts/0/implementation/transactions/0/value/amount': lot_input['importoSommeLiquidate'].values
@@ -343,11 +368,12 @@ def create_contr_imple_transactions (lot_input):
     return contr_imple_transactions
 
 
-def create_contracts (agg_input):
+def create_contracts (agg_input, date):
 
     contracts_data = {
             'ocid': agg_input['ocid'].values,
-            'id': agg_input['cig'].values,
+            'id': agg_input['ocid'] + '-' + date,
+            #'id': agg_input['cig'].values,
             #'contracts/0/awardID': agg_input.index.values.astype(int),
             'contracts/0/awardID': agg_input['cig'].values,
             'contracts/0/id':agg_input['cig'].values

@@ -13,7 +13,7 @@ tmp_dir = '../csv/tmp/'
 schema_dir = '../csv/'
 out_dir = '../data/'
 
-
+date = '2020-10-15T00:00:00Z'
 
 def main(cod_pa):
 
@@ -25,19 +25,19 @@ def main(cod_pa):
 
     lot_input = read_lotti(work_dir)
 
-    releases = create_releases(lot_input, '2020-10-07T00:00:00Z', 'award', 'tender')
+    releases = create_releases(lot_input, date)
 
-    parties = create_parties(par_input, agg_input)
+    parties = create_parties(par_input, agg_input, lot_input, date)
 
-    tende_tenderers = create_tende_tenderers(par_input)
+    tende_tenderers = create_tende_tenderers(par_input, date)
 
-    awards = create_awards(lot_input)
+    awards = create_awards(lot_input, date)
 
-    awards_suppliers = create_awards_suppliers(agg_input)
+    awards_suppliers = create_awards_suppliers(agg_input, date)
 
-    contr_imple_transactions = create_contr_imple_transactions(lot_input)
+    contr_imple_transactions = create_contr_imple_transactions(lot_input, date)
 
-    contracts = create_contracts(agg_input)
+    contracts = create_contracts(agg_input, date)
 
     write_out = os.path.join(tmp_dir, "releases.csv")
     releases.to_csv (write_out, index = None, header=True) 
